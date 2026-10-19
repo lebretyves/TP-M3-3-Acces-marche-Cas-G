@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-19",
+  "fichier": "analyses/m3/acces_marche_eq02.xlsx",
+  "sha256": "ba9f009173d454c27eea8c5351f200cfdfb57ebf49742ac287cea43efbc3597f",
+  "reponses_obligatoires_renseignees": 92,
+  "choix_listes_valides": 31,
+  "formules_du_modele": 29,
+  "formules_preservees": 26,
+  "adaptations_formules": [
+    [
+      "Votre projet",
+      "D11"
+    ],
+    [
+      "Votre projet",
+      "D17"
+    ],
+    [
+      "Votre projet",
+      "C29"
+    ]
+  ],
+  "marges_recalculees": {
+    "1": 0,
+    "2": 24,
+    "3": 6,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "formules_sans_erreur": true,
+  "verification_visuelle": true,
+  "excel_natif": true,
+  "validation_clinique": false,
+  "origine_controle": "Copie identique du classeur vérifié le 19 octobre 2026 dans le dépôt TP4."
+}

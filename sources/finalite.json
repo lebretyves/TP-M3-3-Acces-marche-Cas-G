@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-19",
+  "equipe": 2,
+  "finalite": "Suivre les indicateurs physiologiques et leurs tendances pendant l’utilisation de l’ordinateur, et estimer un risque personnalisé de complications cardiovasculaires en lien avec le stress et la sédentarité, afin d’informer la prévention et de permettre un partage choisi avec un professionnel de santé.",
+  "perimetre": "Hypothèse du TP : usage personnel B2C, suivi des indicateurs et de leurs tendances ET estimation personnalisée du risque cardiovasculaire. Le score informe une démarche de prévention ; il ne sert pas seul à diagnostiquer, choisir un traitement ou décider de différer des soins. Population précise, événements, horizon et données cliniques complémentaires restent à définir. Le prototype R3 acquiert des signaux ; aucun score cardiovasculaire validé n’est implémenté. GSR seul ne diagnostique pas le stress ; immobilité de la souris ne mesure pas la sédentarité ; PPG ne constitue pas un ECG.",
+  "classe": "IIa",
+  "justification": "Classe probable IIa retenue comme hypothèse du TP, règle 11 : suivi physiologique de routine et score destiné à informer la prévention, sans piloter seul une décision diagnostique ou thérapeutique. Cette hypothèse doit être confrontée aux conséquences réelles des décisions : IIb ou III si les critères de gravité s’appliquent. Les scénarios G3 restent à instruire ; une simple mention de limites ne suffit pas. Matériel à examiner séparément. Aucune certification acquise.",
+  "origine": "Objectif confirmé dans TP4 le 13 octobre, réaffirmé par l’équipe le 19 octobre. Les livrables M3 antérieurs orientés TMS sont remplacés.",
+  "statut_classe": "Hypothèse du TP, pas une classification réglementaire définitivement établie",
+  "fonctions_prevues": [
+    "Suivi des indicateurs physiologiques et de leurs tendances",
+    "Estimation personnalisée du risque de complications cardiovasculaires"
+  ],
+  "modele_economique": "B2C : l’utilisateur bénéficie, choisit et paie"
+}

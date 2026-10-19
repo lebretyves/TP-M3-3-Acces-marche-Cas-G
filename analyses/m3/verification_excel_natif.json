@@ -1,0 +1,13 @@
+{
+  "path": "analyses/m3/acces_marche_eq02.xlsx",
+  "read_only": true,
+  "ranking_recalculated": true,
+  "ai_undecided_handled": true,
+  "value": 48,
+  "date": "2026-10-19",
+  "formula_errors": [],
+  "sha256": "ba9f009173d454c27eea8c5351f200cfdfb57ebf49742ac287cea43efbc3597f",
+  "dependency_perturbation": true,
+  "route": "B2C (patient)",
+  "check": "Frise!C13"
+}

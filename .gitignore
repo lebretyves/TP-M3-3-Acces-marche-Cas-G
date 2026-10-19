@@ -1,0 +1,13 @@
+node_modules/
+tmp/
+__pycache__/
+*.pyc
+*.inspect.ndjson
+~$*
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+.DS_Store
+Thumbs.db

@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-19",
+  "copies_identiques": [
+    {
+      "fichier": "analyses/m3/acces_marche_eq02.xlsx",
+      "source_projet": "TP4-IoT-Autonomie/cas-g-choisi",
+      "source_chemin": "outputs/tp_m3_3_verifie/acces_marche_eq02.xlsx",
+      "sha256": "ba9f009173d454c27eea8c5351f200cfdfb57ebf49742ac287cea43efbc3597f"
+    },
+    {
+      "fichier": "analyses/m3/grille_classification_eq02.xlsx",
+      "source_projet": "TP4-IoT-Autonomie/cas-g-choisi",
+      "source_chemin": "analyses/m3/grille_classification_eq02.xlsx",
+      "sha256": "ca599e5ad4c73a7f64792f5bfbaa6c08a68eceaed18e6c4b7ceccce011a8aad8"
+    },
+    {
+      "fichier": "analyses/m3/analyse_risques_eq02.xlsx",
+      "source_projet": "TP4-IoT-Autonomie/cas-g-choisi",
+      "source_chemin": "analyses/m3/analyse_risques_eq02.xlsx",
+      "sha256": "7878b9a2fccdb84aef30f8ba65bea08e9616a66c0690bde261f314831c19e549"
+    },
+    {
+      "fichier": "supports/TP_M3_3_Acces_marche_original.xlsx",
+      "source_projet": "TP4-IoT-Autonomie/cas-g-choisi",
+      "source_chemin": "supports/TP_M3_3_Acces_marche_original.xlsx",
+      "sha256": "5947e05835004667cc511f7067cb0664b7ccd45dcd1564ee6adf9574b1d6d059"
+    },
+    {
+      "fichier": "supports/TP_M3_3_Acces_marche_etudiant.pdf",
+      "source_projet": "TP4-IoT-Autonomie/cas-g-choisi",
+      "source_chemin": "supports/TP_M3_3_Acces_marche_etudiant.pdf",
+      "sha256": "dda227a246733678164169822b0ee539649baee9960e712cdd16a88f32731ae3"
+    },
+    {
+      "fichier": "sources/finalite.json",
+      "source_projet": "TP4-IoT-Autonomie/cas-g-choisi",
+      "source_chemin": "cas_g_choisi/finalite.json",
+      "sha256": "5a1a0271a061d16410f5224ab4a901ffc520a46ed3b23ddd13351225af637d1e"
+    }
+  ]
+}
