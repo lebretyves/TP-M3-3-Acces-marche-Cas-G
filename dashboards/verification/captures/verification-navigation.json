@@ -1,0 +1,405 @@
+{
+  "target": "http://127.0.0.1:8771",
+  "checkedAt": "2026-11-14T08:07:54.950Z",
+  "checks": [
+    {
+      "role": "user",
+      "width": 1425,
+      "title": "Votre journée, en un regard",
+      "scrollWidth": 1425,
+      "content": 1568,
+      "headings": 1
+    },
+    {
+      "role": "user",
+      "page": "home",
+      "label": "Vue d’ensemble",
+      "characters": 1568
+    },
+    {
+      "role": "user",
+      "page": "measures",
+      "label": "Mes mesures",
+      "characters": 795
+    },
+    {
+      "role": "user",
+      "page": "advice",
+      "label": "Conseils & bilans",
+      "characters": 542
+    },
+    {
+      "role": "user",
+      "page": "shares",
+      "label": "Mes partages",
+      "characters": 501
+    },
+    {
+      "role": "user",
+      "page": "device",
+      "label": "Ma souris",
+      "characters": 864
+    },
+    {
+      "role": "user",
+      "page": "help",
+      "label": "Assistance",
+      "characters": 507
+    },
+    {
+      "role": "user",
+      "page": "settings",
+      "label": "Paramètres",
+      "characters": 1165
+    },
+    {
+      "role": "clinician",
+      "width": 1440,
+      "title": "Patients suivis",
+      "scrollWidth": 1440,
+      "content": 902,
+      "headings": 1
+    },
+    {
+      "role": "clinician",
+      "page": "home",
+      "label": "Patients suivis",
+      "characters": 902
+    },
+    {
+      "role": "clinician",
+      "page": "recommendations",
+      "label": "Prévention collective",
+      "characters": 851
+    },
+    {
+      "role": "clinician",
+      "page": "reminders",
+      "label": "Mes rappels",
+      "characters": 304
+    },
+    {
+      "role": "clinician",
+      "page": "help",
+      "label": "Assistance",
+      "characters": 255
+    },
+    {
+      "role": "clinician",
+      "page": "settings",
+      "label": "Paramètres",
+      "characters": 422
+    },
+    {
+      "role": "employer",
+      "width": 1440,
+      "title": "Votre prévention, en actions",
+      "scrollWidth": 1440,
+      "content": 1175,
+      "headings": 1
+    },
+    {
+      "role": "employer",
+      "page": "home",
+      "label": "Recommandations",
+      "characters": 1175
+    },
+    {
+      "role": "employer",
+      "page": "history",
+      "label": "Historique",
+      "characters": 310
+    },
+    {
+      "role": "employer",
+      "page": "settings",
+      "label": "Paramètres",
+      "characters": 288
+    },
+    {
+      "role": "support",
+      "width": 1425,
+      "title": "Votre file de support",
+      "scrollWidth": 1425,
+      "content": 1011,
+      "headings": 1
+    },
+    {
+      "role": "support",
+      "page": "home",
+      "label": "Mes tickets3",
+      "characters": 1011
+    },
+    {
+      "role": "support",
+      "page": "maintenance",
+      "label": "Maintenance",
+      "characters": 511
+    },
+    {
+      "role": "support",
+      "page": "settings",
+      "label": "Paramètres",
+      "characters": 422
+    },
+    {
+      "role": "admin",
+      "width": 1425,
+      "title": "Surveillance et protections",
+      "scrollWidth": 1425,
+      "content": 1086,
+      "headings": 1
+    },
+    {
+      "role": "admin",
+      "page": "home",
+      "label": "Vue d’ensemble",
+      "characters": 1086
+    },
+    {
+      "role": "admin",
+      "page": "incidents",
+      "label": "Incidents",
+      "characters": 340
+    },
+    {
+      "role": "admin",
+      "page": "accounts",
+      "label": "Comptes & accès",
+      "characters": 778
+    },
+    {
+      "role": "admin",
+      "page": "components",
+      "label": "Composants",
+      "characters": 656
+    },
+    {
+      "role": "admin",
+      "page": "certificates",
+      "label": "Certificats",
+      "characters": 421
+    },
+    {
+      "role": "admin",
+      "page": "audit",
+      "label": "Journal de sécurité",
+      "characters": 430
+    },
+    {
+      "role": "admin",
+      "page": "deletions",
+      "label": "Suppressions",
+      "characters": 277
+    },
+    {
+      "role": "admin",
+      "page": "settings",
+      "label": "Paramètres",
+      "characters": 422
+    },
+    {
+      "role": "user",
+      "width": 1009,
+      "title": "Votre journée, en un regard",
+      "scrollWidth": 1009,
+      "content": 1568,
+      "headings": 1
+    },
+    {
+      "role": "clinician",
+      "width": 1009,
+      "title": "Patients suivis",
+      "scrollWidth": 1009,
+      "content": 902,
+      "headings": 1
+    },
+    {
+      "role": "employer",
+      "width": 1009,
+      "title": "Votre prévention, en actions",
+      "scrollWidth": 1009,
+      "content": 1175,
+      "headings": 1
+    },
+    {
+      "role": "support",
+      "width": 1009,
+      "title": "Votre file de support",
+      "scrollWidth": 1009,
+      "content": 1011,
+      "headings": 1
+    },
+    {
+      "role": "admin",
+      "width": 1009,
+      "title": "Surveillance et protections",
+      "scrollWidth": 1009,
+      "content": 1086,
+      "headings": 1
+    },
+    {
+      "role": "user",
+      "width": 754,
+      "title": "Votre journée, en un regard",
+      "scrollWidth": 754,
+      "content": 1568,
+      "headings": 1
+    },
+    {
+      "role": "clinician",
+      "width": 754,
+      "title": "Patients suivis",
+      "scrollWidth": 754,
+      "content": 902,
+      "headings": 1
+    },
+    {
+      "role": "employer",
+      "width": 754,
+      "title": "Votre prévention, en actions",
+      "scrollWidth": 754,
+      "content": 1175,
+      "headings": 1
+    },
+    {
+      "role": "support",
+      "width": 769,
+      "title": "Votre file de support",
+      "scrollWidth": 769,
+      "content": 408,
+      "headings": 1
+    },
+    {
+      "role": "admin",
+      "width": 754,
+      "title": "Surveillance et protections",
+      "scrollWidth": 754,
+      "content": 1086,
+      "headings": 1
+    },
+    {
+      "role": "user",
+      "width": 376,
+      "title": "Votre journée, en un regard",
+      "scrollWidth": 376,
+      "content": 1568,
+      "headings": 1
+    },
+    {
+      "role": "clinician",
+      "width": 376,
+      "title": "Patients suivis",
+      "scrollWidth": 376,
+      "content": 932,
+      "headings": 1
+    },
+    {
+      "role": "employer",
+      "width": 376,
+      "title": "Votre prévention, en actions",
+      "scrollWidth": 376,
+      "content": 1205,
+      "headings": 1
+    },
+    {
+      "role": "support",
+      "width": 390,
+      "title": "Votre file de support",
+      "scrollWidth": 390,
+      "content": 408,
+      "headings": 1
+    },
+    {
+      "role": "admin",
+      "width": 376,
+      "title": "Surveillance et protections",
+      "scrollWidth": 376,
+      "content": 1115,
+      "headings": 1
+    },
+    {
+      "role": "user",
+      "width": 345,
+      "title": "Votre journée, en un regard",
+      "scrollWidth": 345,
+      "content": 1568,
+      "headings": 1
+    },
+    {
+      "role": "clinician",
+      "width": 345,
+      "title": "Patients suivis",
+      "scrollWidth": 345,
+      "content": 932,
+      "headings": 1
+    },
+    {
+      "role": "employer",
+      "width": 345,
+      "title": "Votre prévention, en actions",
+      "scrollWidth": 345,
+      "content": 1205,
+      "headings": 1
+    },
+    {
+      "role": "support",
+      "width": 360,
+      "title": "Votre file de support",
+      "scrollWidth": 360,
+      "content": 408,
+      "headings": 1
+    },
+    {
+      "role": "admin",
+      "width": 345,
+      "title": "Surveillance et protections",
+      "scrollWidth": 345,
+      "content": 1115,
+      "headings": 1
+    },
+    {
+      "role": "user",
+      "width": 305,
+      "title": "Votre journée, en un regard",
+      "scrollWidth": 305,
+      "content": 1568,
+      "headings": 1
+    },
+    {
+      "role": "clinician",
+      "width": 305,
+      "title": "Patients suivis",
+      "scrollWidth": 305,
+      "content": 932,
+      "headings": 1
+    },
+    {
+      "role": "employer",
+      "width": 305,
+      "title": "Votre prévention, en actions",
+      "scrollWidth": 305,
+      "content": 1205,
+      "headings": 1
+    },
+    {
+      "role": "support",
+      "width": 320,
+      "title": "Votre file de support",
+      "scrollWidth": 320,
+      "content": 408,
+      "headings": 1
+    },
+    {
+      "role": "admin",
+      "width": 305,
+      "title": "Surveillance et protections",
+      "scrollWidth": 305,
+      "content": 1115,
+      "headings": 1
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "requests": []
+}

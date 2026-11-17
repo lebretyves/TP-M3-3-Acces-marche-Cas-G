@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checks": [
+    "six simple scenarios",
+    "three charts visible",
+    "advanced options collapsed",
+    "intensive one click start",
+    "server elapsed and samples",
+    "pause reset time",
+    "local event before dashboard",
+    "responsive 1440/768/390/320",
+    "selection clears prior charts",
+    "invalid values never zero",
+    "local mode without transport",
+    "inline action frame without popup",
+    "same-tab login return",
+    "authenticated settings action",
+    "wrong persona blocked",
+    "Wokwi explicit external lazy load",
+    "service unavailable"
+  ],
+  "page_errors": [],
+  "pages_opened": 1,
+  "mocked": true
+}

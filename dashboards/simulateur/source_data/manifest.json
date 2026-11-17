@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "reference_only": true,
+  "files": [
+    {
+      "file": "pipeline.h",
+      "source": "work/p1_sauvegarde_collecte_20261112/projet1/wokwi/pipeline.h",
+      "sha256": "01fe377502f2f5f55615c6fdf10f76dbdb44a02e82a75013f268f4b06732a14c",
+      "bytes": 12220
+    },
+    {
+      "file": "appuis_balance.csv",
+      "source": "work/p1_sauvegarde_collecte_20261112/projet1/donnees/collecte_20261111_12/livraison/appuis/appuis_balance.csv",
+      "sha256": "a05074aea4e1e494a48a5db1b789b7285d4f1febd91c1b5ef002a10983b72144",
+      "bytes": 1099
+    },
+    {
+      "file": "usage_gyro.csv",
+      "source": "work/p1_sauvegarde_collecte_20261112/projet1/donnees/collecte_20261111_12/livraison/p1_collecte_20261111/03_usage_souris_main_droite/gyroscope.csv",
+      "sha256": "8089195c60ef42177d77c2e6fbc5922b547ddb04966fbcf8becc338212f92581",
+      "bytes": 853367
+    },
+    {
+      "file": "usage_accel.csv",
+      "source": "work/p1_sauvegarde_collecte_20261112/projet1/donnees/collecte_20261111_12/livraison/p1_collecte_20261111/03_usage_souris_main_droite/mouvement.csv",
+      "sha256": "d26c051e97a5a433fa0c96216b297b09f5f865c0594639cc755d84d67f723a11",
+      "bytes": 758911
+    },
+    {
+      "file": "postures_gyro.csv",
+      "source": "work/p1_sauvegarde_collecte_20261112/projet1/donnees/collecte_20261111_12/livraison/p1_collecte_20261112/07_postures_pauses/gyroscope.csv",
+      "sha256": "a1b083e6b5550b65d1163801d854bb75f868b27c3f2560a86efec4d9ff90c2db",
+      "bytes": 289371
+    },
+    {
+      "file": "postures_accel.csv",
+      "source": "work/p1_sauvegarde_collecte_20261112/projet1/donnees/collecte_20261111_12/livraison/p1_collecte_20261112/07_postures_pauses/mouvement.csv",
+      "sha256": "3a6c05f4399c3c0d0e10816e7b2b6393f113c2fd1748d986b09215e0ec75d1bc",
+      "bytes": 263571
+    },
+    {
+      "file": "independent_gyro.csv",
+      "source": "work/p1_sauvegarde_collecte_20261112/projet1/donnees/collecte_20261111_12/livraison/p1_collecte_20261112/13_comptage_independant/gyroscope.csv",
+      "sha256": "bd00e6d5100f7859d6ecd6278735442330574f5633bc57c329ed69c81cd0952c",
+      "bytes": 359987
+    },
+    {
+      "file": "independent_accel.csv",
+      "source": "work/p1_sauvegarde_collecte_20261112/projet1/donnees/collecte_20261111_12/livraison/p1_collecte_20261112/13_comptage_independant/mouvement.csv",
+      "sha256": "c8510d7d8400fc1680d5ef8699f67654ba092c8b689f24073223238160df00de",
+      "bytes": 324973
+    }
+  ],
+  "datasets": [
+    {
+      "id": "usage",
+      "label": "Usage souris main droite",
+      "gyro": "usage_gyro.csv",
+      "accel": "usage_accel.csv"
+    },
+    {
+      "id": "postures",
+      "label": "Postures et pauses",
+      "gyro": "postures_gyro.csv",
+      "accel": "postures_accel.csv"
+    },
+    {
+      "id": "independent",
+      "label": "Comptage indépendant",
+      "gyro": "independent_gyro.csv",
+      "accel": "independent_accel.csv"
+    }
+  ],
+  "balance_reference": {
+    "thumb_g": [
+      189,
+      361,
+      344
+    ],
+    "palm_g": [
+      485,
+      699,
+      849
+    ],
+    "limitation": "Exploratory spot readings; no FSR ADC/percentage calibration. Never converted into simulated ADC."
+  }
+}

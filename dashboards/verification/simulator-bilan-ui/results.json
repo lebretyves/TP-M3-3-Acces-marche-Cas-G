@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "mocked": true,
+  "cases": [
+    "idle",
+    "preview planned only",
+    "running zero",
+    "partial mixed qualities and delivery",
+    "future gyro excluded",
+    "pause stable",
+    "completed",
+    "stopped partial",
+    "invalid",
+    "calibration required",
+    "network cut",
+    "local",
+    "delivery unknown",
+    "selection reset",
+    "missing fields unknown",
+    "keyboard shortcuts"
+  ],
+  "viewport_widths": [
+    1440,
+    768,
+    390,
+    320
+  ],
+  "page_errors": [],
+  "unexpected_mutations": 0
+}

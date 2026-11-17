@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "mocked": true,
+  "checks": [
+    "contact surface, labels, indicator and fault glyph inside mouse silhouette",
+    "visible gap between palm and contact",
+    "keyboard contact detail",
+    "no horizontal overflow",
+    "active/fault/unknown captures at1440 and320"
+  ],
+  "geometry": [
+    {
+      "width": 1440,
+      "state": "active",
+      "inside": true,
+      "contactBottom": 273,
+      "palmBottom": 203.25489807128906,
+      "gap": 22.745101928710938,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "state": "fault",
+      "inside": true,
+      "contactBottom": 273,
+      "palmBottom": 203.25489807128906,
+      "gap": 22.745101928710938,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "state": "unknown",
+      "inside": true,
+      "contactBottom": 273,
+      "palmBottom": 203.25489807128906,
+      "gap": 22.745101928710938,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "state": "active",
+      "inside": true,
+      "contactBottom": 273,
+      "palmBottom": 203.25489807128906,
+      "gap": 22.745101928710938,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "state": "fault",
+      "inside": true,
+      "contactBottom": 273,
+      "palmBottom": 203.25489807128906,
+      "gap": 22.745101928710938,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "state": "unknown",
+      "inside": true,
+      "contactBottom": 273,
+      "palmBottom": 203.25489807128906,
+      "gap": 22.745101928710938,
+      "overflow": false
+    }
+  ],
+  "page_errors": [],
+  "real_simulations": 0
+}

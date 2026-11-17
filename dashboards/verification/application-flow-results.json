@@ -1,0 +1,12 @@
+{
+  "checks": 6,
+  "errors": [],
+  "results": [
+    "Partage contact seul persisté après rechargement",
+    "Publication soignant persistée et visible par son patient",
+    "Diagnostic approuvé par propriétaire et calibration pending sans faux résultat",
+    "Statut employeur conservé après rechargement",
+    "Demande de certificat pending, sans fausse émission",
+    "Révocation retire les données du dossier soignant au rafraîchissement"
+  ]
+}

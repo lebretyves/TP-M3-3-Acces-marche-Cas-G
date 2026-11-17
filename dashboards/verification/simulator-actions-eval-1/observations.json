@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "no-overflow-1440",
+    "no-overflow-768",
+    "no-overflow-390",
+    "no-overflow-375",
+    "no-overflow-320",
+    "security-options",
+    "popup-share-date-and-layout",
+    "wrong-role-no-action",
+    "no-session-clear-handoff"
+  ],
+  "errors": [],
+  "mutations": []
+}

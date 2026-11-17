@@ -1,0 +1,23 @@
+{
+  "source": "Deux images jointes par l'utilisateur dans son message demandant les couleurs et le nom SKELIVIA",
+  "recovered_on": "2026-11-14",
+  "transformation": "Aucune. Décodage des pièces jointes PNG en fichiers identiques, sans traitement des pixels.",
+  "assets": [
+    {
+      "role": "Logo original SKELIVIA",
+      "path_from_dashboards": "maquette/assets/skelivia-logo-original.png",
+      "width": 2172,
+      "height": 724,
+      "bytes": 644575,
+      "sha256": "625ad02c9ec7488c28a75cd6af30ed02f0e21d22ac45a3675876255990ba674a"
+    },
+    {
+      "role": "Visuel original de référence de la souris",
+      "path_from_dashboards": "conception/ressources/skelivia-souris-reference.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2565427,
+      "sha256": "aee72af4eb419b157b317e78133547a6908c2f046c10a5f5e2da4bebdaa34a9c"
+    }
+  ]
+}

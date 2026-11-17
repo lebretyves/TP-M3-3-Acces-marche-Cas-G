@@ -1,0 +1,77 @@
+{
+  "intensive": {
+    "run_id": "2c66114f-5328-4a3f-afa8-3e3b4f080b74",
+    "device_id": "demo-device-a",
+    "verified_at": "2026-11-15T15:45:42.015706+00:00",
+    "database_receipts": 6,
+    "fixed_synthetic_binding": true,
+    "events_by_kind": {
+      "pause_reminder": 1
+    },
+    "events_by_status": {
+      "notification_created": 1
+    },
+    "notifications_expected": 1,
+    "notifications_verified": 1,
+    "events": [
+      {
+        "sequence": 3,
+        "kind": "pause_reminder",
+        "origin": "computed",
+        "status": "notification_created",
+        "notification_verified": true
+      }
+    ],
+    "scope": "database_only_not_external_delivery"
+  },
+  "force": {
+    "run_id": "610915af-af6d-470b-99ff-123cc959dc66",
+    "device_id": "demo-device-a",
+    "verified_at": "2026-11-15T15:46:06.402919+00:00",
+    "database_receipts": 1,
+    "fixed_synthetic_binding": true,
+    "events_by_kind": {
+      "high_force": 1
+    },
+    "events_by_status": {
+      "notification_created": 1
+    },
+    "notifications_expected": 1,
+    "notifications_verified": 1,
+    "events": [
+      {
+        "sequence": 0,
+        "kind": "high_force",
+        "origin": "computed",
+        "status": "notification_created",
+        "notification_verified": true
+      }
+    ],
+    "scope": "database_only_not_external_delivery"
+  },
+  "manual": {
+    "run_id": "9f2cd7a9-2654-43ac-a5f7-2e72d032a5ec",
+    "device_id": "demo-device-a",
+    "verified_at": "2026-11-15T15:46:06.788234+00:00",
+    "database_receipts": 1,
+    "fixed_synthetic_binding": true,
+    "events_by_kind": {
+      "absent": 1
+    },
+    "events_by_status": {
+      "notification_created": 1
+    },
+    "notifications_expected": 1,
+    "notifications_verified": 1,
+    "events": [
+      {
+        "sequence": 0,
+        "kind": "absent",
+        "origin": "manual",
+        "status": "notification_created",
+        "notification_verified": true
+      }
+    ],
+    "scope": "database_only_not_external_delivery"
+  }
+}

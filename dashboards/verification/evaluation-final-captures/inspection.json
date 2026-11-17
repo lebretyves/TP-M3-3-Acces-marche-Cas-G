@@ -1,0 +1,377 @@
+{
+  "report": [
+    {
+      "name": "shares",
+      "width": 1440,
+      "metrics": {
+        "overflow": 0,
+        "title": "MES PARTAGES",
+        "dialog": null
+      }
+    },
+    {
+      "name": "share-modal",
+      "width": 1440,
+      "metrics": {
+        "overflow": 0,
+        "title": "MES PARTAGES",
+        "dialog": {
+          "width": 558,
+          "client": 558,
+          "text": "Choisir un partage\n×\n\nDestinataire habilité : Soignant démo. Relation de suivi active.\n\nDébut des mesures\nFin des mesures\nFin de l’accès\n\nCatégories autorisées\n\nTemps de contact\nAppuis relatifs\nÉpisodes de mouvement\n\nLes périodes proposées sont celles disponibles dans le scénario. Aucun accès réel n’est accordé.\n\nAnnuler\nCréer le partage fictif"
+        }
+      }
+    },
+    {
+      "name": "patient-measures",
+      "width": 1440,
+      "metrics": {
+        "overflow": 0,
+        "title": "PATIENT DÉMO 01",
+        "dialog": null
+      }
+    },
+    {
+      "name": "compare-modal",
+      "width": 1440,
+      "metrics": {
+        "overflow": 0,
+        "title": "PATIENT DÉMO 01",
+        "dialog": {
+          "width": 558,
+          "client": 558,
+          "text": "Comparer deux périodes\n×\nPériode A\n8 au 10 novembre 2026\n12 au 14 novembre 2026\n14 novembre 2026\n8 au 14 novembre 2026\nPériode B\n8 au 10 novembre 2026\n12 au 14 novembre 2026\n14 novembre 2026\n8 au 14 novembre 2026\n8 au 10 novembre 2026\n\nContact\n8 h 20\n\nAppui pouce\n21 % relatif\n\nMouvements\n495 épisodes\n\nCalibration\nC-02\n\n3 jour(s) dans cette plage. Données non partagées et manquantes exclues.\n12 au 14 novembre 2026\n\nContact\n9 h 12\n\nAppui pouce\n21 % relatif\n\nMouvements\n494 épisodes\n\nCalibration\nC-02\n\n3 jour(s) dans cette plage. Données non partagées et manquantes exclues.\nLes deux plages utilisent la même calibration dans cet exemple. Les seules mesures ne démontrent pas une évolution de santé.\nFermer"
+        }
+      }
+    },
+    {
+      "name": "patient-advice",
+      "width": 1440,
+      "metrics": {
+        "overflow": 0,
+        "title": "PATIENT DÉMO 01",
+        "dialog": null
+      }
+    },
+    {
+      "name": "advice-versions",
+      "width": 1440,
+      "metrics": {
+        "overflow": 0,
+        "title": "PATIENT DÉMO 01",
+        "dialog": {
+          "width": 558,
+          "client": 558,
+          "text": "Historique du conseil\n×\n\nChaque publication est conservée sans modifier les versions précédentes.\n\nVersion 2 · actuelle\n\n14 novembre · 18:05:13 · Soignant démo\n\nLire cette version\nVersion 1\n\n12 novembre 2026 · 10:30 · Soignant démo\n\nLire cette version\nFermer"
+        }
+      }
+    },
+    {
+      "name": "advice-old-version",
+      "width": 1440,
+      "metrics": {
+        "overflow": 0,
+        "title": "PATIENT DÉMO 01",
+        "dialog": {
+          "width": 558,
+          "client": 558,
+          "text": "Version 1 · Conseil\n×\n\n12 novembre 2026 · 10:30 · Soignant démo\n\nRapprocher la souris du clavier\n\nPlacez la souris à proximité du clavier, dans une zone confortable à atteindre. Ce conseil a été sélectionné pour votre poste.\n\nRetour à l’historique\nFermer"
+        }
+      }
+    },
+    {
+      "name": "patient-report",
+      "width": 1440,
+      "metrics": {
+        "overflow": 0,
+        "title": "PATIENT DÉMO 01",
+        "dialog": null
+      }
+    },
+    {
+      "name": "support-expired",
+      "width": 1440,
+      "metrics": {
+        "overflow": 0,
+        "title": "VOTRE FILE DE SUPPORT",
+        "dialog": null
+      }
+    },
+    {
+      "name": "support-active",
+      "width": 1440,
+      "metrics": {
+        "overflow": 0,
+        "title": "VOTRE FILE DE SUPPORT",
+        "dialog": null
+      }
+    },
+    {
+      "name": "support-history",
+      "width": 1440,
+      "metrics": {
+        "overflow": 0,
+        "title": "MAINTENANCE TECHNIQUE",
+        "dialog": null
+      }
+    },
+    {
+      "name": "incident",
+      "width": 1440,
+      "metrics": {
+        "overflow": 0,
+        "title": "TENTATIVES D’ACCÈS REFUSÉES RÉPÉTÉES",
+        "dialog": null
+      }
+    },
+    {
+      "name": "shares",
+      "width": 390,
+      "metrics": {
+        "overflow": 0,
+        "title": "MES PARTAGES",
+        "dialog": null
+      }
+    },
+    {
+      "name": "share-modal",
+      "width": 390,
+      "metrics": {
+        "overflow": 0,
+        "title": "MES PARTAGES",
+        "dialog": {
+          "width": 353,
+          "client": 353,
+          "text": "Choisir un partage\n×\n\nDestinataire habilité : Soignant démo. Relation de suivi active.\n\nDébut des mesures\nFin des mesures\nFin de l’accès\n\nCatégories autorisées\n\nTemps de contact\nAppuis relatifs\nÉpisodes de mouvement\n\nLes périodes proposées sont celles disponibles dans le scénario. Aucun accès réel n’est accordé.\n\nAnnuler\nCréer le partage fictif"
+        }
+      }
+    },
+    {
+      "name": "patient-measures",
+      "width": 390,
+      "metrics": {
+        "overflow": 0,
+        "title": "PATIENT DÉMO 01",
+        "dialog": null
+      }
+    },
+    {
+      "name": "compare-modal",
+      "width": 390,
+      "metrics": {
+        "overflow": 0,
+        "title": "PATIENT DÉMO 01",
+        "dialog": {
+          "width": 353,
+          "client": 353,
+          "text": "Comparer deux périodes\n×\nPériode A\n8 au 10 novembre 2026\n12 au 14 novembre 2026\n14 novembre 2026\n8 au 14 novembre 2026\nPériode B\n8 au 10 novembre 2026\n12 au 14 novembre 2026\n14 novembre 2026\n8 au 14 novembre 2026\n8 au 10 novembre 2026\n\nContact\n8 h 20\n\nAppui pouce\n21 % relatif\n\nMouvements\n495 épisodes\n\nCalibration\nC-02\n\n3 jour(s) dans cette plage. Données non partagées et manquantes exclues.\n12 au 14 novembre 2026\n\nContact\n9 h 12\n\nAppui pouce\n21 % relatif\n\nMouvements\n494 épisodes\n\nCalibration\nC-02\n\n3 jour(s) dans cette plage. Données non partagées et manquantes exclues.\nLes deux plages utilisent la même calibration dans cet exemple. Les seules mesures ne démontrent pas une évolution de santé.\nFermer"
+        }
+      }
+    },
+    {
+      "name": "patient-advice",
+      "width": 390,
+      "metrics": {
+        "overflow": 0,
+        "title": "PATIENT DÉMO 01",
+        "dialog": null
+      }
+    },
+    {
+      "name": "advice-versions",
+      "width": 390,
+      "metrics": {
+        "overflow": 0,
+        "title": "PATIENT DÉMO 01",
+        "dialog": {
+          "width": 353,
+          "client": 353,
+          "text": "Historique du conseil\n×\n\nChaque publication est conservée sans modifier les versions précédentes.\n\nVersion 2 · actuelle\n\n14 novembre · 18:05:13 · Soignant démo\n\nLire cette version\nVersion 1\n\n12 novembre 2026 · 10:30 · Soignant démo\n\nLire cette version\nFermer"
+        }
+      }
+    },
+    {
+      "name": "advice-old-version",
+      "width": 390,
+      "metrics": {
+        "overflow": 0,
+        "title": "PATIENT DÉMO 01",
+        "dialog": {
+          "width": 353,
+          "client": 353,
+          "text": "Version 1 · Conseil\n×\n\n12 novembre 2026 · 10:30 · Soignant démo\n\nRapprocher la souris du clavier\n\nPlacez la souris à proximité du clavier, dans une zone confortable à atteindre. Ce conseil a été sélectionné pour votre poste.\n\nRetour à l’historique\nFermer"
+        }
+      }
+    },
+    {
+      "name": "patient-report",
+      "width": 390,
+      "metrics": {
+        "overflow": 0,
+        "title": "PATIENT DÉMO 01",
+        "dialog": null
+      }
+    },
+    {
+      "name": "support-expired",
+      "width": 390,
+      "metrics": {
+        "overflow": 0,
+        "title": "VOTRE FILE DE SUPPORT",
+        "dialog": null
+      }
+    },
+    {
+      "name": "support-active",
+      "width": 390,
+      "metrics": {
+        "overflow": 0,
+        "title": "VOTRE FILE DE SUPPORT",
+        "dialog": null
+      }
+    },
+    {
+      "name": "support-history",
+      "width": 390,
+      "metrics": {
+        "overflow": 0,
+        "title": "MAINTENANCE TECHNIQUE",
+        "dialog": null
+      }
+    },
+    {
+      "name": "incident",
+      "width": 390,
+      "metrics": {
+        "overflow": 0,
+        "title": "TENTATIVES D’ACCÈS REFUSÉES RÉPÉTÉES",
+        "dialog": null
+      }
+    },
+    {
+      "name": "shares",
+      "width": 320,
+      "metrics": {
+        "overflow": 0,
+        "title": "MES PARTAGES",
+        "dialog": null
+      }
+    },
+    {
+      "name": "share-modal",
+      "width": 320,
+      "metrics": {
+        "overflow": 0,
+        "title": "MES PARTAGES",
+        "dialog": {
+          "width": 282,
+          "client": 282,
+          "text": "Choisir un partage\n×\n\nDestinataire habilité : Soignant démo. Relation de suivi active.\n\nDébut des mesures\nFin des mesures\nFin de l’accès\n\nCatégories autorisées\n\nTemps de contact\nAppuis relatifs\nÉpisodes de mouvement\n\nLes périodes proposées sont celles disponibles dans le scénario. Aucun accès réel n’est accordé.\n\nAnnuler\nCréer le partage fictif"
+        }
+      }
+    },
+    {
+      "name": "patient-measures",
+      "width": 320,
+      "metrics": {
+        "overflow": 0,
+        "title": "PATIENT DÉMO 01",
+        "dialog": null
+      }
+    },
+    {
+      "name": "compare-modal",
+      "width": 320,
+      "metrics": {
+        "overflow": 0,
+        "title": "PATIENT DÉMO 01",
+        "dialog": {
+          "width": 282,
+          "client": 282,
+          "text": "Comparer deux périodes\n×\nPériode A\n8 au 10 novembre 2026\n12 au 14 novembre 2026\n14 novembre 2026\n8 au 14 novembre 2026\nPériode B\n8 au 10 novembre 2026\n12 au 14 novembre 2026\n14 novembre 2026\n8 au 14 novembre 2026\n8 au 10 novembre 2026\n\nContact\n8 h 20\n\nAppui pouce\n21 % relatif\n\nMouvements\n495 épisodes\n\nCalibration\nC-02\n\n3 jour(s) dans cette plage. Données non partagées et manquantes exclues.\n12 au 14 novembre 2026\n\nContact\n9 h 12\n\nAppui pouce\n21 % relatif\n\nMouvements\n494 épisodes\n\nCalibration\nC-02\n\n3 jour(s) dans cette plage. Données non partagées et manquantes exclues.\nLes deux plages utilisent la même calibration dans cet exemple. Les seules mesures ne démontrent pas une évolution de santé.\nFermer"
+        }
+      }
+    },
+    {
+      "name": "patient-advice",
+      "width": 320,
+      "metrics": {
+        "overflow": 0,
+        "title": "PATIENT DÉMO 01",
+        "dialog": null
+      }
+    },
+    {
+      "name": "advice-versions",
+      "width": 320,
+      "metrics": {
+        "overflow": 0,
+        "title": "PATIENT DÉMO 01",
+        "dialog": {
+          "width": 282,
+          "client": 282,
+          "text": "Historique du conseil\n×\n\nChaque publication est conservée sans modifier les versions précédentes.\n\nVersion 2 · actuelle\n\n14 novembre · 18:05:13 · Soignant démo\n\nLire cette version\nVersion 1\n\n12 novembre 2026 · 10:30 · Soignant démo\n\nLire cette version\nFermer"
+        }
+      }
+    },
+    {
+      "name": "advice-old-version",
+      "width": 320,
+      "metrics": {
+        "overflow": 0,
+        "title": "PATIENT DÉMO 01",
+        "dialog": {
+          "width": 282,
+          "client": 282,
+          "text": "Version 1 · Conseil\n×\n\n12 novembre 2026 · 10:30 · Soignant démo\n\nRapprocher la souris du clavier\n\nPlacez la souris à proximité du clavier, dans une zone confortable à atteindre. Ce conseil a été sélectionné pour votre poste.\n\nRetour à l’historique\nFermer"
+        }
+      }
+    },
+    {
+      "name": "patient-report",
+      "width": 320,
+      "metrics": {
+        "overflow": 0,
+        "title": "PATIENT DÉMO 01",
+        "dialog": null
+      }
+    },
+    {
+      "name": "support-expired",
+      "width": 320,
+      "metrics": {
+        "overflow": 0,
+        "title": "VOTRE FILE DE SUPPORT",
+        "dialog": null
+      }
+    },
+    {
+      "name": "support-active",
+      "width": 320,
+      "metrics": {
+        "overflow": 0,
+        "title": "VOTRE FILE DE SUPPORT",
+        "dialog": null
+      }
+    },
+    {
+      "name": "support-history",
+      "width": 320,
+      "metrics": {
+        "overflow": 0,
+        "title": "MAINTENANCE TECHNIQUE",
+        "dialog": null
+      }
+    },
+    {
+      "name": "incident",
+      "width": 320,
+      "metrics": {
+        "overflow": 0,
+        "title": "TENTATIVES D’ACCÈS REFUSÉES RÉPÉTÉES",
+        "dialog": null
+      }
+    }
+  ],
+  "errors": []
+}

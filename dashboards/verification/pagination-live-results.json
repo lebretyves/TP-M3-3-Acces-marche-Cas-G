@@ -1,0 +1,14 @@
+{
+  "checks": 8,
+  "errors": [],
+  "results": [
+    "Fenêtre day servie par API réelle",
+    "Fenêtre week servie par API réelle",
+    "Fenêtre month servie par API réelle",
+    "Pagination réelle limite1 et curseur sans doublon",
+    "Fenêtre et graphiques sans débordement 320",
+    "Fenêtre et graphiques sans débordement 390",
+    "Fenêtre et graphiques sans débordement 768",
+    "Fenêtre et graphiques sans débordement 1440"
+  ]
+}

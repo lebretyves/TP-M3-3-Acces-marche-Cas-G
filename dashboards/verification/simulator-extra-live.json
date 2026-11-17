@@ -1,0 +1,52 @@
+[
+    {
+        "explicit_assumptions":  false,
+        "source":  "wokwi",
+        "broker_accepted":  1,
+        "qualities":  [
+                          "invalid"
+                      ],
+        "mode":  "invalid",
+        "run_id":  "c9829797-4235-49ee-ab83-2c3bd540dd94",
+        "database_proof":  {
+                               "run_id":  "c9829797-4235-49ee-ab83-2c3bd540dd94",
+                               "device_id":  "demo-device-a",
+                               "verified_at":  "2026-11-14T17:49:13.253987+00:00",
+                               "database_receipts":  1,
+                               "all_synthetic":  true,
+                               "fixed_patient_binding":  true,
+                               "reports":  [
+                                               {
+                                                   "sequence":  0,
+                                                   "report_id":  "ingest-636090a75c714487b2074e91a62c744b",
+                                                   "quality":  "invalid"
+                                               }
+                                           ]
+                           }
+    },
+    {
+        "explicit_assumptions":  true,
+        "source":  "phyphox",
+        "broker_accepted":  1,
+        "qualities":  [
+                          "valid"
+                      ],
+        "mode":  "normal",
+        "run_id":  "47fd34bb-95a2-4b54-8108-433cf43685b4",
+        "database_proof":  {
+                               "run_id":  "47fd34bb-95a2-4b54-8108-433cf43685b4",
+                               "device_id":  "demo-device-a",
+                               "verified_at":  "2026-11-14T17:49:15.002924+00:00",
+                               "database_receipts":  1,
+                               "all_synthetic":  true,
+                               "fixed_patient_binding":  true,
+                               "reports":  [
+                                               {
+                                                   "sequence":  0,
+                                                   "report_id":  "ingest-85150ac6adfc4c20b15b3ceaa06372a0",
+                                                   "quality":  "valid"
+                                               }
+                                           ]
+                           }
+    }
+]

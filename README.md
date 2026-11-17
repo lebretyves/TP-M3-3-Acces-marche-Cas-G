@@ -35,6 +35,8 @@ Les copies des exercices 1 et 2 sont placées dans le même dossier, comme deman
 
 ## Vérifications et reproduction
 
+Le travail SKELIVIA est regroupé dans le [dossier dashboards](dashboards/README.md) : décisions validées, identité visuelle, maquette et [application intégrée](dashboards/application/README.md) avec cinq espaces, API, PostgreSQL, Keycloak et broker privé. Le [suivi du PDF d'architecture](dashboards/application/ARCHITECTURE_ET_RECETTE.md) distingue les preuves du banc synthétique des prérequis matériels, cliniques et d'hébergement restants.
+
 Le classeur a été relu et contrôlé : 92 réponses attendues renseignées, 31 choix de listes valides, 26 formules du modèle conservées et trois adaptations explicites. Recalcul natif dans Microsoft Excel sans erreur de formule ; classement commercial et dépendances testés par modification temporaire des entrées. Chemin critique et marges recalculés indépendamment. Mise en page inspectée.
 
 Voir [le contrôle du classeur](analyses/m3/verification_acces_marche.json), [le rapport Excel](analyses/m3/verification_excel_natif.json) et [les empreintes des copies](sources/provenance.json). Ces contrôles ne constituent pas une validation matérielle ou clinique.

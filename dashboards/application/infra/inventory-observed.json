@@ -1,0 +1,62 @@
+{
+  "at": "2026-11-14T09:30:23.181457+00:00",
+  "components": [
+    {
+      "service": "worker",
+      "version": "Paho MQTT 2.2.0 / Python 3.12.16",
+      "configured_image": "skelivia-local:development",
+      "observed_image_id": "sha256:8ae55c830619487707b1edc2b0289d0c84b82bf3f41e56e6eb2badb72118a6dd",
+      "matches_configured_image": true,
+      "state": "running"
+    },
+    {
+      "service": "push",
+      "version": "pywebpush 2.5.0 / Python 3.12.16",
+      "configured_image": "skelivia-local:development",
+      "observed_image_id": "sha256:8ae55c830619487707b1edc2b0289d0c84b82bf3f41e56e6eb2badb72118a6dd",
+      "matches_configured_image": true,
+      "state": "running"
+    },
+    {
+      "service": "app",
+      "version": "FastAPI 0.162.6 / Python 3.12.16",
+      "configured_image": "skelivia-local:development",
+      "observed_image_id": "sha256:8ae55c830619487707b1edc2b0289d0c84b82bf3f41e56e6eb2badb72118a6dd",
+      "matches_configured_image": true,
+      "state": "running"
+    },
+    {
+      "service": "keycloak",
+      "version": "quay.io/keycloak/keycloak:26.7.5",
+      "configured_image": "quay.io/keycloak/keycloak:26.7.5@sha256:37dbaf6f0722c9ec246335f36e1ef8b2e6cb960f7c27e0d8c615121a3d475a85",
+      "observed_image_id": "sha256:37dbaf6f0722c9ec246335f36e1ef8b2e6cb960f7c27e0d8c615121a3d475a85",
+      "matches_configured_image": true,
+      "state": "running"
+    },
+    {
+      "service": "broker",
+      "version": "eclipse-mosquitto:2.1.2-alpine",
+      "configured_image": "eclipse-mosquitto:2.1.2-alpine@sha256:75d6662dee52c947dc9dd9c29f1d8d7ffef78ddaf38001caa09755681e8bbc98",
+      "observed_image_id": "sha256:75d6662dee52c947dc9dd9c29f1d8d7ffef78ddaf38001caa09755681e8bbc98",
+      "matches_configured_image": true,
+      "state": "running"
+    },
+    {
+      "service": "db",
+      "version": "postgres:16.16-alpine",
+      "configured_image": "postgres:16.16-alpine@sha256:0adbf25a9e96d38823bb813f3ac0ed41fadb665c88f1df7fe6dbfb060cbdc106",
+      "observed_image_id": "sha256:0adbf25a9e96d38823bb813f3ac0ed41fadb665c88f1df7fe6dbfb060cbdc106",
+      "matches_configured_image": true,
+      "state": "running"
+    },
+    {
+      "service": "proxy",
+      "version": "nginx:1.30.6-alpine",
+      "configured_image": "nginx:1.30.6-alpine@sha256:901e593c95dc85f5a729f5765516321366ef4ac401821431d408897e95287d0a",
+      "observed_image_id": "sha256:901e593c95dc85f5a729f5765516321366ef4ac401821431d408897e95287d0a",
+      "matches_configured_image": true,
+      "state": "running"
+    }
+  ],
+  "application_source_sha256": "9d9a032ec74526b3c3da93d7e24e437c7c0ea1754b0599a19535770a6d19e4bd"
+}

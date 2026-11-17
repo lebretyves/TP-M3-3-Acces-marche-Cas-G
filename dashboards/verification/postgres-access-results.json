@@ -1,0 +1,66 @@
+{
+  "identity": "non-owner skelivia_app",
+  "mutations": "rolled back",
+  "results": [
+    {
+      "test": "workspace-u-alice",
+      "status": "PASS"
+    },
+    {
+      "test": "workspace-u-benoit",
+      "status": "PASS"
+    },
+    {
+      "test": "workspace-c-lina",
+      "status": "PASS"
+    },
+    {
+      "test": "workspace-c-marc",
+      "status": "PASS"
+    },
+    {
+      "test": "workspace-e-atelier",
+      "status": "PASS"
+    },
+    {
+      "test": "workspace-t-support",
+      "status": "PASS"
+    },
+    {
+      "test": "workspace-s-securite",
+      "status": "PASS"
+    },
+    {
+      "test": "workspace-s-approbateur",
+      "status": "PASS"
+    },
+    {
+      "test": "grant-documents-categories-revocation",
+      "status": "PASS"
+    },
+    {
+      "test": "organisation-and-cross-owner-notification",
+      "status": "PASS"
+    },
+    {
+      "test": "support-jobs-diagnostic-expiry-scope",
+      "status": "PASS"
+    },
+    {
+      "test": "clinician-software-ticket-routing",
+      "status": "PASS"
+    },
+    {
+      "test": "reminder-soft-delete",
+      "status": "PASS"
+    },
+    {
+      "test": "distinct-account-approver",
+      "status": "PASS"
+    },
+    {
+      "test": "encrypted-sensitive-column",
+      "status": "PASS"
+    }
+  ]
+}

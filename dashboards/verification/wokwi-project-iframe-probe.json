@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-11-16T18:18:56.085Z",
+  "project": "https://wokwi.com/projects/479309363045700609",
+  "console": [
+    "Failed to load resource: the server responded with a status of 401 ()",
+    "Failed to load resource: the server responded with a status of 401 ()",
+    "Failed to load resource: the server responded with a status of 401 ()"
+  ],
+  "responses": [
+    {
+      "url": "https://wokwi.com/projects/479309363045700609",
+      "status": 200,
+      "x_frame_options": null,
+      "csp": null
+    }
+  ],
+  "failures": [],
+  "frames": [
+    {
+      "url": "http://127.0.0.1:8774/__wokwi_embed_probe",
+      "text": "Local read-only iframe probe"
+    },
+    {
+      "url": "https://wokwi.com/projects/479309363045700609",
+      "text": "SAVE\nSHARE\nDocs\nSIGN IN\nsketch.ino\ndiagram.json\nlibraries.txt\nLibrary Manager\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n#include <WiFi.h>\n#include <PubSubClient.h>\n#include <ArduinoJson.h>\n#include <Wire.h>\n#include <atomic>\n#include <freertos/FreeRTOS.h>\n#include <freertos/task.h>\n#include <freertos/queue.h>\nstruct Sample;\nstruct Pipeline;\n#include <stdint.h>\n#include <math.h>\n#include <float.h>\n#include <string.h>\n// Check IEEE-754 binary32 finiteness without the Xtensa unordered comparison\n// emitted for isfinite(), which the Web simulator reports as unimplemented.\n// memcpy preserves NaN/subnormal bits and avoids aliasing or type-punning.\ninline bool isFiniteFloat32(float value) {\n  static_assert(sizeof(float) == 4 && FLT_RADIX == 2 && FLT_MANT_DIG == 24\n    && FLT_MAX_EXP == 128, \"This check requires IEEE-754 binary32 float\");\n  uint32_t bits;\n  memcpy(&bits, &value, sizeof(bits));\n  return (bits & 0x7f800000u) != 0x7f800000u;\n}\n// All limits below are demonstrator settings, not validated medical thresholds.\nstruct Sample {\n  float ax = 0, ay = 0, az = 9.80665f;\n  float gx = 0, gy = 0, gz = 0; // radians per second\n  int thumb = 1000, palm = 1000;\n  bool contact = true;\n  bool motionValid = true, thumbValid = true, palmValid = true, contactValid = true;\n};\nstruct Pipeline {\n  static constexpr float FORCE_LIMIT_PCT = 70;\n  static constexpr uint32_t FORCE_HOLD_MS = 5000;\n  static constexpr uint32_t CONTACT_REMINDER_MS = 20000;\nSimulation\nSOURIS P1 | EQUIPE 02 | PARIS\nESP32 + MPU6050 + 2 FSR402 | seul ajout : AT42QT1011\nDEMONSTRATION FICTIVE - seuils pedagogiques - pas de score clinique\nACCELERATION + ROTATION\nMPU-6050 : accelerometre + gyroscope\nAPPUI POUCE | FSR402 simule\nCurseur 0-100 % (pas des N)\nAPPUI PAUME | FSR402 simule\nCurseur 0-100 % (pas des N)\nCONTACT MAIN | AT42QT1011 simule\nGauche : contact | droite : absent\nRAPPEL VISUEL\nLED + tableau de bord\nLÉGENDE DES BOUTONS | un appui lance le scénario\n0 — MANUEL\nRégler les capteurs à la main\n1 — NORMAL\nUsage avec interruptions de contact\n2 — INTENSIF\nMouvements répétés : pause vers 20 s\n3 — APPUI ÉLEVÉ\nAppui maintenu : relâcher vers 5 s\n4 — IMMOBILE\nContact puis retrait, sans mouvement\n5 — MESURE INVALIDE\nMouvement et appuis rejetés\n6 — COUPURE MQTT\nFlux absent sur le tableau après 10 s\nDélais accélérés pour la démo. Revenir à 1 pour"
+    }
+  ],
+  "standalone": {
+    "status": 200,
+    "url": "https://wokwi.com/projects/479309363045700609",
+    "body": ""
+  },
+  "experimental": {
+    "status": 200,
+    "url": "https://wokwi.com/experimental/embed",
+    "body": "Docs\nSIGN IN\nLoading simulation..."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "target": "http://127.0.0.1:8771",
+  "results": [
+    "Période commune Jour/Semaine/Mois",
+    "Création et révocation de partage fictif",
+    "Calibration simulée en trois étapes",
+    "Dossier autorisé, comparaison et restrictions soignant",
+    "Avancement et historique des recommandations",
+    "Clôture de ticket conditionnée aux vérifications",
+    "Qualification motivée d’un incident fictif",
+    "Préférences de lisibilité",
+    "WebKit iPhone 13 : user, menu et notifications",
+    "WebKit iPhone 13 : clinician, menu et notifications",
+    "WebKit iPhone 13 : employer, menu et notifications",
+    "WebKit iPhone 13 : support, menu et notifications",
+    "WebKit iPhone 13 : admin, menu et notifications",
+    "WebKit iPad Mini : user, menu et notifications",
+    "WebKit iPad Mini : clinician, menu et notifications",
+    "WebKit iPad Mini : employer, menu et notifications",
+    "WebKit iPad Mini : support, menu et notifications",
+    "WebKit iPad Mini : admin, menu et notifications"
+  ],
+  "errors": [],
+  "limits": "Émulation de formats et moteurs ; aucun essai sur iPhone, Android, tablette ou Mac physique."
+}

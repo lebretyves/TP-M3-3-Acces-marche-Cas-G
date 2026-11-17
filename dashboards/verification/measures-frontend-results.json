@@ -1,0 +1,13 @@
+{
+  "checks": 6,
+  "test_kind": "Contrats HTTP contrôlés, aucune donnée serveur modifiée",
+  "errors": [],
+  "results": [
+    "Cumul suspendu avant fin de pagination",
+    "Suite demandée avec curseur opaque et synthèse pondérée complète",
+    "Jour déclenche une nouvelle fenêtre serveur",
+    "Comparaison refusée avant complétude et limitée au patient courant",
+    "Durées mixtes : aucune moyenne trompeuse",
+    "Legacy sans durée : moyenne de points explicitement nommée"
+  ]
+}

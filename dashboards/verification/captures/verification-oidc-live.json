@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "account": "u-alice",
+      "authenticated": true,
+      "role": "user",
+      "auth": "oidc"
+    },
+    {
+      "account": "c-lina",
+      "authenticated": true,
+      "role": "clinician",
+      "auth": "oidc"
+    },
+    {
+      "account": "e-atelier",
+      "authenticated": true,
+      "role": "employer",
+      "auth": "oidc"
+    },
+    {
+      "account": "t-support",
+      "authenticated": true,
+      "role": "support",
+      "auth": "oidc"
+    },
+    {
+      "account": "s-securite",
+      "authenticated": true,
+      "role": "security",
+      "auth": "oidc"
+    },
+    {
+      "account": "s-approbateur",
+      "authenticated": true,
+      "role": "security",
+      "auth": "oidc"
+    }
+  ],
+  "limits": "Comptes fictifs, MFA enrôlée sur le banc ; navigateur de test accepte la CA locale. Aucun secret capturé."
+}

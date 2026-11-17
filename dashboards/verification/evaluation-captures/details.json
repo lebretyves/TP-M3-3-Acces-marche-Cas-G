@@ -1,0 +1,141 @@
+[
+  {
+    "name": "share",
+    "dialog": {
+      "width": 338,
+      "client": 338,
+      "height": 628,
+      "visibleHeight": 628,
+      "body": "Choisir un partage\n×\n\nDestinataire habilité : Soignant démo. Relation de suivi active dans ce scénario.\n\nDébut des mesures\nFin des mesures\nFin de l’accès\nTemps de contact détecté\nAppuis relatifs\nÉpisodes de mouvement\n\nLa maquette n’accorde aucun accès réel.\n\nAnnuler\nCréer le partage fictif",
+      "inputs": [
+        {
+          "font": "16px",
+          "rect": {
+            "x": 37.781864166259766,
+            "y": 280.808837890625,
+            "width": 300.12255859375,
+            "height": 45.55147171020508,
+            "top": 280.808837890625,
+            "right": 337.90442276000977,
+            "bottom": 326.3603096008301,
+            "left": 37.781864166259766
+          }
+        },
+        {
+          "font": "16px",
+          "rect": {
+            "x": 37.781864166259766,
+            "y": 365.8946228027344,
+            "width": 300.12255859375,
+            "height": 45.55147171020508,
+            "top": 365.8946228027344,
+            "right": 337.90442276000977,
+            "bottom": 411.44609451293945,
+            "left": 37.781864166259766
+          }
+        },
+        {
+          "font": "16px",
+          "rect": {
+            "x": 37.781864166259766,
+            "y": 450.98040771484375,
+            "width": 300.12255859375,
+            "height": 45.55147171020508,
+            "top": 450.98040771484375,
+            "right": 337.90442276000977,
+            "bottom": 496.5318794250488,
+            "left": 37.781864166259766
+          }
+        },
+        {
+          "font": "16px",
+          "rect": {
+            "x": 41.77696228027344,
+            "y": 516.5195922851562,
+            "width": 15,
+            "height": 15,
+            "top": 516.5195922851562,
+            "right": 56.77696228027344,
+            "bottom": 531.5195922851562,
+            "left": 41.77696228027344
+          }
+        },
+        {
+          "font": "16px",
+          "rect": {
+            "x": 41.77696228027344,
+            "y": 549.49755859375,
+            "width": 15,
+            "height": 15,
+            "top": 549.49755859375,
+            "right": 56.77696228027344,
+            "bottom": 564.49755859375,
+            "left": 41.77696228027344
+          }
+        },
+        {
+          "font": "16px",
+          "rect": {
+            "x": 41.77696228027344,
+            "y": 582.4755249023438,
+            "width": 15,
+            "height": 15,
+            "top": 582.4755249023438,
+            "right": 56.77696228027344,
+            "bottom": 597.4755249023438,
+            "left": 41.77696228027344
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "calibration",
+    "missing": true,
+    "nav": "Vue d’ensemble\nMes mesures\nConseils & bilans\nMes partages\nMa souris\nAssistance\nParamètres"
+  },
+  {
+    "name": "alert",
+    "dialog": {
+      "width": 338,
+      "client": 338,
+      "height": 503,
+      "visibleHeight": 503,
+      "body": "Qualifier SEC-024\n×\n\nTentatives d’accès refusées répétées\n\nCompte technique · 8 événements en 10 minutes\n\nQualification\nIncident confirmé\nFausse alerte\nÀ examiner\nÉléments de qualification\nPour la présentation, utilisez uniquement un texte fictif.\nAnnuler\nEnregistrer dans l’aperçu",
+      "inputs": [
+        {
+          "font": "16px",
+          "rect": {
+            "x": 37.781864166259766,
+            "y": 359.0809020996094,
+            "width": 300.12255859375,
+            "height": 42.30392074584961,
+            "top": 359.0809020996094,
+            "right": 337.90442276000977,
+            "bottom": 401.384822845459,
+            "left": 37.781864166259766
+          }
+        },
+        {
+          "font": "16px",
+          "rect": {
+            "x": 37.781864166259766,
+            "y": 440.91912841796875,
+            "width": 300.12255859375,
+            "height": 95,
+            "top": 440.91912841796875,
+            "right": 337.90442276000977,
+            "bottom": 535.9191284179688,
+            "left": 37.781864166259766
+          }
+        }
+      ]
+    }
+  },
+  {
+    "large": {
+      "scroll": 376,
+      "client": 376
+    }
+  }
+]

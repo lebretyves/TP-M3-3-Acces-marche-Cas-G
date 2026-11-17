@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "checks": [
+    "responsive 1440/768/390/320",
+    "bridge responsive 920/390/320",
+    "four event selections",
+    "guided step selects persona/action",
+    "wrong persona blocked",
+    "no automatic mutation",
+    "normal action accepted",
+    "private content stays in app",
+    "nested notification payload",
+    "UTC today defaults",
+    "manual injection queue",
+    "catalogue unavailable"
+  ],
+  "mock_posts": 2,
+  "page_errors": []
+}

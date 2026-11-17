@@ -1,0 +1,38 @@
+{
+  "checks": [
+    "Local curves, pause, resume and stop without MQTT",
+    "OIDC MFA returns to the same simulator page",
+    "Authorized persona action performed inline without popup",
+    "Wrong persona blocked inside the page",
+    "Curves, mouse and alerts visible at 320/390/768/1440 without overflow",
+    "Wokwi project embedded without opening another page"
+  ],
+  "runs": [
+    {
+      "mode": "force",
+      "run_id": "e9a7305b-90d4-4f2e-a4de-8e4788549bd1",
+      "windows": 2,
+      "notifications": [
+        {
+          "kind": "high_force",
+          "sequence": 0,
+          "origin": "computed"
+        }
+      ]
+    },
+    {
+      "mode": "intensive",
+      "run_id": "f827e791-eb62-4335-be51-8b61e67a9668",
+      "windows": 6,
+      "notifications": [
+        {
+          "kind": "pause_reminder",
+          "sequence": 3,
+          "origin": "computed"
+        }
+      ]
+    }
+  ],
+  "limits": "Banc synthetique local. TLS accepte uniquement dans le contexte navigateur de recette. Aucun push externe ou lancement Wokwi.",
+  "status": "PASS"
+}

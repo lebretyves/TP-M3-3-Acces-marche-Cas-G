@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "Aperçu Wokwi servi par API réelle, sans transmission",
+    "Quatre largeurs sur serveur réel, aucun débordement",
+    "Rejeu réel sans hypothèses : invalidité et provenance des fichiers"
+  ],
+  "errors": [],
+  "post_requests": [
+    "/api/preview",
+    "/api/preview"
+  ],
+  "scope": "API réelle 8774; aperçus seulement, aucune publication MQTT"
+}

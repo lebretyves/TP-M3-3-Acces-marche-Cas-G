@@ -1,0 +1,268 @@
+{
+  "checks": 47,
+  "errors": [],
+  "results": [
+    {
+      "role": "user",
+      "page": "page:home",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "user",
+      "page": "page:measures",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "user",
+      "page": "page:device",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "user",
+      "page": "page:shares",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "user",
+      "page": "page:help",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "user",
+      "page": "page:settings",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "user",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "role": "user",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "role": "user",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "role": "user",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "clinician",
+      "page": "page:home",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "clinician",
+      "page": "page:recommendations",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "clinician",
+      "page": "page:reminders",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "clinician",
+      "page": "page:help",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "clinician",
+      "page": "page:settings",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "clinician",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "role": "clinician",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "role": "clinician",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "role": "clinician",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "employer",
+      "page": "page:home",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "employer",
+      "page": "page:history",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "employer",
+      "page": "page:settings",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "employer",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "role": "employer",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "role": "employer",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "role": "employer",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "support",
+      "page": "page:home",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "support",
+      "page": "page:maintenance",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "support",
+      "page": "page:settings",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "support",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "role": "support",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "role": "support",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "role": "support",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "security",
+      "page": "page:home",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "security",
+      "page": "page:incidents",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "security",
+      "page": "page:patches",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "security",
+      "page": "page:accounts",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "security",
+      "page": "page:certificates",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "security",
+      "page": "page:proofs",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "security",
+      "page": "page:components",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "security",
+      "page": "page:audit",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "security",
+      "page": "page:deletions",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "security",
+      "page": "page:settings",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "role": "security",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "role": "security",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "role": "security",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "role": "security",
+      "width": 1440,
+      "pass": true
+    }
+  ]
+}

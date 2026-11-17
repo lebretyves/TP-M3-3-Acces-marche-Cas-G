@@ -1,0 +1,81 @@
+{
+  "checks": [
+    {
+      "action": "settings.pauses",
+      "role": "user",
+      "status": 200
+    },
+    {
+      "action": "ticket.create",
+      "role": "user",
+      "status": 200
+    },
+    {
+      "action": "share.create",
+      "role": "user",
+      "status": 200
+    },
+    {
+      "action": "document.publish",
+      "role": "clinician",
+      "status": 200
+    },
+    {
+      "action": "ticket.reply",
+      "role": "support",
+      "status": 200
+    },
+    {
+      "action": "export.prevention",
+      "role": "employer",
+      "status": 200
+    },
+    {
+      "action": "access.check",
+      "role": "security",
+      "status": 200
+    },
+    {
+      "action": "share.revoke",
+      "role": "user",
+      "status": 200
+    },
+    {
+      "test": "Advice and support notifications visible to owner",
+      "status": "PASS"
+    }
+  ],
+  "runs": [
+    {
+      "mode": "intensive",
+      "run_id": "2c66114f-5328-4a3f-afa8-3e3b4f080b74",
+      "broker_accepted": 6,
+      "notification_kinds": [
+        "pause"
+      ],
+      "manual_title": false
+    },
+    {
+      "mode": "force",
+      "run_id": "610915af-af6d-470b-99ff-123cc959dc66",
+      "broker_accepted": 1,
+      "notification_kinds": [
+        "usage"
+      ],
+      "manual_title": false
+    },
+    {
+      "mode": "normal",
+      "run_id": "9f2cd7a9-2654-43ac-a5f7-2e72d032a5ec",
+      "broker_accepted": 1,
+      "notification_kinds": [
+        "usage"
+      ],
+      "manual_title": true
+    }
+  ],
+  "limits": "Banc local, comptes de test, aucun push externe. Navigateur accepte la CA locale uniquement dans ces contextes.",
+  "ticket_id": "ticket-aed6b3a222e1426382139b0e11b9edae",
+  "grant_id": "share-995b53a5aae6415192c6201f4303dd56",
+  "status": "PASS"
+}

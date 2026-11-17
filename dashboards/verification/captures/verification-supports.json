@@ -1,0 +1,206 @@
+{
+  "scope": "Émulation navigateur, pas appareils physiques",
+  "checks": [
+    {
+      "engine": "Chromium",
+      "profile": "Android portrait",
+      "role": "user",
+      "width": 394,
+      "scroll": 394,
+      "title": "Votre journée, en un regard"
+    },
+    {
+      "engine": "Chromium",
+      "profile": "Android portrait",
+      "role": "clinician",
+      "width": 394,
+      "scroll": 394,
+      "title": "Patients suivis"
+    },
+    {
+      "engine": "Chromium",
+      "profile": "Android portrait",
+      "role": "employer",
+      "width": 394,
+      "scroll": 394,
+      "title": "Votre prévention, en actions"
+    },
+    {
+      "engine": "Chromium",
+      "profile": "Android portrait",
+      "role": "support",
+      "width": 394,
+      "scroll": 394,
+      "title": "Votre file de support"
+    },
+    {
+      "engine": "Chromium",
+      "profile": "Android portrait",
+      "role": "admin",
+      "width": 394,
+      "scroll": 394,
+      "title": "Surveillance et protections"
+    },
+    {
+      "engine": "Chromium",
+      "profile": "Android paysage",
+      "role": "user",
+      "width": 852,
+      "scroll": 852,
+      "title": "Votre journée, en un regard"
+    },
+    {
+      "engine": "Chromium",
+      "profile": "Android paysage",
+      "role": "clinician",
+      "width": 852,
+      "scroll": 852,
+      "title": "Patients suivis"
+    },
+    {
+      "engine": "Chromium",
+      "profile": "Android paysage",
+      "role": "employer",
+      "width": 852,
+      "scroll": 852,
+      "title": "Votre prévention, en actions"
+    },
+    {
+      "engine": "Chromium",
+      "profile": "Android paysage",
+      "role": "support",
+      "width": 852,
+      "scroll": 852,
+      "title": "Votre file de support"
+    },
+    {
+      "engine": "Chromium",
+      "profile": "Android paysage",
+      "role": "admin",
+      "width": 852,
+      "scroll": 852,
+      "title": "Surveillance et protections"
+    },
+    {
+      "engine": "WebKit",
+      "profile": "iPhone paysage",
+      "role": "user",
+      "width": 750,
+      "scroll": 750,
+      "title": "Votre journée, en un regard"
+    },
+    {
+      "engine": "WebKit",
+      "profile": "iPhone paysage",
+      "role": "clinician",
+      "width": 750,
+      "scroll": 750,
+      "title": "Patients suivis"
+    },
+    {
+      "engine": "WebKit",
+      "profile": "iPhone paysage",
+      "role": "employer",
+      "width": 750,
+      "scroll": 750,
+      "title": "Votre prévention, en actions"
+    },
+    {
+      "engine": "WebKit",
+      "profile": "iPhone paysage",
+      "role": "support",
+      "width": 750,
+      "scroll": 750,
+      "title": "Votre file de support"
+    },
+    {
+      "engine": "WebKit",
+      "profile": "iPhone paysage",
+      "role": "admin",
+      "width": 750,
+      "scroll": 750,
+      "title": "Surveillance et protections"
+    },
+    {
+      "engine": "WebKit",
+      "profile": "Tablette paysage",
+      "role": "user",
+      "width": 1024,
+      "scroll": 1024,
+      "title": "Votre journée, en un regard"
+    },
+    {
+      "engine": "WebKit",
+      "profile": "Tablette paysage",
+      "role": "clinician",
+      "width": 1024,
+      "scroll": 1024,
+      "title": "Patients suivis"
+    },
+    {
+      "engine": "WebKit",
+      "profile": "Tablette paysage",
+      "role": "employer",
+      "width": 1024,
+      "scroll": 1024,
+      "title": "Votre prévention, en actions"
+    },
+    {
+      "engine": "WebKit",
+      "profile": "Tablette paysage",
+      "role": "support",
+      "width": 1024,
+      "scroll": 1024,
+      "title": "Votre file de support"
+    },
+    {
+      "engine": "WebKit",
+      "profile": "Tablette paysage",
+      "role": "admin",
+      "width": 1024,
+      "scroll": 1024,
+      "title": "Surveillance et protections"
+    },
+    {
+      "engine": "WebKit",
+      "profile": "Bureau WebKit",
+      "role": "user",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Votre journée, en un regard"
+    },
+    {
+      "engine": "WebKit",
+      "profile": "Bureau WebKit",
+      "role": "clinician",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Patients suivis"
+    },
+    {
+      "engine": "WebKit",
+      "profile": "Bureau WebKit",
+      "role": "employer",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Votre prévention, en actions"
+    },
+    {
+      "engine": "WebKit",
+      "profile": "Bureau WebKit",
+      "role": "support",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Votre file de support"
+    },
+    {
+      "engine": "WebKit",
+      "profile": "Bureau WebKit",
+      "role": "admin",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Surveillance et protections"
+    }
+  ],
+  "failures": []
+}

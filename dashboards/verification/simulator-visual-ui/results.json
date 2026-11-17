@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "mocked": true,
+  "cases": [
+    "idle unknown",
+    "normal active",
+    "rest",
+    "contact SVG keyboard",
+    "force high",
+    "intensive real flag",
+    "no future live event",
+    "event click keeps time",
+    "immobile timer",
+    "absence boolean",
+    "four targeted faults",
+    "phyphox missing gray",
+    "old contract safe fallback",
+    "local link",
+    "network cut",
+    "pause and stop animation",
+    "preview planned and stopped animation",
+    "fault selector payload",
+    "reduced motion",
+    "bilan preserved"
+  ],
+  "viewport_widths": [
+    1440,
+    768,
+    390,
+    320
+  ],
+  "page_errors": [],
+  "real_simulations": 0
+}

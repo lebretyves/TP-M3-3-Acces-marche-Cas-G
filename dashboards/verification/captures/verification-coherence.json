@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "Révocation immédiate, catégories et dates effectives dans les graphiques et comparaisons",
+    "Documents séparés par patient et versions antérieures consultables",
+    "Mise à jour et réponse support synchronisées ; diagnostics expirés/révoqués fermés",
+    "Incident : qualification, action, preuve du retour et clôture",
+    "Certificat renouvelé, rôle administrateur protégé et révocation ciblée",
+    "Création, suspension et réactivation d’un compte sans session",
+    "Suppression : demande utilisateur, traitement administratif et preuve partagée"
+  ],
+  "errors": [],
+  "limits": "Scénarios de présentation en mémoire ; aucune validation de sécurité serveur."
+}

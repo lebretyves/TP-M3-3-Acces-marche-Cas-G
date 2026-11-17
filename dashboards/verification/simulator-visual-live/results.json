@@ -1,0 +1,69 @@
+{
+  "checks": [
+    {
+      "targeted_fault": "thumb",
+      "states": {
+        "thumb": "fault",
+        "palm": "rest",
+        "motion": "rest",
+        "contact": "rest"
+      }
+    },
+    {
+      "targeted_fault": "palm",
+      "states": {
+        "thumb": "rest",
+        "palm": "fault",
+        "motion": "rest",
+        "contact": "rest"
+      }
+    },
+    {
+      "targeted_fault": "motion",
+      "states": {
+        "thumb": "rest",
+        "palm": "rest",
+        "motion": "fault",
+        "contact": "rest"
+      }
+    },
+    {
+      "targeted_fault": "contact",
+      "states": {
+        "thumb": "rest",
+        "palm": "rest",
+        "motion": "rest",
+        "contact": "fault"
+      }
+    },
+    "Contact sensor is visible inside SVG and keyboard accessible",
+    "High pressure orange, not a fault",
+    {
+      "phyphox_missing": {
+        "thumb": "unknown",
+        "palm": "unknown",
+        "motion": "active",
+        "contact": "unknown"
+      }
+    },
+    {
+      "paused": {
+        "thumb": "unknown",
+        "palm": "unknown",
+        "motion": "unknown",
+        "contact": "unknown"
+      }
+    },
+    "Real local contact fault with pause/resume, invalid window and no MQTT",
+    "Real normal contact green",
+    "Real normal contact blue after hand absence; no future samples or events"
+  ],
+  "screenshots": [
+    "E:/TP M3 3/dashboards/verification/simulator-visual-live/contact-fault-1440.png",
+    "E:/TP M3 3/dashboards/verification/simulator-visual-live/contact-fault-768.png",
+    "E:/TP M3 3/dashboards/verification/simulator-visual-live/contact-fault-390.png",
+    "E:/TP M3 3/dashboards/verification/simulator-visual-live/contact-fault-320.png"
+  ],
+  "status": "PASS",
+  "errors": []
+}

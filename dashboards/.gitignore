@@ -1,0 +1,12 @@
+# Local environments, credentials and generated execution data
+.runtime/
+.venv/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.otp
+*.db
+*.sqlite*
+
+# Temporary compiler/test workspaces; keep the curated verification reports
+verification/*pytest-temp*/

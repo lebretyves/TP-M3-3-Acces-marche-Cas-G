@@ -1,0 +1,20 @@
+{
+  "test_kind": "HTTP contrôlé, calculs fournis par le moteur réel; aucune publication MQTT",
+  "checks": [
+    "Catalogue réel et état initial sans émission ni requête POST",
+    "initial: 4 widths, no overflow, targets 44px",
+    "preview: 4 widths, no overflow, targets 44px",
+    "Rejeu sans hypothèses : valeurs invalides, aucun appui inventé",
+    "Hypothèses explicites transmises sans conversion balance",
+    "replay: 4 widths, no overflow, targets 44px",
+    "manual: 4 widths, no overflow, targets 44px",
+    "Coupure permanente et durée 125 s expliquées",
+    "Démarrage/pause/reprise et reçu broker distingué de la base",
+    "running: 4 widths, no overflow, targets 44px",
+    "Arrêt puis rapport disponible",
+    "Refus CSRF affiché durablement",
+    "Sans configuration MQTT : aperçu possible, envoi désactivé",
+    "Références balance séparées et valeurs issues du catalogue"
+  ],
+  "errors": []
+}

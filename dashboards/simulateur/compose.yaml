@@ -1,0 +1,37 @@
+# Overlay: all relative paths resolve against application/infra/compose.yaml.
+services:
+  simulator:
+    image: skelivia-local:development
+    profiles: [simulator]
+    working_dir: /srv/simulator
+    command: [python, -m, uvicorn, server:create_app, --factory, --host, 0.0.0.0, --port, '8774', --no-access-log]
+    ports: ['127.0.0.1:8774:8774']
+    networks: [private, edge]
+    read_only: true
+    tmpfs: ['/tmp:size=64m,mode=1777']
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    environment:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      SIMULATOR_CONFIG_FILE: /run/simulator/transport.json
+      SIMULATOR_OUTPUT_DIR: /run/simulator-runs
+      SIMULATOR_MQTT_HOST: broker
+      SIMULATOR_MQTT_PORT: '8883'
+      SIMULATOR_MQTT_CA_FILE: /run/pki/ca.pem
+      SIMULATOR_MQTT_CERT_FILE: /run/device/cert.pem
+      SIMULATOR_MQTT_KEY_FILE: /run/device/key.pem
+      SIMULATOR_BRAND_DIR: /srv/brand
+      SIMULATOR_PUBLIC_URL: https://localhost:8443/simulateur/
+    volumes:
+      - ../../simulateur:/srv/simulator:ro
+      - ../../simulateur/.runtime/transport.json:/run/simulator/transport.json:ro
+      - ../../simulateur/.runtime/runs:/run/simulator-runs
+      - ../app/static:/srv/brand:ro
+      - ../.runtime/infra/pki/public:/run/pki:ro
+      - ../.runtime/infra/pki/skm-001:/run/device:ro
+    depends_on:
+      broker: {condition: service_started}
+      worker: {condition: service_started}
+    restart: unless-stopped
+

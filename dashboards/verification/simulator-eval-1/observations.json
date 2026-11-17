@@ -1,0 +1,1819 @@
+[
+  {
+    "name": "initial",
+    "width": 1440,
+    "overflow": 0,
+    "text": "OBSERVEZ AVANT DE TRANSMETTRE\n\nDES SCÉNARIOS.\nDES MESURES VÉRIFIABLES.\n\nPréparez un usage de souris, examinez les fenêtres calculées, puis lancez leur transmission en temps réel.\n\nCible fixe du banc\ndemo-device-a\nBroker non connecté\nTransmission vers la souris fictive Alice. Accusé MQTT distinct de l’enregistrement en base.\n01\nConfigurer la source\n\nUn aperçu ne transmet aucune mesure.\n\nParamètres de simulation\nSource des données\nScénarios Wokwi\nRejeu phyphox\nScénario\nRéglage manuel\nUsage normal\nUsage intensif\nAppuis élevés\nContact immobile\nMesures invalides\nCoupure réseau\n\nUne séquence d’usage synthétique définie par le moteur Wokwi.\n\nDurée de l’exécution\nsecondes\n\nDe 5 à 300 secondes, par fenêtres de 5 secondes.\n\nCalculer un aperçu\nEnvoyer en temps réel\n→\n\nL’envoi utilise uniquement la cible de test configurée par le banc.\n\n02\nExécution & résultats\n\nFenêtres traitées par le service, au fil de l’exécution.\n\nExécution terminée\n10 / 10 s\n2 fenêtre(s) traitée(s)\nMettre en pause\nArrêter\nTélécharger le rapport\n\nUne pause abandonne la fenêtre incomplète. La reprise démarre une nouvelle fenêtre de 5 secondes.\n\n2\nfenêtres acceptées par le broker\n0\nfenêtres non transmises\n\nUne acceptation par le broker confirme la réception MQTT. Elle ne prouve pas l’enregistrement en base ni la mise à jour du dashboard.\n\nChronologie des fenêtres\n2 fenêtres affichées · liste limitée à 60\nFenêtre\tContact\tMouvements\tAppuis relatifs\tQualité\tTransmission\n0–5 s\nFenêtre 0\n\t5 s\t3 épisode(s)\tPouce : 24,42 %\nPaume : 29,3 %\n\tValide\tAccepté par le broker\n5–10 s\nFenêtre 1\n\t3 s\t3 épisode(s)\tPouce : 14,65 %\nPaume : 17,58 %\n\tValide\tAccepté par le broker\nÉvénements de démonstration\nÉpisode de mouvement confirmé\nÀ 0,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 2,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 3,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 5,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 6,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 8,35 s · durée 0,7 s\nAttendu / observé\n\nAttentes du scénario complet, calculées par le même moteur. Les observations ci-dessous concernent uniquement le simulateur et le broker, pas le dashboard.\n\nIndicateur\tAttendu\tObservé à présent\nFenêtres à transmettre\t2\t2 acceptées par le broker\nÉpisodes gyro confirmés\t6\t6 dans le moteur\nProvenance de cette exécution\n\nCOMPRENDRE LES SOURCES\n\nMesures enregistrées, hypothèses séparées.\n\nLes relevés à la balance restent une référence exploratoire. Ils ne calibrent pas les capteurs de la souris.\n\nRéférences balance\nSources et limites du rejeu",
+    "smallTargets": [],
+    "fonts": [
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "intro",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      }
+    ]
+  },
+  {
+    "name": "normal-preview",
+    "width": 1440,
+    "overflow": 0,
+    "text": "OBSERVEZ AVANT DE TRANSMETTRE\n\nDES SCÉNARIOS.\nDES MESURES VÉRIFIABLES.\n\nPréparez un usage de souris, examinez les fenêtres calculées, puis lancez leur transmission en temps réel.\n\nCible fixe du banc\ndemo-device-a\nBroker non connecté\nTransmission vers la souris fictive Alice. Accusé MQTT distinct de l’enregistrement en base.\n01\nConfigurer la source\n\nUn aperçu ne transmet aucune mesure.\n\nParamètres de simulation\nSource des données\nScénarios Wokwi\nRejeu phyphox\nScénario\nRéglage manuel\nUsage normal\nUsage intensif\nAppuis élevés\nContact immobile\nMesures invalides\nCoupure réseau\n\nUne séquence d’usage synthétique définie par le moteur Wokwi.\n\nDurée de l’exécution\nsecondes\n\nDe 5 à 300 secondes, par fenêtres de 5 secondes.\n\nCalculer un aperçu\nEnvoyer en temps réel\n→\n\nL’envoi utilise uniquement la cible de test configurée par le banc.\n\n02\nExécution & résultats\n\nAperçu calculé par le moteur, sans émission.\n\nAperçu · sans émission\n6\nfenêtres valides\n0\nfenêtres invalides\n12\népisodes gyro confirmés\n\nAperçu uniquement : aucune fenêtre de cette liste n’a été envoyée au broker.\n\nChronologie des fenêtres\n6 fenêtres affichées · liste limitée à 60\nFenêtre\tContact\tMouvements\tAppuis relatifs\tQualité\tTransmission\n0–5 s\nFenêtre 0\n\t5 s\t3 épisode(s)\tPouce : 24,42 %\nPaume : 29,3 %\n\tValide\tAperçu · non envoyé\n5–10 s\nFenêtre 1\n\t3 s\t3 épisode(s)\tPouce : 14,65 %\nPaume : 17,58 %\n\tValide\tAperçu · non envoyé\n10–15 s\nFenêtre 2\n\t1 s\t0 épisode(s)\tPouce : 4,88 %\nPaume : 5,86 %\n\tValide\tAperçu · non envoyé\n15–20 s\nFenêtre 3\n\t5 s\t3 épisode(s)\tPouce : 24,42 %\nPaume : 29,3 %\n\tValide\tAperçu · non envoyé\n20–25 s\nFenêtre 4\n\t2 s\t2 épisode(s)\tPouce : 9,77 %\nPaume : 11,72 %\n\tValide\tAperçu · non envoyé\n25–30 s\nFenêtre 5\n\t2 s\t1 épisode(s)\tPouce : 9,77 %\nPaume : 11,72 %\n\tValide\tAperçu · non envoyé\nÉvénements de démonstration\nÉpisode de mouvement confirmé\nÀ 0,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 2,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 3,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 5,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 6,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 8,35 s · durée 0,7 s\nAbsence de contact\nÀ 10,95 s\nÉpisode de mouvement confirmé\nÀ 15,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 17,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 18,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 20,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 21,85 s · durée 0,7 s\nAbsence de contact\nÀ 24,95 s\nÉpisode de mouvement confirmé\nÀ 29,35 s · durée 0,7 s\nProvenance de cette exécution\n\nCOMPRENDRE LES SOURCES\n\nMesures enregistrées, hypothèses séparées.\n\nLes relevés à la balance restent une référence exploratoire. Ils ne calibrent pas les capteurs de la souris.\n\nRéférences balance\nSources et limites du rejeu",
+    "smallTargets": [],
+    "fonts": [
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "intro",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      }
+    ]
+  },
+  {
+    "name": "normal-preview",
+    "width": 768,
+    "overflow": 0,
+    "text": "OBSERVEZ AVANT DE TRANSMETTRE\n\nDES SCÉNARIOS.\nDES MESURES VÉRIFIABLES.\n\nPréparez un usage de souris, examinez les fenêtres calculées, puis lancez leur transmission en temps réel.\n\nCible fixe du banc\ndemo-device-a\nBroker non connecté\nTransmission vers la souris fictive Alice. Accusé MQTT distinct de l’enregistrement en base.\n01\nConfigurer la source\n\nUn aperçu ne transmet aucune mesure.\n\nParamètres de simulation\nSource des données\nScénarios Wokwi\nRejeu phyphox\nScénario\nRéglage manuel\nUsage normal\nUsage intensif\nAppuis élevés\nContact immobile\nMesures invalides\nCoupure réseau\n\nUne séquence d’usage synthétique définie par le moteur Wokwi.\n\nDurée de l’exécution\nsecondes\n\nDe 5 à 300 secondes, par fenêtres de 5 secondes.\n\nCalculer un aperçu\nEnvoyer en temps réel\n→\n\nL’envoi utilise uniquement la cible de test configurée par le banc.\n\n02\nExécution & résultats\n\nAperçu calculé par le moteur, sans émission.\n\nAperçu · sans émission\n6\nfenêtres valides\n0\nfenêtres invalides\n12\népisodes gyro confirmés\n\nAperçu uniquement : aucune fenêtre de cette liste n’a été envoyée au broker.\n\nChronologie des fenêtres\n6 fenêtres affichées · liste limitée à 60\nFenêtre\tContact\tMouvements\tAppuis relatifs\tQualité\tTransmission\n0–5 s\nFenêtre 0\n\t5 s\t3 épisode(s)\tPouce : 24,42 %\nPaume : 29,3 %\n\tValide\tAperçu · non envoyé\n5–10 s\nFenêtre 1\n\t3 s\t3 épisode(s)\tPouce : 14,65 %\nPaume : 17,58 %\n\tValide\tAperçu · non envoyé\n10–15 s\nFenêtre 2\n\t1 s\t0 épisode(s)\tPouce : 4,88 %\nPaume : 5,86 %\n\tValide\tAperçu · non envoyé\n15–20 s\nFenêtre 3\n\t5 s\t3 épisode(s)\tPouce : 24,42 %\nPaume : 29,3 %\n\tValide\tAperçu · non envoyé\n20–25 s\nFenêtre 4\n\t2 s\t2 épisode(s)\tPouce : 9,77 %\nPaume : 11,72 %\n\tValide\tAperçu · non envoyé\n25–30 s\nFenêtre 5\n\t2 s\t1 épisode(s)\tPouce : 9,77 %\nPaume : 11,72 %\n\tValide\tAperçu · non envoyé\nÉvénements de démonstration\nÉpisode de mouvement confirmé\nÀ 0,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 2,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 3,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 5,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 6,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 8,35 s · durée 0,7 s\nAbsence de contact\nÀ 10,95 s\nÉpisode de mouvement confirmé\nÀ 15,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 17,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 18,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 20,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 21,85 s · durée 0,7 s\nAbsence de contact\nÀ 24,95 s\nÉpisode de mouvement confirmé\nÀ 29,35 s · durée 0,7 s\nProvenance de cette exécution\n\nCOMPRENDRE LES SOURCES\n\nMesures enregistrées, hypothèses séparées.\n\nLes relevés à la balance restent une référence exploratoire. Ils ne calibrent pas les capteurs de la souris.\n\nRéférences balance\nSources et limites du rejeu",
+    "smallTargets": [],
+    "fonts": [
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "intro",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      }
+    ]
+  },
+  {
+    "name": "normal-preview",
+    "width": 390,
+    "overflow": 0,
+    "text": "OBSERVEZ AVANT DE TRANSMETTRE\n\nDES SCÉNARIOS.\nDES MESURES VÉRIFIABLES.\n\nPréparez un usage de souris, examinez les fenêtres calculées, puis lancez leur transmission en temps réel.\n\nCible fixe du banc\ndemo-device-a\nBroker non connecté\nTransmission vers la souris fictive Alice. Accusé MQTT distinct de l’enregistrement en base.\n01\nConfigurer la source\n\nUn aperçu ne transmet aucune mesure.\n\nParamètres de simulation\nSource des données\nScénarios Wokwi\nRejeu phyphox\nScénario\nRéglage manuel\nUsage normal\nUsage intensif\nAppuis élevés\nContact immobile\nMesures invalides\nCoupure réseau\n\nUne séquence d’usage synthétique définie par le moteur Wokwi.\n\nDurée de l’exécution\nsecondes\n\nDe 5 à 300 secondes, par fenêtres de 5 secondes.\n\nCalculer un aperçu\nEnvoyer en temps réel\n→\n\nL’envoi utilise uniquement la cible de test configurée par le banc.\n\n02\nExécution & résultats\n\nAperçu calculé par le moteur, sans émission.\n\nAperçu · sans émission\n6\nfenêtres valides\n0\nfenêtres invalides\n12\népisodes gyro confirmés\n\nAperçu uniquement : aucune fenêtre de cette liste n’a été envoyée au broker.\n\nChronologie des fenêtres\n6 fenêtres affichées · liste limitée à 60\nFaites défiler le tableau →\nFenêtre\tContact\tMouvements\tAppuis relatifs\tQualité\tTransmission\n0–5 s\nFenêtre 0\n\t5 s\t3 épisode(s)\tPouce : 24,42 %\nPaume : 29,3 %\n\tValide\tAperçu · non envoyé\n5–10 s\nFenêtre 1\n\t3 s\t3 épisode(s)\tPouce : 14,65 %\nPaume : 17,58 %\n\tValide\tAperçu · non envoyé\n10–15 s\nFenêtre 2\n\t1 s\t0 épisode(s)\tPouce : 4,88 %\nPaume : 5,86 %\n\tValide\tAperçu · non envoyé\n15–20 s\nFenêtre 3\n\t5 s\t3 épisode(s)\tPouce : 24,42 %\nPaume : 29,3 %\n\tValide\tAperçu · non envoyé\n20–25 s\nFenêtre 4\n\t2 s\t2 épisode(s)\tPouce : 9,77 %\nPaume : 11,72 %\n\tValide\tAperçu · non envoyé\n25–30 s\nFenêtre 5\n\t2 s\t1 épisode(s)\tPouce : 9,77 %\nPaume : 11,72 %\n\tValide\tAperçu · non envoyé\nÉvénements de démonstration\nÉpisode de mouvement confirmé\nÀ 0,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 2,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 3,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 5,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 6,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 8,35 s · durée 0,7 s\nAbsence de contact\nÀ 10,95 s\nÉpisode de mouvement confirmé\nÀ 15,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 17,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 18,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 20,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 21,85 s · durée 0,7 s\nAbsence de contact\nÀ 24,95 s\nÉpisode de mouvement confirmé\nÀ 29,35 s · durée 0,7 s\nProvenance de cette exécution\n\nCOMPRENDRE LES SOURCES\n\nMesures enregistrées, hypothèses séparées.\n\nLes relevés à la balance restent une référence exploratoire. Ils ne calibrent pas les capteurs de la souris.\n\nRéférences balance\nSources et limites du rejeu",
+    "smallTargets": [],
+    "fonts": [
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "intro",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      }
+    ]
+  },
+  {
+    "name": "normal-preview",
+    "width": 375,
+    "overflow": 0,
+    "text": "OBSERVEZ AVANT DE TRANSMETTRE\n\nDES SCÉNARIOS.\nDES MESURES VÉRIFIABLES.\n\nPréparez un usage de souris, examinez les fenêtres calculées, puis lancez leur transmission en temps réel.\n\nCible fixe du banc\ndemo-device-a\nBroker non connecté\nTransmission vers la souris fictive Alice. Accusé MQTT distinct de l’enregistrement en base.\n01\nConfigurer la source\n\nUn aperçu ne transmet aucune mesure.\n\nParamètres de simulation\nSource des données\nScénarios Wokwi\nRejeu phyphox\nScénario\nRéglage manuel\nUsage normal\nUsage intensif\nAppuis élevés\nContact immobile\nMesures invalides\nCoupure réseau\n\nUne séquence d’usage synthétique définie par le moteur Wokwi.\n\nDurée de l’exécution\nsecondes\n\nDe 5 à 300 secondes, par fenêtres de 5 secondes.\n\nCalculer un aperçu\nEnvoyer en temps réel\n→\n\nL’envoi utilise uniquement la cible de test configurée par le banc.\n\n02\nExécution & résultats\n\nAperçu calculé par le moteur, sans émission.\n\nAperçu · sans émission\n6\nfenêtres valides\n0\nfenêtres invalides\n12\népisodes gyro confirmés\n\nAperçu uniquement : aucune fenêtre de cette liste n’a été envoyée au broker.\n\nChronologie des fenêtres\n6 fenêtres affichées · liste limitée à 60\nFaites défiler le tableau →\nFenêtre\tContact\tMouvements\tAppuis relatifs\tQualité\tTransmission\n0–5 s\nFenêtre 0\n\t5 s\t3 épisode(s)\tPouce : 24,42 %\nPaume : 29,3 %\n\tValide\tAperçu · non envoyé\n5–10 s\nFenêtre 1\n\t3 s\t3 épisode(s)\tPouce : 14,65 %\nPaume : 17,58 %\n\tValide\tAperçu · non envoyé\n10–15 s\nFenêtre 2\n\t1 s\t0 épisode(s)\tPouce : 4,88 %\nPaume : 5,86 %\n\tValide\tAperçu · non envoyé\n15–20 s\nFenêtre 3\n\t5 s\t3 épisode(s)\tPouce : 24,42 %\nPaume : 29,3 %\n\tValide\tAperçu · non envoyé\n20–25 s\nFenêtre 4\n\t2 s\t2 épisode(s)\tPouce : 9,77 %\nPaume : 11,72 %\n\tValide\tAperçu · non envoyé\n25–30 s\nFenêtre 5\n\t2 s\t1 épisode(s)\tPouce : 9,77 %\nPaume : 11,72 %\n\tValide\tAperçu · non envoyé\nÉvénements de démonstration\nÉpisode de mouvement confirmé\nÀ 0,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 2,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 3,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 5,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 6,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 8,35 s · durée 0,7 s\nAbsence de contact\nÀ 10,95 s\nÉpisode de mouvement confirmé\nÀ 15,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 17,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 18,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 20,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 21,85 s · durée 0,7 s\nAbsence de contact\nÀ 24,95 s\nÉpisode de mouvement confirmé\nÀ 29,35 s · durée 0,7 s\nProvenance de cette exécution\n\nCOMPRENDRE LES SOURCES\n\nMesures enregistrées, hypothèses séparées.\n\nLes relevés à la balance restent une référence exploratoire. Ils ne calibrent pas les capteurs de la souris.\n\nRéférences balance\nSources et limites du rejeu",
+    "smallTargets": [],
+    "fonts": [
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "intro",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      }
+    ]
+  },
+  {
+    "name": "normal-preview",
+    "width": 320,
+    "overflow": 0,
+    "text": "OBSERVEZ AVANT DE TRANSMETTRE\n\nDES SCÉNARIOS.\nDES MESURES VÉRIFIABLES.\n\nPréparez un usage de souris, examinez les fenêtres calculées, puis lancez leur transmission en temps réel.\n\nCible fixe du banc\ndemo-device-a\nBroker non connecté\nTransmission vers la souris fictive Alice. Accusé MQTT distinct de l’enregistrement en base.\n01\nConfigurer la source\n\nUn aperçu ne transmet aucune mesure.\n\nParamètres de simulation\nSource des données\nScénarios Wokwi\nRejeu phyphox\nScénario\nRéglage manuel\nUsage normal\nUsage intensif\nAppuis élevés\nContact immobile\nMesures invalides\nCoupure réseau\n\nUne séquence d’usage synthétique définie par le moteur Wokwi.\n\nDurée de l’exécution\nsecondes\n\nDe 5 à 300 secondes, par fenêtres de 5 secondes.\n\nCalculer un aperçu\nEnvoyer en temps réel\n→\n\nL’envoi utilise uniquement la cible de test configurée par le banc.\n\n02\nExécution & résultats\n\nAperçu calculé par le moteur, sans émission.\n\nAperçu · sans émission\n6\nfenêtres valides\n0\nfenêtres invalides\n12\népisodes gyro confirmés\n\nAperçu uniquement : aucune fenêtre de cette liste n’a été envoyée au broker.\n\nChronologie des fenêtres\n6 fenêtres affichées · liste limitée à 60\nFaites défiler le tableau →\nFenêtre\tContact\tMouvements\tAppuis relatifs\tQualité\tTransmission\n0–5 s\nFenêtre 0\n\t5 s\t3 épisode(s)\tPouce : 24,42 %\nPaume : 29,3 %\n\tValide\tAperçu · non envoyé\n5–10 s\nFenêtre 1\n\t3 s\t3 épisode(s)\tPouce : 14,65 %\nPaume : 17,58 %\n\tValide\tAperçu · non envoyé\n10–15 s\nFenêtre 2\n\t1 s\t0 épisode(s)\tPouce : 4,88 %\nPaume : 5,86 %\n\tValide\tAperçu · non envoyé\n15–20 s\nFenêtre 3\n\t5 s\t3 épisode(s)\tPouce : 24,42 %\nPaume : 29,3 %\n\tValide\tAperçu · non envoyé\n20–25 s\nFenêtre 4\n\t2 s\t2 épisode(s)\tPouce : 9,77 %\nPaume : 11,72 %\n\tValide\tAperçu · non envoyé\n25–30 s\nFenêtre 5\n\t2 s\t1 épisode(s)\tPouce : 9,77 %\nPaume : 11,72 %\n\tValide\tAperçu · non envoyé\nÉvénements de démonstration\nÉpisode de mouvement confirmé\nÀ 0,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 2,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 3,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 5,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 6,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 8,35 s · durée 0,7 s\nAbsence de contact\nÀ 10,95 s\nÉpisode de mouvement confirmé\nÀ 15,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 17,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 18,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 20,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 21,85 s · durée 0,7 s\nAbsence de contact\nÀ 24,95 s\nÉpisode de mouvement confirmé\nÀ 29,35 s · durée 0,7 s\nProvenance de cette exécution\n\nCOMPRENDRE LES SOURCES\n\nMesures enregistrées, hypothèses séparées.\n\nLes relevés à la balance restent une référence exploratoire. Ils ne calibrent pas les capteurs de la souris.\n\nRéférences balance\nSources et limites du rejeu",
+    "smallTargets": [],
+    "fonts": [
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "intro",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      }
+    ]
+  },
+  {
+    "name": "manual-configuration",
+    "width": 320,
+    "overflow": 0,
+    "text": "OBSERVEZ AVANT DE TRANSMETTRE\n\nDES SCÉNARIOS.\nDES MESURES VÉRIFIABLES.\n\nPréparez un usage de souris, examinez les fenêtres calculées, puis lancez leur transmission en temps réel.\n\nCible fixe du banc\ndemo-device-a\nBroker non connecté\nTransmission vers la souris fictive Alice. Accusé MQTT distinct de l’enregistrement en base.\n01\nConfigurer la source\n\nUn aperçu ne transmet aucune mesure.\n\nParamètres de simulation\nSource des données\nScénarios Wokwi\nRejeu phyphox\nScénario\nRéglage manuel\nUsage normal\nUsage intensif\nAppuis élevés\nContact immobile\nMesures invalides\nCoupure réseau\n\nFixez les valeurs synthétiques de chaque capteur.\n\nDurée de l’exécution\nsecondes\n\nDe 5 à 300 secondes, par fenêtres de 5 secondes.\n\nValeurs manuelles\n\nValeurs synthétiques constantes. Les ADC ne représentent pas une force physique.\n\nAccélération X · m/s²\nAccélération Y · m/s²\nAccélération Z · m/s²\nGyroscope X · rad/s\nGyroscope Y · rad/s\nGyroscope Z · rad/s\nPouce · ADC fictif\nPaume · ADC fictif\nContact avec la souris\nCalculer un aperçu\nEnvoyer en temps réel\n→\n\nL’envoi utilise uniquement la cible de test configurée par le banc.\n\n02\nExécution & résultats\n\nAperçu précédent : la configuration a changé. Recalculez pour la vérifier.\n\nAperçu · sans émission\n6\nfenêtres valides\n0\nfenêtres invalides\n12\népisodes gyro confirmés\n\nAperçu uniquement : aucune fenêtre de cette liste n’a été envoyée au broker.\n\nChronologie des fenêtres\n6 fenêtres affichées · liste limitée à 60\nFaites défiler le tableau →\nFenêtre\tContact\tMouvements\tAppuis relatifs\tQualité\tTransmission\n0–5 s\nFenêtre 0\n\t5 s\t3 épisode(s)\tPouce : 24,42 %\nPaume : 29,3 %\n\tValide\tAperçu · non envoyé\n5–10 s\nFenêtre 1\n\t3 s\t3 épisode(s)\tPouce : 14,65 %\nPaume : 17,58 %\n\tValide\tAperçu · non envoyé\n10–15 s\nFenêtre 2\n\t1 s\t0 épisode(s)\tPouce : 4,88 %\nPaume : 5,86 %\n\tValide\tAperçu · non envoyé\n15–20 s\nFenêtre 3\n\t5 s\t3 épisode(s)\tPouce : 24,42 %\nPaume : 29,3 %\n\tValide\tAperçu · non envoyé\n20–25 s\nFenêtre 4\n\t2 s\t2 épisode(s)\tPouce : 9,77 %\nPaume : 11,72 %\n\tValide\tAperçu · non envoyé\n25–30 s\nFenêtre 5\n\t2 s\t1 épisode(s)\tPouce : 9,77 %\nPaume : 11,72 %\n\tValide\tAperçu · non envoyé\nÉvénements de démonstration\nÉpisode de mouvement confirmé\nÀ 0,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 2,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 3,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 5,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 6,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 8,35 s · durée 0,7 s\nAbsence de contact\nÀ 10,95 s\nÉpisode de mouvement confirmé\nÀ 15,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 17,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 18,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 20,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 21,85 s · durée 0,7 s\nAbsence de contact\nÀ 24,95 s\nÉpisode de mouvement confirmé\nÀ 29,35 s · durée 0,7 s\nProvenance de cette exécution\n\nCOMPRENDRE LES SOURCES\n\nMesures enregistrées, hypothèses séparées.\n\nLes relevés à la balance restent une référence exploratoire. Ils ne calibrent pas les capteurs de la souris.\n\nRéférences balance\nSources et limites du rejeu",
+    "smallTargets": [],
+    "fonts": [
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "intro",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      }
+    ]
+  },
+  {
+    "name": "manual-preview",
+    "width": 1440,
+    "overflow": -15,
+    "text": "OBSERVEZ AVANT DE TRANSMETTRE\n\nDES SCÉNARIOS.\nDES MESURES VÉRIFIABLES.\n\nPréparez un usage de souris, examinez les fenêtres calculées, puis lancez leur transmission en temps réel.\n\nCible fixe du banc\ndemo-device-a\nBroker non connecté\nTransmission vers la souris fictive Alice. Accusé MQTT distinct de l’enregistrement en base.\n01\nConfigurer la source\n\nUn aperçu ne transmet aucune mesure.\n\nParamètres de simulation\nSource des données\nScénarios Wokwi\nRejeu phyphox\nScénario\nRéglage manuel\nUsage normal\nUsage intensif\nAppuis élevés\nContact immobile\nMesures invalides\nCoupure réseau\n\nFixez les valeurs synthétiques de chaque capteur.\n\nDurée de l’exécution\nsecondes\n\nDe 5 à 300 secondes, par fenêtres de 5 secondes.\n\nValeurs manuelles\n\nValeurs synthétiques constantes. Les ADC ne représentent pas une force physique.\n\nAccélération X · m/s²\nAccélération Y · m/s²\nAccélération Z · m/s²\nGyroscope X · rad/s\nGyroscope Y · rad/s\nGyroscope Z · rad/s\nPouce · ADC fictif\nPaume · ADC fictif\nContact avec la souris\nCalculer un aperçu\nEnvoyer en temps réel\n→\n\nL’envoi utilise uniquement la cible de test configurée par le banc.\n\n02\nExécution & résultats\n\nAperçu calculé par le moteur, sans émission.\n\nAperçu · sans émission\n6\nfenêtres valides\n0\nfenêtres invalides\n0\népisodes gyro confirmés\n\nAperçu uniquement : aucune fenêtre de cette liste n’a été envoyée au broker.\n\nChronologie des fenêtres\n6 fenêtres affichées · liste limitée à 60\nFenêtre\tContact\tMouvements\tAppuis relatifs\tQualité\tTransmission\n0–5 s\nFenêtre 0\n\t5 s\t0 épisode(s)\tPouce : 43,96 %\nPaume : 53,72 %\n\tValide\tAperçu · non envoyé\n5–10 s\nFenêtre 1\n\t5 s\t0 épisode(s)\tPouce : 43,96 %\nPaume : 53,72 %\n\tValide\tAperçu · non envoyé\n10–15 s\nFenêtre 2\n\t5 s\t0 épisode(s)\tPouce : 43,96 %\nPaume : 53,72 %\n\tValide\tAperçu · non envoyé\n15–20 s\nFenêtre 3\n\t5 s\t0 épisode(s)\tPouce : 43,96 %\nPaume : 53,72 %\n\tValide\tAperçu · non envoyé\n20–25 s\nFenêtre 4\n\t5 s\t0 épisode(s)\tPouce : 43,96 %\nPaume : 53,72 %\n\tValide\tAperçu · non envoyé\n25–30 s\nFenêtre 5\n\t5 s\t0 épisode(s)\tPouce : 43,96 %\nPaume : 53,72 %\n\tValide\tAperçu · non envoyé\nÉvénements de démonstration\nContact immobile\nÀ 9,95 s\nProvenance de cette exécution\n\nCOMPRENDRE LES SOURCES\n\nMesures enregistrées, hypothèses séparées.\n\nLes relevés à la balance restent une référence exploratoire. Ils ne calibrent pas les capteurs de la souris.\n\nRéférences balance\nSources et limites du rejeu",
+    "smallTargets": [],
+    "fonts": [
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "intro",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      }
+    ]
+  },
+  {
+    "name": "intensive-preview",
+    "width": 1440,
+    "overflow": 0,
+    "text": "OBSERVEZ AVANT DE TRANSMETTRE\n\nDES SCÉNARIOS.\nDES MESURES VÉRIFIABLES.\n\nPréparez un usage de souris, examinez les fenêtres calculées, puis lancez leur transmission en temps réel.\n\nCible fixe du banc\ndemo-device-a\nBroker non connecté\nTransmission vers la souris fictive Alice. Accusé MQTT distinct de l’enregistrement en base.\n01\nConfigurer la source\n\nUn aperçu ne transmet aucune mesure.\n\nParamètres de simulation\nSource des données\nScénarios Wokwi\nRejeu phyphox\nScénario\nRéglage manuel\nUsage normal\nUsage intensif\nAppuis élevés\nContact immobile\nMesures invalides\nCoupure réseau\n\nUne activité soutenue pour observer le calcul des épisodes de mouvement.\n\nDurée de l’exécution\nsecondes\n\nDe 5 à 300 secondes, par fenêtres de 5 secondes.\n\nCalculer un aperçu\nEnvoyer en temps réel\n→\n\nL’envoi utilise uniquement la cible de test configurée par le banc.\n\n02\nExécution & résultats\n\nAperçu calculé par le moteur, sans émission.\n\nAperçu · sans émission\n6\nfenêtres valides\n0\nfenêtres invalides\n35\népisodes gyro confirmés\n\nAperçu uniquement : aucune fenêtre de cette liste n’a été envoyée au broker.\n\nChronologie des fenêtres\n6 fenêtres affichées · liste limitée à 60\nFenêtre\tContact\tMouvements\tAppuis relatifs\tQualité\tTransmission\n0–5 s\nFenêtre 0\n\t5 s\t5 épisode(s)\tPouce : 24,42 %\nPaume : 24,42 %\n\tValide\tAperçu · non envoyé\n5–10 s\nFenêtre 1\n\t5 s\t6 épisode(s)\tPouce : 24,42 %\nPaume : 24,42 %\n\tValide\tAperçu · non envoyé\n10–15 s\nFenêtre 2\n\t5 s\t6 épisode(s)\tPouce : 24,42 %\nPaume : 24,42 %\n\tValide\tAperçu · non envoyé\n15–20 s\nFenêtre 3\n\t5 s\t6 épisode(s)\tPouce : 24,42 %\nPaume : 24,42 %\n\tValide\tAperçu · non envoyé\n20–25 s\nFenêtre 4\n\t5 s\t6 épisode(s)\tPouce : 24,42 %\nPaume : 24,42 %\n\tValide\tAperçu · non envoyé\n25–30 s\nFenêtre 5\n\t5 s\t6 épisode(s)\tPouce : 24,42 %\nPaume : 24,42 %\n\tValide\tAperçu · non envoyé\nÉvénements de démonstration\nÉpisode de mouvement confirmé\nÀ 0,75 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 1,65 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 2,5 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 3,35 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 4,2 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 5,05 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 5,9 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 6,75 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 7,6 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 8,45 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 9,3 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 10,15 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 11 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 11,85 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 12,7 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 13,55 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 14,4 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 15,25 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 16,1 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 16,95 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 17,8 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 18,65 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 19,5 s · durée 0,75 s\nRappel de pause\nÀ 19,95 s\nÉpisode de mouvement confirmé\nÀ 20,35 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 21,2 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 22,05 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 22,9 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 23,75 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 24,6 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 25,45 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 26,3 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 27,15 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 28 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 28,85 s · durée 0,75 s\nÉpisode de mouvement confirmé\nÀ 29,7 s · durée 0,75 s\nProvenance de cette exécution\n\nCOMPRENDRE LES SOURCES\n\nMesures enregistrées, hypothèses séparées.\n\nLes relevés à la balance restent une référence exploratoire. Ils ne calibrent pas les capteurs de la souris.\n\nRéférences balance\nSources et limites du rejeu",
+    "smallTargets": [],
+    "fonts": [
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "intro",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      }
+    ]
+  },
+  {
+    "name": "force-preview",
+    "width": 1440,
+    "overflow": 0,
+    "text": "OBSERVEZ AVANT DE TRANSMETTRE\n\nDES SCÉNARIOS.\nDES MESURES VÉRIFIABLES.\n\nPréparez un usage de souris, examinez les fenêtres calculées, puis lancez leur transmission en temps réel.\n\nCible fixe du banc\ndemo-device-a\nBroker non connecté\nTransmission vers la souris fictive Alice. Accusé MQTT distinct de l’enregistrement en base.\n01\nConfigurer la source\n\nUn aperçu ne transmet aucune mesure.\n\nParamètres de simulation\nSource des données\nScénarios Wokwi\nRejeu phyphox\nScénario\nRéglage manuel\nUsage normal\nUsage intensif\nAppuis élevés\nContact immobile\nMesures invalides\nCoupure réseau\n\nDes appuis ADC fictifs pour vérifier les événements de démonstration.\n\nDurée de l’exécution\nsecondes\n\nDe 5 à 300 secondes, par fenêtres de 5 secondes.\n\nCalculer un aperçu\nEnvoyer en temps réel\n→\n\nL’envoi utilise uniquement la cible de test configurée par le banc.\n\n02\nExécution & résultats\n\nAperçu calculé par le moteur, sans émission.\n\nAperçu · sans émission\n6\nfenêtres valides\n0\nfenêtres invalides\n20\népisodes gyro confirmés\n\nAperçu uniquement : aucune fenêtre de cette liste n’a été envoyée au broker.\n\nChronologie des fenêtres\n6 fenêtres affichées · liste limitée à 60\nFenêtre\tContact\tMouvements\tAppuis relatifs\tQualité\tTransmission\n0–5 s\nFenêtre 0\n\t5 s\t3 épisode(s)\tPouce : 85,47 %\nPaume : 80,59 %\n\tValide\tAperçu · non envoyé\n5–10 s\nFenêtre 1\n\t5 s\t4 épisode(s)\tPouce : 85,47 %\nPaume : 80,59 %\n\tValide\tAperçu · non envoyé\n10–15 s\nFenêtre 2\n\t5 s\t3 épisode(s)\tPouce : 85,47 %\nPaume : 80,59 %\n\tValide\tAperçu · non envoyé\n15–20 s\nFenêtre 3\n\t5 s\t3 épisode(s)\tPouce : 85,47 %\nPaume : 80,59 %\n\tValide\tAperçu · non envoyé\n20–25 s\nFenêtre 4\n\t5 s\t4 épisode(s)\tPouce : 85,47 %\nPaume : 80,59 %\n\tValide\tAperçu · non envoyé\n25–30 s\nFenêtre 5\n\t5 s\t3 épisode(s)\tPouce : 85,47 %\nPaume : 80,59 %\n\tValide\tAperçu · non envoyé\nÉvénements de démonstration\nÉpisode de mouvement confirmé\nÀ 0,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 2,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 3,85 s · durée 0,7 s\nAppui élevé\nÀ 4,95 s\nÉpisode de mouvement confirmé\nÀ 5,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 6,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 8,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 9,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 11,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 12,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 14,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 15,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 17,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 18,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 20,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 21,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 23,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 24,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 26,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 27,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 29,35 s · durée 0,7 s\nProvenance de cette exécution\n\nCOMPRENDRE LES SOURCES\n\nMesures enregistrées, hypothèses séparées.\n\nLes relevés à la balance restent une référence exploratoire. Ils ne calibrent pas les capteurs de la souris.\n\nRéférences balance\nSources et limites du rejeu",
+    "smallTargets": [],
+    "fonts": [
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "intro",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      }
+    ]
+  },
+  {
+    "name": "immobile-preview",
+    "width": 1440,
+    "overflow": 0,
+    "text": "OBSERVEZ AVANT DE TRANSMETTRE\n\nDES SCÉNARIOS.\nDES MESURES VÉRIFIABLES.\n\nPréparez un usage de souris, examinez les fenêtres calculées, puis lancez leur transmission en temps réel.\n\nCible fixe du banc\ndemo-device-a\nBroker non connecté\nTransmission vers la souris fictive Alice. Accusé MQTT distinct de l’enregistrement en base.\n01\nConfigurer la source\n\nUn aperçu ne transmet aucune mesure.\n\nParamètres de simulation\nSource des données\nScénarios Wokwi\nRejeu phyphox\nScénario\nRéglage manuel\nUsage normal\nUsage intensif\nAppuis élevés\nContact immobile\nMesures invalides\nCoupure réseau\n\nUne séquence de contact avec peu de mouvement.\n\nDurée de l’exécution\nsecondes\n\nDe 5 à 300 secondes, par fenêtres de 5 secondes.\n\nCalculer un aperçu\nEnvoyer en temps réel\n→\n\nL’envoi utilise uniquement la cible de test configurée par le banc.\n\n02\nExécution & résultats\n\nAperçu calculé par le moteur, sans émission.\n\nAperçu · sans émission\n6\nfenêtres valides\n0\nfenêtres invalides\n0\népisodes gyro confirmés\n\nAperçu uniquement : aucune fenêtre de cette liste n’a été envoyée au broker.\n\nChronologie des fenêtres\n6 fenêtres affichées · liste limitée à 60\nFenêtre\tContact\tMouvements\tAppuis relatifs\tQualité\tTransmission\n0–5 s\nFenêtre 0\n\t5 s\t0 épisode(s)\tPouce : 24,42 %\nPaume : 24,42 %\n\tValide\tAperçu · non envoyé\n5–10 s\nFenêtre 1\n\t5 s\t0 épisode(s)\tPouce : 24,42 %\nPaume : 24,42 %\n\tValide\tAperçu · non envoyé\n10–15 s\nFenêtre 2\n\t2 s\t0 épisode(s)\tPouce : 9,77 %\nPaume : 9,77 %\n\tValide\tAperçu · non envoyé\n15–20 s\nFenêtre 3\n\t0 s\t0 épisode(s)\tPouce : 0 %\nPaume : 0 %\n\tValide\tAperçu · non envoyé\n20–25 s\nFenêtre 4\n\t1 s\t0 épisode(s)\tPouce : 4,88 %\nPaume : 4,88 %\n\tValide\tAperçu · non envoyé\n25–30 s\nFenêtre 5\n\t5 s\t0 épisode(s)\tPouce : 24,42 %\nPaume : 24,42 %\n\tValide\tAperçu · non envoyé\nÉvénements de démonstration\nContact immobile\nÀ 9,95 s\nAbsence de contact\nÀ 14,95 s\nProvenance de cette exécution\n\nCOMPRENDRE LES SOURCES\n\nMesures enregistrées, hypothèses séparées.\n\nLes relevés à la balance restent une référence exploratoire. Ils ne calibrent pas les capteurs de la souris.\n\nRéférences balance\nSources et limites du rejeu",
+    "smallTargets": [],
+    "fonts": [
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "intro",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      }
+    ]
+  },
+  {
+    "name": "invalid-preview",
+    "width": 1440,
+    "overflow": 0,
+    "text": "OBSERVEZ AVANT DE TRANSMETTRE\n\nDES SCÉNARIOS.\nDES MESURES VÉRIFIABLES.\n\nPréparez un usage de souris, examinez les fenêtres calculées, puis lancez leur transmission en temps réel.\n\nCible fixe du banc\ndemo-device-a\nBroker non connecté\nTransmission vers la souris fictive Alice. Accusé MQTT distinct de l’enregistrement en base.\n01\nConfigurer la source\n\nUn aperçu ne transmet aucune mesure.\n\nParamètres de simulation\nSource des données\nScénarios Wokwi\nRejeu phyphox\nScénario\nRéglage manuel\nUsage normal\nUsage intensif\nAppuis élevés\nContact immobile\nMesures invalides\nCoupure réseau\n\nVérifiez comment les fenêtres non exploitables sont signalées.\n\nDurée de l’exécution\nsecondes\n\nDe 5 à 300 secondes, par fenêtres de 5 secondes.\n\nCalculer un aperçu\nEnvoyer en temps réel\n→\n\nL’envoi utilise uniquement la cible de test configurée par le banc.\n\n02\nExécution & résultats\n\nAperçu calculé par le moteur, sans émission.\n\nAperçu · sans émission\n0\nfenêtres valides\n6\nfenêtres invalides\n0\népisodes gyro confirmés\n\nAperçu uniquement : aucune fenêtre de cette liste n’a été envoyée au broker.\n\nChronologie des fenêtres\n6 fenêtres affichées · liste limitée à 60\nFenêtre\tContact\tMouvements\tAppuis relatifs\tQualité\tTransmission\n0–5 s\nFenêtre 0\n\t—\t—\tPouce : —\nPaume : —\n\tInvalide\tAperçu · non envoyé\n5–10 s\nFenêtre 1\n\t—\t—\tPouce : —\nPaume : —\n\tInvalide\tAperçu · non envoyé\n10–15 s\nFenêtre 2\n\t—\t—\tPouce : —\nPaume : —\n\tInvalide\tAperçu · non envoyé\n15–20 s\nFenêtre 3\n\t—\t—\tPouce : —\nPaume : —\n\tInvalide\tAperçu · non envoyé\n20–25 s\nFenêtre 4\n\t—\t—\tPouce : —\nPaume : —\n\tInvalide\tAperçu · non envoyé\n25–30 s\nFenêtre 5\n\t—\t—\tPouce : —\nPaume : —\n\tInvalide\tAperçu · non envoyé\nProvenance de cette exécution\n\nCOMPRENDRE LES SOURCES\n\nMesures enregistrées, hypothèses séparées.\n\nLes relevés à la balance restent une référence exploratoire. Ils ne calibrent pas les capteurs de la souris.\n\nRéférences balance\nSources et limites du rejeu",
+    "smallTargets": [],
+    "fonts": [
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "intro",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      }
+    ]
+  },
+  {
+    "name": "network_cut-preview",
+    "width": 390,
+    "overflow": 0,
+    "text": "OBSERVEZ AVANT DE TRANSMETTRE\n\nDES SCÉNARIOS.\nDES MESURES VÉRIFIABLES.\n\nPréparez un usage de souris, examinez les fenêtres calculées, puis lancez leur transmission en temps réel.\n\nCible fixe du banc\ndemo-device-a\nBroker non connecté\nTransmission vers la souris fictive Alice. Accusé MQTT distinct de l’enregistrement en base.\n01\nConfigurer la source\n\nUn aperçu ne transmet aucune mesure.\n\nParamètres de simulation\nSource des données\nScénarios Wokwi\nRejeu phyphox\nScénario\nRéglage manuel\nUsage normal\nUsage intensif\nAppuis élevés\nContact immobile\nMesures invalides\nCoupure réseau\n\nAucune transmission pendant cette exécution. Lancez ensuite un scénario Normal pour reprendre les envois.\n\nDurée de l’exécution\nsecondes\n\nDe 5 à 300 secondes, par fenêtres de 5 secondes.\n\nAucune fenêtre n’est transmise pendant ce scénario. Choisissez 125 secondes pour examiner le seuil de données anciennes de 120 secondes, puis lancez un scénario Normal pour reprendre. Une coupure courte ne prouve pas ce seuil.\n\nCalculer un aperçu\nEnvoyer en temps réel\n→\n\nL’envoi utilise uniquement la cible de test configurée par le banc.\n\n02\nExécution & résultats\n\nAperçu calculé par le moteur, sans émission.\n\nAperçu · sans émission\n6\nfenêtres valides\n0\nfenêtres invalides\n20\népisodes gyro confirmés\n\nAperçu uniquement : aucune fenêtre de cette liste n’a été envoyée au broker.\n\nChronologie des fenêtres\n6 fenêtres affichées · liste limitée à 60\nFaites défiler le tableau →\nFenêtre\tContact\tMouvements\tAppuis relatifs\tQualité\tTransmission\n0–5 s\nFenêtre 0\n\t5 s\t3 épisode(s)\tPouce : 24,42 %\nPaume : 24,42 %\n\tValide\tAperçu · non envoyé\n5–10 s\nFenêtre 1\n\t5 s\t4 épisode(s)\tPouce : 24,42 %\nPaume : 24,42 %\n\tValide\tAperçu · non envoyé\n10–15 s\nFenêtre 2\n\t5 s\t3 épisode(s)\tPouce : 24,42 %\nPaume : 24,42 %\n\tValide\tAperçu · non envoyé\n15–20 s\nFenêtre 3\n\t5 s\t3 épisode(s)\tPouce : 24,42 %\nPaume : 24,42 %\n\tValide\tAperçu · non envoyé\n20–25 s\nFenêtre 4\n\t5 s\t4 épisode(s)\tPouce : 24,42 %\nPaume : 24,42 %\n\tValide\tAperçu · non envoyé\n25–30 s\nFenêtre 5\n\t5 s\t3 épisode(s)\tPouce : 24,42 %\nPaume : 24,42 %\n\tValide\tAperçu · non envoyé\nÉvénements de démonstration\nÉpisode de mouvement confirmé\nÀ 0,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 2,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 3,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 5,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 6,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 8,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 9,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 11,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 12,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 14,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 15,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 17,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 18,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 20,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 21,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 23,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 24,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 26,35 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 27,85 s · durée 0,7 s\nÉpisode de mouvement confirmé\nÀ 29,35 s · durée 0,7 s\nCoupure réseau\nÀ 0 s · jusqu’à 30 s\nProvenance de cette exécution\n\nCOMPRENDRE LES SOURCES\n\nMesures enregistrées, hypothèses séparées.\n\nLes relevés à la balance restent une référence exploratoire. Ils ne calibrent pas les capteurs de la souris.\n\nRéférences balance\nSources et limites du rejeu",
+    "smallTargets": [],
+    "fonts": [
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "intro",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      }
+    ]
+  },
+  {
+    "datasets": [
+      {
+        "value": "usage",
+        "label": "Usage souris main droite"
+      },
+      {
+        "value": "postures",
+        "label": "Postures et pauses"
+      },
+      {
+        "value": "independent",
+        "label": "Comptage indépendant"
+      }
+    ]
+  },
+  {
+    "name": "phyphox-no-assumptions",
+    "width": 1440,
+    "overflow": 0,
+    "text": "OBSERVEZ AVANT DE TRANSMETTRE\n\nDES SCÉNARIOS.\nDES MESURES VÉRIFIABLES.\n\nPréparez un usage de souris, examinez les fenêtres calculées, puis lancez leur transmission en temps réel.\n\nCible fixe du banc\ndemo-device-a\nBroker non connecté\nTransmission vers la souris fictive Alice. Accusé MQTT distinct de l’enregistrement en base.\n01\nConfigurer la source\n\nUn aperçu ne transmet aucune mesure.\n\nParamètres de simulation\nSource des données\nScénarios Wokwi\nRejeu phyphox\nSession enregistrée\nUsage souris main droite\nPostures et pauses\nComptage indépendant\n\nusage_gyro.csv · usage_accel.csv\n\nphyphox fournit les mouvements enregistrés. Le contact et les appuis de la main ne sont pas mesurés dans ces fichiers.\n\nAjouter des hypothèses de contact et d’appuis\nDurée de l’exécution\nsecondes\n\nDe 5 à 300 secondes, par fenêtres de 5 secondes.\n\nSans hypothèses explicites, les fenêtres sont invalides pour le contact et les appuis. Les mouvements enregistrés restent consultables dans l’aperçu.\n\nCalculer un aperçu\nEnvoyer en temps réel\n→\n\nL’envoi utilise uniquement la cible de test configurée par le banc.\n\n02\nExécution & résultats\n\nAperçu calculé par le moteur, sans émission.\n\nAperçu · sans émission\n0\nfenêtres valides\n6\nfenêtres invalides\n5\népisodes gyro confirmés\n\nAperçu uniquement : aucune fenêtre de cette liste n’a été envoyée au broker.\n\nChronologie des fenêtres\n6 fenêtres affichées · liste limitée à 60\nFenêtre\tContact\tMouvements\tAppuis relatifs\tQualité\tTransmission\n0–5 s\nFenêtre 0\n\t—\t—\tPouce : —\nPaume : —\n\tInvalide\tAperçu · non envoyé\n5–10 s\nFenêtre 1\n\t—\t—\tPouce : —\nPaume : —\n\tInvalide\tAperçu · non envoyé\n10–15 s\nFenêtre 2\n\t—\t—\tPouce : —\nPaume : —\n\tInvalide\tAperçu · non envoyé\n15–20 s\nFenêtre 3\n\t—\t—\tPouce : —\nPaume : —\n\tInvalide\tAperçu · non envoyé\n20–25 s\nFenêtre 4\n\t—\t—\tPouce : —\nPaume : —\n\tInvalide\tAperçu · non envoyé\n25–30 s\nFenêtre 5\n\t—\t—\tPouce : —\nPaume : —\n\tInvalide\tAperçu · non envoyé\nÉvénements de démonstration\nÉpisode de mouvement confirmé\nÀ 5,61 s · durée 1,2 s\nÉpisode de mouvement confirmé\nÀ 11,88 s · durée 1,66 s\nÉpisode de mouvement confirmé\nÀ 18,68 s · durée 0,76 s\nÉpisode de mouvement confirmé\nÀ 27,05 s · durée 1,8 s\nÉpisode de mouvement confirmé\nÀ 29,38 s · durée 2,27 s\nProvenance de cette exécution\n\nCOMPRENDRE LES SOURCES\n\nMesures enregistrées, hypothèses séparées.\n\nLes relevés à la balance restent une référence exploratoire. Ils ne calibrent pas les capteurs de la souris.\n\nRéférences balance\nSources et limites du rejeu",
+    "smallTargets": [],
+    "fonts": [
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "intro",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      }
+    ]
+  },
+  {
+    "name": "phyphox-no-assumptions",
+    "width": 320,
+    "overflow": 0,
+    "text": "OBSERVEZ AVANT DE TRANSMETTRE\n\nDES SCÉNARIOS.\nDES MESURES VÉRIFIABLES.\n\nPréparez un usage de souris, examinez les fenêtres calculées, puis lancez leur transmission en temps réel.\n\nCible fixe du banc\ndemo-device-a\nBroker non connecté\nTransmission vers la souris fictive Alice. Accusé MQTT distinct de l’enregistrement en base.\n01\nConfigurer la source\n\nUn aperçu ne transmet aucune mesure.\n\nParamètres de simulation\nSource des données\nScénarios Wokwi\nRejeu phyphox\nSession enregistrée\nUsage souris main droite\nPostures et pauses\nComptage indépendant\n\nusage_gyro.csv · usage_accel.csv\n\nphyphox fournit les mouvements enregistrés. Le contact et les appuis de la main ne sont pas mesurés dans ces fichiers.\n\nAjouter des hypothèses de contact et d’appuis\nDurée de l’exécution\nsecondes\n\nDe 5 à 300 secondes, par fenêtres de 5 secondes.\n\nSans hypothèses explicites, les fenêtres sont invalides pour le contact et les appuis. Les mouvements enregistrés restent consultables dans l’aperçu.\n\nCalculer un aperçu\nEnvoyer en temps réel\n→\n\nL’envoi utilise uniquement la cible de test configurée par le banc.\n\n02\nExécution & résultats\n\nAperçu calculé par le moteur, sans émission.\n\nAperçu · sans émission\n0\nfenêtres valides\n6\nfenêtres invalides\n5\népisodes gyro confirmés\n\nAperçu uniquement : aucune fenêtre de cette liste n’a été envoyée au broker.\n\nChronologie des fenêtres\n6 fenêtres affichées · liste limitée à 60\nFaites défiler le tableau →\nFenêtre\tContact\tMouvements\tAppuis relatifs\tQualité\tTransmission\n0–5 s\nFenêtre 0\n\t—\t—\tPouce : —\nPaume : —\n\tInvalide\tAperçu · non envoyé\n5–10 s\nFenêtre 1\n\t—\t—\tPouce : —\nPaume : —\n\tInvalide\tAperçu · non envoyé\n10–15 s\nFenêtre 2\n\t—\t—\tPouce : —\nPaume : —\n\tInvalide\tAperçu · non envoyé\n15–20 s\nFenêtre 3\n\t—\t—\tPouce : —\nPaume : —\n\tInvalide\tAperçu · non envoyé\n20–25 s\nFenêtre 4\n\t—\t—\tPouce : —\nPaume : —\n\tInvalide\tAperçu · non envoyé\n25–30 s\nFenêtre 5\n\t—\t—\tPouce : —\nPaume : —\n\tInvalide\tAperçu · non envoyé\nÉvénements de démonstration\nÉpisode de mouvement confirmé\nÀ 5,61 s · durée 1,2 s\nÉpisode de mouvement confirmé\nÀ 11,88 s · durée 1,66 s\nÉpisode de mouvement confirmé\nÀ 18,68 s · durée 0,76 s\nÉpisode de mouvement confirmé\nÀ 27,05 s · durée 1,8 s\nÉpisode de mouvement confirmé\nÀ 29,38 s · durée 2,27 s\nProvenance de cette exécution\n\nCOMPRENDRE LES SOURCES\n\nMesures enregistrées, hypothèses séparées.\n\nLes relevés à la balance restent une référence exploratoire. Ils ne calibrent pas les capteurs de la souris.\n\nRéférences balance\nSources et limites du rejeu",
+    "smallTargets": [],
+    "fonts": [
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "intro",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      }
+    ]
+  },
+  {
+    "name": "phyphox-assumptions",
+    "width": 390,
+    "overflow": 0,
+    "text": "OBSERVEZ AVANT DE TRANSMETTRE\n\nDES SCÉNARIOS.\nDES MESURES VÉRIFIABLES.\n\nPréparez un usage de souris, examinez les fenêtres calculées, puis lancez leur transmission en temps réel.\n\nCible fixe du banc\ndemo-device-a\nBroker non connecté\nTransmission vers la souris fictive Alice. Accusé MQTT distinct de l’enregistrement en base.\n01\nConfigurer la source\n\nUn aperçu ne transmet aucune mesure.\n\nParamètres de simulation\nSource des données\nScénarios Wokwi\nRejeu phyphox\nSession enregistrée\nUsage souris main droite\nPostures et pauses\nComptage indépendant\n\nusage_gyro.csv · usage_accel.csv\n\nphyphox fournit les mouvements enregistrés. Le contact et les appuis de la main ne sont pas mesurés dans ces fichiers.\n\nAjouter des hypothèses de contact et d’appuis\n\nCes valeurs seront signalées comme hypothèses fictives, distinctes des mesures enregistrées.\n\nPouce · ADC fictif\nPaume · ADC fictif\nContact supposé avec la souris\nDurée de l’exécution\nsecondes\n\nDe 5 à 300 secondes, par fenêtres de 5 secondes.\n\nCalculer un aperçu\nEnvoyer en temps réel\n→\n\nL’envoi utilise uniquement la cible de test configurée par le banc.\n\n02\nExécution & résultats\n\nAperçu calculé par le moteur, sans émission.\n\nAperçu · sans émission\n6\nfenêtres valides\n0\nfenêtres invalides\n5\népisodes gyro confirmés\n\nAperçu uniquement : aucune fenêtre de cette liste n’a été envoyée au broker.\n\nChronologie des fenêtres\n6 fenêtres affichées · liste limitée à 60\nFaites défiler le tableau →\nFenêtre\tContact\tMouvements\tAppuis relatifs\tQualité\tTransmission\n0–5 s\nFenêtre 0\n\t5 s\t0 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n5–10 s\nFenêtre 1\n\t5 s\t1 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n10–15 s\nFenêtre 2\n\t5 s\t1 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n15–20 s\nFenêtre 3\n\t5 s\t1 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n20–25 s\nFenêtre 4\n\t5 s\t0 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n25–30 s\nFenêtre 5\n\t5 s\t2 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\nÉvénements de démonstration\nÉpisode de mouvement confirmé\nÀ 5,61 s · durée 1,2 s\nÉpisode de mouvement confirmé\nÀ 11,88 s · durée 1,66 s\nÉpisode de mouvement confirmé\nÀ 18,68 s · durée 0,76 s\nÉpisode de mouvement confirmé\nÀ 27,05 s · durée 1,8 s\nÉpisode de mouvement confirmé\nÀ 29,38 s · durée 2,27 s\nProvenance de cette exécution\n\nCOMPRENDRE LES SOURCES\n\nMesures enregistrées, hypothèses séparées.\n\nLes relevés à la balance restent une référence exploratoire. Ils ne calibrent pas les capteurs de la souris.\n\nRéférences balance\nSources et limites du rejeu",
+    "smallTargets": [],
+    "fonts": [
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "intro",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      }
+    ]
+  },
+  {
+    "name": "phyphox-assumptions",
+    "width": 1440,
+    "overflow": 0,
+    "text": "OBSERVEZ AVANT DE TRANSMETTRE\n\nDES SCÉNARIOS.\nDES MESURES VÉRIFIABLES.\n\nPréparez un usage de souris, examinez les fenêtres calculées, puis lancez leur transmission en temps réel.\n\nCible fixe du banc\ndemo-device-a\nBroker non connecté\nTransmission vers la souris fictive Alice. Accusé MQTT distinct de l’enregistrement en base.\n01\nConfigurer la source\n\nUn aperçu ne transmet aucune mesure.\n\nParamètres de simulation\nSource des données\nScénarios Wokwi\nRejeu phyphox\nSession enregistrée\nUsage souris main droite\nPostures et pauses\nComptage indépendant\n\nusage_gyro.csv · usage_accel.csv\n\nphyphox fournit les mouvements enregistrés. Le contact et les appuis de la main ne sont pas mesurés dans ces fichiers.\n\nAjouter des hypothèses de contact et d’appuis\n\nCes valeurs seront signalées comme hypothèses fictives, distinctes des mesures enregistrées.\n\nPouce · ADC fictif\nPaume · ADC fictif\nContact supposé avec la souris\nDurée de l’exécution\nsecondes\n\nDe 5 à 300 secondes, par fenêtres de 5 secondes.\n\nCalculer un aperçu\nEnvoyer en temps réel\n→\n\nL’envoi utilise uniquement la cible de test configurée par le banc.\n\n02\nExécution & résultats\n\nAperçu calculé par le moteur, sans émission.\n\nAperçu · sans émission\n6\nfenêtres valides\n0\nfenêtres invalides\n5\népisodes gyro confirmés\n\nAperçu uniquement : aucune fenêtre de cette liste n’a été envoyée au broker.\n\nChronologie des fenêtres\n6 fenêtres affichées · liste limitée à 60\nFenêtre\tContact\tMouvements\tAppuis relatifs\tQualité\tTransmission\n0–5 s\nFenêtre 0\n\t5 s\t0 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n5–10 s\nFenêtre 1\n\t5 s\t1 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n10–15 s\nFenêtre 2\n\t5 s\t1 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n15–20 s\nFenêtre 3\n\t5 s\t1 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n20–25 s\nFenêtre 4\n\t5 s\t0 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n25–30 s\nFenêtre 5\n\t5 s\t2 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\nÉvénements de démonstration\nÉpisode de mouvement confirmé\nÀ 5,61 s · durée 1,2 s\nÉpisode de mouvement confirmé\nÀ 11,88 s · durée 1,66 s\nÉpisode de mouvement confirmé\nÀ 18,68 s · durée 0,76 s\nÉpisode de mouvement confirmé\nÀ 27,05 s · durée 1,8 s\nÉpisode de mouvement confirmé\nÀ 29,38 s · durée 2,27 s\nProvenance de cette exécution\n\nCOMPRENDRE LES SOURCES\n\nMesures enregistrées, hypothèses séparées.\n\nLes relevés à la balance restent une référence exploratoire. Ils ne calibrent pas les capteurs de la souris.\n\nRéférences balance\nSources et limites du rejeu",
+    "smallTargets": [],
+    "fonts": [
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "intro",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      }
+    ]
+  },
+  {
+    "name": "provenance-references",
+    "width": 1440,
+    "overflow": 0,
+    "text": "OBSERVEZ AVANT DE TRANSMETTRE\n\nDES SCÉNARIOS.\nDES MESURES VÉRIFIABLES.\n\nPréparez un usage de souris, examinez les fenêtres calculées, puis lancez leur transmission en temps réel.\n\nCible fixe du banc\ndemo-device-a\nBroker non connecté\nTransmission vers la souris fictive Alice. Accusé MQTT distinct de l’enregistrement en base.\n01\nConfigurer la source\n\nUn aperçu ne transmet aucune mesure.\n\nParamètres de simulation\nSource des données\nScénarios Wokwi\nRejeu phyphox\nSession enregistrée\nUsage souris main droite\nPostures et pauses\nComptage indépendant\n\nusage_gyro.csv · usage_accel.csv\n\nphyphox fournit les mouvements enregistrés. Le contact et les appuis de la main ne sont pas mesurés dans ces fichiers.\n\nAjouter des hypothèses de contact et d’appuis\n\nCes valeurs seront signalées comme hypothèses fictives, distinctes des mesures enregistrées.\n\nPouce · ADC fictif\nPaume · ADC fictif\nContact supposé avec la souris\nDurée de l’exécution\nsecondes\n\nDe 5 à 300 secondes, par fenêtres de 5 secondes.\n\nCalculer un aperçu\nEnvoyer en temps réel\n→\n\nL’envoi utilise uniquement la cible de test configurée par le banc.\n\n02\nExécution & résultats\n\nAperçu calculé par le moteur, sans émission.\n\nAperçu · sans émission\n6\nfenêtres valides\n0\nfenêtres invalides\n5\népisodes gyro confirmés\n\nAperçu uniquement : aucune fenêtre de cette liste n’a été envoyée au broker.\n\nChronologie des fenêtres\n6 fenêtres affichées · liste limitée à 60\nFenêtre\tContact\tMouvements\tAppuis relatifs\tQualité\tTransmission\n0–5 s\nFenêtre 0\n\t5 s\t0 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n5–10 s\nFenêtre 1\n\t5 s\t1 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n10–15 s\nFenêtre 2\n\t5 s\t1 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n15–20 s\nFenêtre 3\n\t5 s\t1 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n20–25 s\nFenêtre 4\n\t5 s\t0 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n25–30 s\nFenêtre 5\n\t5 s\t2 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\nÉvénements de démonstration\nÉpisode de mouvement confirmé\nÀ 5,61 s · durée 1,2 s\nÉpisode de mouvement confirmé\nÀ 11,88 s · durée 1,66 s\nÉpisode de mouvement confirmé\nÀ 18,68 s · durée 0,76 s\nÉpisode de mouvement confirmé\nÀ 27,05 s · durée 1,8 s\nÉpisode de mouvement confirmé\nÀ 29,38 s · durée 2,27 s\nProvenance de cette exécution\nSource\nRejeu phyphox\nMode\nnative_timestamp_replay\nSession\nusage\nHypothèses de rejeu\nADC pouce : 1 200 · ADC paume : 1 600 · contact supposé présent\nAlignement déclaré par le moteur\nnative gyro timestamps; linear accel interpolation only between neighbors <=0.2s; no extrapolation\nRègles déclarées par le moteur\npipeline.h gyro V2 release confirmation; thresholds demonstrator only\npipeline.h\nappuis_balance.csv\nusage_gyro.csv\nusage_accel.csv\n\nCOMPRENDRE LES SOURCES\n\nMesures enregistrées, hypothèses séparées.\n\nLes relevés à la balance restent une référence exploratoire. Ils ne calibrent pas les capteurs de la souris.\n\nRéférences balance\n\nRelevés ponctuels exprimés en grammes, conservés séparément des ADC fictifs du simulateur.\n\nZone d’appui\tRelevés de référence\nPouce\t189 · 361 · 344 g\nPaume\t485 · 699 · 849 g\n\nAucune conversion grammes → ADC ou pourcentage. Ces relevés ne constituent pas une calibration FSR.\n\nNote de provenance originale\nSources et limites du rejeu\n\nLe calcul est effectué par le moteur du banc à partir du pipeline Wokwi et des fichiers de sessions phyphox disponibles.\n\nUsage souris main droite\nusage_gyro.csv · usage_accel.csv\nPostures et pauses\npostures_gyro.csv · postures_accel.csv\nComptage indépendant\nindependent_gyro.csv · independent_accel.csv\n\nLes appuis et le contact ajoutés au rejeu sont des hypothèses explicitement synthétiques. Les événements sont des démonstrations de règles, pas des alertes cliniques.\n\nLimites déclarées par le moteur",
+    "smallTargets": [],
+    "fonts": [
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "intro",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      }
+    ]
+  },
+  {
+    "name": "provenance-references",
+    "width": 768,
+    "overflow": 0,
+    "text": "OBSERVEZ AVANT DE TRANSMETTRE\n\nDES SCÉNARIOS.\nDES MESURES VÉRIFIABLES.\n\nPréparez un usage de souris, examinez les fenêtres calculées, puis lancez leur transmission en temps réel.\n\nCible fixe du banc\ndemo-device-a\nBroker non connecté\nTransmission vers la souris fictive Alice. Accusé MQTT distinct de l’enregistrement en base.\n01\nConfigurer la source\n\nUn aperçu ne transmet aucune mesure.\n\nParamètres de simulation\nSource des données\nScénarios Wokwi\nRejeu phyphox\nSession enregistrée\nUsage souris main droite\nPostures et pauses\nComptage indépendant\n\nusage_gyro.csv · usage_accel.csv\n\nphyphox fournit les mouvements enregistrés. Le contact et les appuis de la main ne sont pas mesurés dans ces fichiers.\n\nAjouter des hypothèses de contact et d’appuis\n\nCes valeurs seront signalées comme hypothèses fictives, distinctes des mesures enregistrées.\n\nPouce · ADC fictif\nPaume · ADC fictif\nContact supposé avec la souris\nDurée de l’exécution\nsecondes\n\nDe 5 à 300 secondes, par fenêtres de 5 secondes.\n\nCalculer un aperçu\nEnvoyer en temps réel\n→\n\nL’envoi utilise uniquement la cible de test configurée par le banc.\n\n02\nExécution & résultats\n\nAperçu calculé par le moteur, sans émission.\n\nAperçu · sans émission\n6\nfenêtres valides\n0\nfenêtres invalides\n5\népisodes gyro confirmés\n\nAperçu uniquement : aucune fenêtre de cette liste n’a été envoyée au broker.\n\nChronologie des fenêtres\n6 fenêtres affichées · liste limitée à 60\nFenêtre\tContact\tMouvements\tAppuis relatifs\tQualité\tTransmission\n0–5 s\nFenêtre 0\n\t5 s\t0 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n5–10 s\nFenêtre 1\n\t5 s\t1 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n10–15 s\nFenêtre 2\n\t5 s\t1 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n15–20 s\nFenêtre 3\n\t5 s\t1 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n20–25 s\nFenêtre 4\n\t5 s\t0 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n25–30 s\nFenêtre 5\n\t5 s\t2 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\nÉvénements de démonstration\nÉpisode de mouvement confirmé\nÀ 5,61 s · durée 1,2 s\nÉpisode de mouvement confirmé\nÀ 11,88 s · durée 1,66 s\nÉpisode de mouvement confirmé\nÀ 18,68 s · durée 0,76 s\nÉpisode de mouvement confirmé\nÀ 27,05 s · durée 1,8 s\nÉpisode de mouvement confirmé\nÀ 29,38 s · durée 2,27 s\nProvenance de cette exécution\nSource\nRejeu phyphox\nMode\nnative_timestamp_replay\nSession\nusage\nHypothèses de rejeu\nADC pouce : 1 200 · ADC paume : 1 600 · contact supposé présent\nAlignement déclaré par le moteur\nnative gyro timestamps; linear accel interpolation only between neighbors <=0.2s; no extrapolation\nRègles déclarées par le moteur\npipeline.h gyro V2 release confirmation; thresholds demonstrator only\npipeline.h\nappuis_balance.csv\nusage_gyro.csv\nusage_accel.csv\n\nCOMPRENDRE LES SOURCES\n\nMesures enregistrées, hypothèses séparées.\n\nLes relevés à la balance restent une référence exploratoire. Ils ne calibrent pas les capteurs de la souris.\n\nRéférences balance\n\nRelevés ponctuels exprimés en grammes, conservés séparément des ADC fictifs du simulateur.\n\nZone d’appui\tRelevés de référence\nPouce\t189 · 361 · 344 g\nPaume\t485 · 699 · 849 g\n\nAucune conversion grammes → ADC ou pourcentage. Ces relevés ne constituent pas une calibration FSR.\n\nNote de provenance originale\nSources et limites du rejeu\n\nLe calcul est effectué par le moteur du banc à partir du pipeline Wokwi et des fichiers de sessions phyphox disponibles.\n\nUsage souris main droite\nusage_gyro.csv · usage_accel.csv\nPostures et pauses\npostures_gyro.csv · postures_accel.csv\nComptage indépendant\nindependent_gyro.csv · independent_accel.csv\n\nLes appuis et le contact ajoutés au rejeu sont des hypothèses explicitement synthétiques. Les événements sont des démonstrations de règles, pas des alertes cliniques.\n\nLimites déclarées par le moteur",
+    "smallTargets": [],
+    "fonts": [
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "intro",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      }
+    ]
+  },
+  {
+    "name": "provenance-references",
+    "width": 320,
+    "overflow": 0,
+    "text": "OBSERVEZ AVANT DE TRANSMETTRE\n\nDES SCÉNARIOS.\nDES MESURES VÉRIFIABLES.\n\nPréparez un usage de souris, examinez les fenêtres calculées, puis lancez leur transmission en temps réel.\n\nCible fixe du banc\ndemo-device-a\nBroker non connecté\nTransmission vers la souris fictive Alice. Accusé MQTT distinct de l’enregistrement en base.\n01\nConfigurer la source\n\nUn aperçu ne transmet aucune mesure.\n\nParamètres de simulation\nSource des données\nScénarios Wokwi\nRejeu phyphox\nSession enregistrée\nUsage souris main droite\nPostures et pauses\nComptage indépendant\n\nusage_gyro.csv · usage_accel.csv\n\nphyphox fournit les mouvements enregistrés. Le contact et les appuis de la main ne sont pas mesurés dans ces fichiers.\n\nAjouter des hypothèses de contact et d’appuis\n\nCes valeurs seront signalées comme hypothèses fictives, distinctes des mesures enregistrées.\n\nPouce · ADC fictif\nPaume · ADC fictif\nContact supposé avec la souris\nDurée de l’exécution\nsecondes\n\nDe 5 à 300 secondes, par fenêtres de 5 secondes.\n\nCalculer un aperçu\nEnvoyer en temps réel\n→\n\nL’envoi utilise uniquement la cible de test configurée par le banc.\n\n02\nExécution & résultats\n\nAperçu calculé par le moteur, sans émission.\n\nAperçu · sans émission\n6\nfenêtres valides\n0\nfenêtres invalides\n5\népisodes gyro confirmés\n\nAperçu uniquement : aucune fenêtre de cette liste n’a été envoyée au broker.\n\nChronologie des fenêtres\n6 fenêtres affichées · liste limitée à 60\nFaites défiler le tableau →\nFenêtre\tContact\tMouvements\tAppuis relatifs\tQualité\tTransmission\n0–5 s\nFenêtre 0\n\t5 s\t0 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n5–10 s\nFenêtre 1\n\t5 s\t1 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n10–15 s\nFenêtre 2\n\t5 s\t1 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n15–20 s\nFenêtre 3\n\t5 s\t1 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n20–25 s\nFenêtre 4\n\t5 s\t0 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\n25–30 s\nFenêtre 5\n\t5 s\t2 épisode(s)\tPouce : 29,3 %\nPaume : 39,07 %\n\tValide\tAperçu · non envoyé\nÉvénements de démonstration\nÉpisode de mouvement confirmé\nÀ 5,61 s · durée 1,2 s\nÉpisode de mouvement confirmé\nÀ 11,88 s · durée 1,66 s\nÉpisode de mouvement confirmé\nÀ 18,68 s · durée 0,76 s\nÉpisode de mouvement confirmé\nÀ 27,05 s · durée 1,8 s\nÉpisode de mouvement confirmé\nÀ 29,38 s · durée 2,27 s\nProvenance de cette exécution\nSource\nRejeu phyphox\nMode\nnative_timestamp_replay\nSession\nusage\nHypothèses de rejeu\nADC pouce : 1 200 · ADC paume : 1 600 · contact supposé présent\nAlignement déclaré par le moteur\nnative gyro timestamps; linear accel interpolation only between neighbors <=0.2s; no extrapolation\nRègles déclarées par le moteur\npipeline.h gyro V2 release confirmation; thresholds demonstrator only\npipeline.h\nappuis_balance.csv\nusage_gyro.csv\nusage_accel.csv\n\nCOMPRENDRE LES SOURCES\n\nMesures enregistrées, hypothèses séparées.\n\nLes relevés à la balance restent une référence exploratoire. Ils ne calibrent pas les capteurs de la souris.\n\nRéférences balance\n\nRelevés ponctuels exprimés en grammes, conservés séparément des ADC fictifs du simulateur.\n\nZone d’appui\tRelevés de référence\nPouce\t189 · 361 · 344 g\nPaume\t485 · 699 · 849 g\n\nAucune conversion grammes → ADC ou pourcentage. Ces relevés ne constituent pas une calibration FSR.\n\nNote de provenance originale\nSources et limites du rejeu\n\nLe calcul est effectué par le moteur du banc à partir du pipeline Wokwi et des fichiers de sessions phyphox disponibles.\n\nUsage souris main droite\nusage_gyro.csv · usage_accel.csv\nPostures et pauses\npostures_gyro.csv · postures_accel.csv\nComptage indépendant\nindependent_gyro.csv · independent_accel.csv\n\nLes appuis et le contact ajoutés au rejeu sont des hypothèses explicitement synthétiques. Les événements sont des démonstrations de règles, pas des alertes cliniques.\n\nLimites déclarées par le moteur",
+    "smallTargets": [],
+    "fonts": [
+      {
+        "cls": "eyebrow",
+        "size": "14px"
+      },
+      {
+        "cls": "intro",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "field-help",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "notice",
+        "size": "16px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      },
+      {
+        "cls": "",
+        "size": "16px"
+      },
+      {
+        "cls": "metadata",
+        "size": "14px"
+      }
+    ]
+  },
+  {
+    "keyboardNext": {
+      "id": "start",
+      "outline": "rgb(32, 165, 178) solid 2.35294px",
+      "outlineOffset": "2.35294px"
+    }
+  },
+  {
+    "errors": [],
+    "posts": [
+      "/api/preview",
+      "/api/preview",
+      "/api/preview",
+      "/api/preview",
+      "/api/preview",
+      "/api/preview",
+      "/api/preview",
+      "/api/preview",
+      "/api/preview"
+    ]
+  }
+]

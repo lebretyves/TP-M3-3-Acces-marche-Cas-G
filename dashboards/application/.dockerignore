@@ -1,0 +1,12 @@
+.runtime
+.venv
+.git
+**/__pycache__
+**/*.pyc
+.pytest_cache
+tests
+preuves
+*.pem
+*.key
+*.db
+*.sqlite*

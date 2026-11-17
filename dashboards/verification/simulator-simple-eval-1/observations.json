@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "six-scenarios-three-charts-default",
+    "idle-no-overflow-1440",
+    "idle-no-overflow-768",
+    "idle-no-overflow-390",
+    "idle-no-overflow-375",
+    "idle-no-overflow-320",
+    "one-choice-launch-mocked-three-curves",
+    "invalid-values-unknown",
+    "inline-form-no-session-no-popup",
+    "inline-form-authenticated-mock",
+    "wokwi-lazy-inline-isolated"
+  ],
+  "errors": [],
+  "mocked_posts": [
+    "/simulateur/api/start"
+  ],
+  "popups": [],
+  "scope": "No real mutation. State, session, workspace and Wokwi frame are mocked. App HTML/CSS/JS and catalog real deployed."
+}

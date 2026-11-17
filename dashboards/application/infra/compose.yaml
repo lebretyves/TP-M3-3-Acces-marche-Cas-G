@@ -1,0 +1,190 @@
+name: skelivia
+x-app: &app
+  build:
+    context: ..
+    dockerfile: infra/Dockerfile
+  image: skelivia-local:development
+  read_only: true
+  tmpfs: ['/tmp:size=64m,mode=1777']
+  cap_drop: [ALL]
+  security_opt: [no-new-privileges:true]
+  networks: [private]
+  restart: unless-stopped
+
+services:
+  db:
+    image: postgres:16.16-alpine@sha256:0adbf25a9e96d38823bb813f3ac0ed41fadb665c88f1df7fe6dbfb060cbdc106
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD_FILE: /run/secrets/postgres_password
+      POSTGRES_INITDB_ARGS: --auth-host=scram-sha-256
+    secrets: [postgres_password]
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ../.runtime/infra/postgres/init.sql:/docker-entrypoint-initdb.d/10-skelivia.sql:ro
+    networks: [private]
+    healthcheck:
+      test: [CMD-SHELL, pg_isready -U postgres -d skelivia]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:26.7.5@sha256:37dbaf6f0722c9ec246335f36e1ef8b2e6cb960f7c27e0d8c615121a3d475a85
+    entrypoint: [/bin/bash, -ec]
+    command:
+      - 'export KC_DB_PASSWORD="$$(cat /run/secrets/keycloak_db_password)"; export KC_BOOTSTRAP_ADMIN_PASSWORD="$$(cat /run/secrets/keycloak_admin_password)"; exec /opt/keycloak/bin/kc.sh start --import-realm'
+    environment:
+      KC_DB: postgres
+      KC_DB_URL: jdbc:postgresql://db:5432/skelivia_identity
+      KC_DB_USERNAME: skelivia_keycloak
+      KC_HOSTNAME: https://localhost:8443/auth
+      KC_HTTP_RELATIVE_PATH: /auth
+      KC_HTTP_ENABLED: 'true'
+      KC_PROXY_HEADERS: xforwarded
+      KC_HOSTNAME_STRICT: 'true'
+      KC_HEALTH_ENABLED: 'true'
+      KC_BOOTSTRAP_ADMIN_USERNAME: bootstrap-local
+    secrets: [keycloak_db_password, keycloak_admin_password]
+    volumes:
+      - ../.runtime/infra/keycloak:/opt/keycloak/data/import:ro
+    depends_on:
+      db: {condition: service_healthy}
+    networks: [private]
+    restart: unless-stopped
+
+  broker:
+    image: eclipse-mosquitto:2.1.2-alpine@sha256:75d6662dee52c947dc9dd9c29f1d8d7ffef78ddaf38001caa09755681e8bbc98
+    volumes:
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - ../.runtime/infra/mqtt/acl:/mosquitto/config/acl:ro
+      - ../.runtime/infra/pki/public:/mosquitto/pki:ro
+      - ../.runtime/infra/pki/broker:/mosquitto/identity:ro
+      - mqttdata:/mosquitto/data
+    networks: [private]
+    restart: unless-stopped
+    security_opt: [no-new-privileges:true]
+
+  app:
+    <<: *app
+    command: [python, -m, uvicorn, app.main:create_app, --factory, --host, 0.0.0.0, --port, '8000', --proxy-headers, --forwarded-allow-ips, '*', --no-access-log]
+    environment:
+      SKELIVIA_DATABASE_URL_FILE: /run/secrets/app_database_url
+      SKELIVIA_DATA_KEY_FILE: /run/secrets/data_key
+      SKELIVIA_AUTH_MODE: oidc
+      SKELIVIA_PUBLIC_ORIGIN: https://localhost:8443
+      SKELIVIA_OIDC_ISSUER: https://localhost:8443/auth/realms/skelivia
+      SKELIVIA_OIDC_INTERNAL_BASE: https://proxy/auth/realms/skelivia
+      SKELIVIA_OIDC_CLIENT_ID: skelivia-web
+      SKELIVIA_OIDC_CLIENT_SECRET_FILE: /run/secrets/oidc_client_secret
+      SKELIVIA_OIDC_REDIRECT_URI: https://localhost:8443/oidc/callback
+      SKELIVIA_OIDC_IDENTITY_MAP_FILE: /run/secrets/identity-map.json
+      SKELIVIA_CA_FILE: /run/pki/ca.pem
+    secrets:
+      - app_database_url
+      - data_key
+      - oidc_client_secret
+      - source: identity_map
+        target: identity-map.json
+    volumes:
+      - ../.runtime/infra/pki/public:/run/pki:ro
+    depends_on:
+      db: {condition: service_healthy}
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=2)"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+
+  worker:
+    <<: *app
+    command: [python, -m, app.worker]
+    environment:
+      SKELIVIA_DATABASE_URL_FILE: /run/secrets/worker_database_url
+      SKELIVIA_DATA_KEY_FILE: /run/secrets/data_key
+      SKELIVIA_MQTT_HOST: broker
+      SKELIVIA_MQTT_PORT: '8883'
+      SKELIVIA_MQTT_CA_FILE: /run/pki/ca.pem
+      SKELIVIA_MQTT_CERT_FILE: /run/identity/cert.pem
+      SKELIVIA_MQTT_KEY_FILE: /run/identity/key.pem
+      SKELIVIA_FIRMWARE_DIR: /run/firmware
+    secrets: [worker_database_url, data_key]
+    volumes:
+      - ../.runtime/infra/pki/public:/run/pki:ro
+      - ../.runtime/infra/pki/worker:/run/identity:ro
+      - ../.runtime/infra/firmware:/run/firmware:ro
+    depends_on:
+      app: {condition: service_healthy}
+      broker: {condition: service_started}
+
+  proxy:
+    image: nginx:1.30.6-alpine@sha256:901e593c95dc85f5a729f5765516321366ef4ac401821431d408897e95287d0a
+    ports: ['127.0.0.1:8443:443']
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ../.runtime/infra/pki/proxy:/etc/nginx/identity:ro
+    networks: [edge, private]
+    depends_on: [app, keycloak]
+    restart: unless-stopped
+    security_opt: [no-new-privileges:true]
+
+  push:
+    <<: *app
+    command: [python, -m, app.push, --loop]
+    environment:
+      SKELIVIA_DATABASE_URL_FILE: /run/secrets/push_database_url
+      SKELIVIA_DATA_KEY_FILE: /run/secrets/data_key
+      SKELIVIA_PUSH_ENABLED: 'false'
+      SKELIVIA_VAPID_PRIVATE_KEY_FILE: /run/secrets/vapid_private.pem
+      SKELIVIA_VAPID_PUBLIC_KEY_FILE: /run/secrets/vapid_public_key
+    secrets:
+      - push_database_url
+      - data_key
+      - source: vapid_private
+        target: vapid_private.pem
+      - vapid_public_key
+    depends_on:
+      app: {condition: service_healthy}
+
+  migrate:
+    <<: *app
+    profiles: [tools]
+    restart: 'no'
+    command: [python, -m, app.bootstrap]
+    environment:
+      SKELIVIA_DATABASE_URL_FILE: /run/secrets/owner_database_url
+      SKELIVIA_DATA_KEY_FILE: /run/secrets/data_key
+      SKELIVIA_DEVICE_REGISTRY_FILE: /run/registry/devices.json
+      SKELIVIA_OIDC_IDENTITY_MAP_FILE: /run/secrets/identity-map.json
+    secrets:
+      - owner_database_url
+      - data_key
+      - source: identity_map
+        target: identity-map.json
+    volumes:
+      - ../.runtime/infra/registry:/run/registry:ro
+    depends_on:
+      db: {condition: service_healthy}
+
+networks:
+  edge: {}
+  private: {internal: true}
+volumes:
+  pgdata: {}
+  mqttdata: {}
+secrets:
+  postgres_password: {file: ../.runtime/infra/secrets/postgres_password}
+  keycloak_db_password: {file: ../.runtime/infra/secrets/keycloak_db_password}
+  keycloak_admin_password: {file: ../.runtime/infra/secrets/keycloak_admin_password}
+  app_database_url: {file: ../.runtime/infra/secrets/app_database_url}
+  owner_database_url: {file: ../.runtime/infra/secrets/owner_database_url}
+  worker_database_url: {file: ../.runtime/infra/secrets/worker_database_url}
+  push_database_url: {file: ../.runtime/infra/secrets/push_database_url}
+  vapid_private: {file: ../.runtime/infra/secrets/vapid_private.pem}
+  vapid_public_key: {file: ../.runtime/infra/secrets/vapid_public_key}
+  data_key: {file: ../.runtime/infra/secrets/data_key}
+  oidc_client_secret: {file: ../.runtime/infra/secrets/oidc_client_secret}
+  identity_map:
+    file: ../.runtime/infra/secrets/identity-map.json
+

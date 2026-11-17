@@ -1,0 +1,842 @@
+{
+  "report": [
+    {
+      "role": "user",
+      "width": 1440,
+      "metrics": {
+        "title": "Votre journée, en un regard",
+        "titleRect": {
+          "x": 253.99510192871094,
+          "y": 177.8308868408203,
+          "width": 566.99755859375,
+          "height": 40.943626403808594,
+          "top": 177.8308868408203,
+          "right": 820.9926605224609,
+          "bottom": 218.7745132446289,
+          "left": 253.99510192871094
+        },
+        "font": "Orbitron, \"Segoe UI\", sans-serif",
+        "fontSize": "29.25px",
+        "fontWeight": "900",
+        "fontStyle": "normal",
+        "overflow": 0,
+        "logo": {
+          "src": "assets/skelivia-logo-original.png",
+          "naturalWidth": 2172,
+          "naturalHeight": 724,
+          "rect": {
+            "x": 20.992647171020508,
+            "y": 74.97549438476562,
+            "width": 188.01470947265625,
+            "height": 62.67156982421875,
+            "top": 74.97549438476562,
+            "right": 209.00735664367676,
+            "bottom": 137.64706420898438,
+            "left": 20.992647171020508
+          },
+          "filter": "none",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "role": "clinician",
+      "width": 1440,
+      "metrics": {
+        "title": "Patients suivis",
+        "titleRect": {
+          "x": 253.99510192871094,
+          "y": 177.8308868408203,
+          "width": 484.0318603515625,
+          "height": 40.943626403808594,
+          "top": 177.8308868408203,
+          "right": 738.0269622802734,
+          "bottom": 218.7745132446289,
+          "left": 253.99510192871094
+        },
+        "font": "Orbitron, \"Segoe UI\", sans-serif",
+        "fontSize": "29.25px",
+        "fontWeight": "900",
+        "fontStyle": "normal",
+        "overflow": 0,
+        "logo": {
+          "src": "assets/skelivia-logo-original.png",
+          "naturalWidth": 2172,
+          "naturalHeight": 724,
+          "rect": {
+            "x": 20.992647171020508,
+            "y": 74.97549438476562,
+            "width": 188.01470947265625,
+            "height": 62.67156982421875,
+            "top": 74.97549438476562,
+            "right": 209.00735664367676,
+            "bottom": 137.64706420898438,
+            "left": 20.992647171020508
+          },
+          "filter": "none",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "role": "employer",
+      "width": 1440,
+      "metrics": {
+        "title": "Votre prévention, en actions",
+        "titleRect": {
+          "x": 253.99510192871094,
+          "y": 177.8308868408203,
+          "width": 572.181396484375,
+          "height": 40.943626403808594,
+          "top": 177.8308868408203,
+          "right": 826.1764984130859,
+          "bottom": 218.7745132446289,
+          "left": 253.99510192871094
+        },
+        "font": "Orbitron, \"Segoe UI\", sans-serif",
+        "fontSize": "29.25px",
+        "fontWeight": "900",
+        "fontStyle": "normal",
+        "overflow": 0,
+        "logo": {
+          "src": "assets/skelivia-logo-original.png",
+          "naturalWidth": 2172,
+          "naturalHeight": 724,
+          "rect": {
+            "x": 20.992647171020508,
+            "y": 74.97549438476562,
+            "width": 188.01470947265625,
+            "height": 62.67156982421875,
+            "top": 74.97549438476562,
+            "right": 209.00735664367676,
+            "bottom": 137.64706420898438,
+            "left": 20.992647171020508
+          },
+          "filter": "none",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "role": "support",
+      "width": 1440,
+      "metrics": {
+        "title": "Votre file de support",
+        "titleRect": {
+          "x": 253.99510192871094,
+          "y": 177.8308868408203,
+          "width": 442.45098876953125,
+          "height": 40.943626403808594,
+          "top": 177.8308868408203,
+          "right": 696.4460906982422,
+          "bottom": 218.7745132446289,
+          "left": 253.99510192871094
+        },
+        "font": "Orbitron, \"Segoe UI\", sans-serif",
+        "fontSize": "29.25px",
+        "fontWeight": "900",
+        "fontStyle": "normal",
+        "overflow": 0,
+        "logo": {
+          "src": "assets/skelivia-logo-original.png",
+          "naturalWidth": 2172,
+          "naturalHeight": 724,
+          "rect": {
+            "x": 20.992647171020508,
+            "y": 74.97549438476562,
+            "width": 188.01470947265625,
+            "height": 62.67156982421875,
+            "top": 74.97549438476562,
+            "right": 209.00735664367676,
+            "bottom": 137.64706420898438,
+            "left": 20.992647171020508
+          },
+          "filter": "none",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "role": "admin",
+      "width": 1440,
+      "metrics": {
+        "title": "Surveillance et protections",
+        "titleRect": {
+          "x": 253.99510192871094,
+          "y": 177.8308868408203,
+          "width": 571.5318603515625,
+          "height": 40.943626403808594,
+          "top": 177.8308868408203,
+          "right": 825.5269622802734,
+          "bottom": 218.7745132446289,
+          "left": 253.99510192871094
+        },
+        "font": "Orbitron, \"Segoe UI\", sans-serif",
+        "fontSize": "29.25px",
+        "fontWeight": "900",
+        "fontStyle": "normal",
+        "overflow": 0,
+        "logo": {
+          "src": "assets/skelivia-logo-original.png",
+          "naturalWidth": 2172,
+          "naturalHeight": 724,
+          "rect": {
+            "x": 20.992647171020508,
+            "y": 74.97549438476562,
+            "width": 188.01470947265625,
+            "height": 62.67156982421875,
+            "top": 74.97549438476562,
+            "right": 209.00735664367676,
+            "bottom": 137.64706420898438,
+            "left": 20.992647171020508
+          },
+          "filter": "none",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "role": "user",
+      "width": 768,
+      "metrics": {
+        "title": "Votre journée, en un regard",
+        "titleRect": {
+          "x": 8.002450942993164,
+          "y": 165.83334350585938,
+          "width": 399.82843017578125,
+          "height": 28.33333396911621,
+          "top": 165.83334350585938,
+          "right": 407.8308811187744,
+          "bottom": 194.1666774749756,
+          "left": 8.002450942993164
+        },
+        "font": "Orbitron, \"Segoe UI\", sans-serif",
+        "fontSize": "20.25px",
+        "fontWeight": "900",
+        "fontStyle": "normal",
+        "overflow": 0,
+        "logo": {
+          "src": "assets/skelivia-logo-original.png",
+          "naturalWidth": 2172,
+          "naturalHeight": 724,
+          "rect": {
+            "x": -209.00735473632812,
+            "y": 84.97549438476562,
+            "width": 188.01470947265625,
+            "height": 62.67156982421875,
+            "top": 84.97549438476562,
+            "right": -20.992645263671875,
+            "bottom": 147.64706420898438,
+            "left": -209.00735473632812
+          },
+          "filter": "none",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "role": "clinician",
+      "width": 768,
+      "metrics": {
+        "title": "Patients suivis",
+        "titleRect": {
+          "x": 8.002450942993164,
+          "y": 165.83334350585938,
+          "width": 450.625,
+          "height": 28.33333396911621,
+          "top": 165.83334350585938,
+          "right": 458.62745094299316,
+          "bottom": 194.1666774749756,
+          "left": 8.002450942993164
+        },
+        "font": "Orbitron, \"Segoe UI\", sans-serif",
+        "fontSize": "20.25px",
+        "fontWeight": "900",
+        "fontStyle": "normal",
+        "overflow": 0,
+        "logo": {
+          "src": "assets/skelivia-logo-original.png",
+          "naturalWidth": 2172,
+          "naturalHeight": 724,
+          "rect": {
+            "x": -209.00735473632812,
+            "y": 84.97549438476562,
+            "width": 188.01470947265625,
+            "height": 62.67156982421875,
+            "top": 84.97549438476562,
+            "right": -20.992645263671875,
+            "bottom": 147.64706420898438,
+            "left": -209.00735473632812
+          },
+          "filter": "none",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "role": "employer",
+      "width": 768,
+      "metrics": {
+        "title": "Votre prévention, en actions",
+        "titleRect": {
+          "x": 8.002450942993164,
+          "y": 165.83334350585938,
+          "width": 403.4068603515625,
+          "height": 28.33333396911621,
+          "top": 165.83334350585938,
+          "right": 411.40931129455566,
+          "bottom": 194.1666774749756,
+          "left": 8.002450942993164
+        },
+        "font": "Orbitron, \"Segoe UI\", sans-serif",
+        "fontSize": "20.25px",
+        "fontWeight": "900",
+        "fontStyle": "normal",
+        "overflow": 0,
+        "logo": {
+          "src": "assets/skelivia-logo-original.png",
+          "naturalWidth": 2172,
+          "naturalHeight": 724,
+          "rect": {
+            "x": -209.00735473632812,
+            "y": 84.97549438476562,
+            "width": 188.01470947265625,
+            "height": 62.67156982421875,
+            "top": 84.97549438476562,
+            "right": -20.992645263671875,
+            "bottom": 147.64706420898438,
+            "left": -209.00735473632812
+          },
+          "filter": "none",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "role": "support",
+      "width": 768,
+      "metrics": {
+        "title": "Votre file de support",
+        "titleRect": {
+          "x": 8.002450942993164,
+          "y": 165.83334350585938,
+          "width": 411.98529052734375,
+          "height": 28.33333396911621,
+          "top": 165.83334350585938,
+          "right": 419.9877414703369,
+          "bottom": 194.1666774749756,
+          "left": 8.002450942993164
+        },
+        "font": "Orbitron, \"Segoe UI\", sans-serif",
+        "fontSize": "20.25px",
+        "fontWeight": "900",
+        "fontStyle": "normal",
+        "overflow": 0,
+        "logo": {
+          "src": "assets/skelivia-logo-original.png",
+          "naturalWidth": 2172,
+          "naturalHeight": 724,
+          "rect": {
+            "x": -209.00735473632812,
+            "y": 84.97549438476562,
+            "width": 188.01470947265625,
+            "height": 62.67156982421875,
+            "top": 84.97549438476562,
+            "right": -20.992645263671875,
+            "bottom": 147.64706420898438,
+            "left": -209.00735473632812
+          },
+          "filter": "none",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "role": "admin",
+      "width": 768,
+      "metrics": {
+        "title": "Surveillance et protections",
+        "titleRect": {
+          "x": 8.002450942993164,
+          "y": 165.83334350585938,
+          "width": 408.4436340332031,
+          "height": 28.33333396911621,
+          "top": 165.83334350585938,
+          "right": 416.4460849761963,
+          "bottom": 194.1666774749756,
+          "left": 8.002450942993164
+        },
+        "font": "Orbitron, \"Segoe UI\", sans-serif",
+        "fontSize": "20.25px",
+        "fontWeight": "900",
+        "fontStyle": "normal",
+        "overflow": 0,
+        "logo": {
+          "src": "assets/skelivia-logo-original.png",
+          "naturalWidth": 2172,
+          "naturalHeight": 724,
+          "rect": {
+            "x": -209.00735473632812,
+            "y": 84.97549438476562,
+            "width": 188.01470947265625,
+            "height": 62.67156982421875,
+            "top": 84.97549438476562,
+            "right": -20.992645263671875,
+            "bottom": 147.64706420898438,
+            "left": -209.00735473632812
+          },
+          "filter": "none",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "width": 768,
+      "mobileLogo": {
+        "rect": {
+          "x": 20.992647171020508,
+          "y": 84.97549438476562,
+          "width": 188.01470947265625,
+          "height": 62.67156982421875,
+          "top": 84.97549438476562,
+          "right": 209.00735664367676,
+          "bottom": 147.64706420898438,
+          "left": 20.992647171020508
+        },
+        "naturalWidth": 2172,
+        "naturalHeight": 724,
+        "filter": "none",
+        "objectFit": "contain"
+      }
+    },
+    {
+      "role": "user",
+      "width": 375,
+      "metrics": {
+        "title": "Votre journée, en un regard",
+        "titleRect": {
+          "x": 3.002450942993164,
+          "y": 163.83578491210938,
+          "width": 357.683837890625,
+          "height": 58.79901885986328,
+          "top": 163.83578491210938,
+          "right": 360.68628883361816,
+          "bottom": 222.63480377197266,
+          "left": 3.002450942993164
+        },
+        "font": "Orbitron, \"Segoe UI\", sans-serif",
+        "fontSize": "21px",
+        "fontWeight": "900",
+        "fontStyle": "normal",
+        "overflow": 0,
+        "logo": {
+          "src": "assets/skelivia-logo-original.png",
+          "naturalWidth": 2172,
+          "naturalHeight": 724,
+          "rect": {
+            "x": -209.00735473632812,
+            "y": 84.97549438476562,
+            "width": 188.01470947265625,
+            "height": 62.67156982421875,
+            "top": 84.97549438476562,
+            "right": -20.992645263671875,
+            "bottom": 147.64706420898438,
+            "left": -209.00735473632812
+          },
+          "filter": "none",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "role": "clinician",
+      "width": 375,
+      "metrics": {
+        "title": "Patients suivis",
+        "titleRect": {
+          "x": 3.002450942993164,
+          "y": 163.83578491210938,
+          "width": 357.683837890625,
+          "height": 29.39950942993164,
+          "top": 163.83578491210938,
+          "right": 360.68628883361816,
+          "bottom": 193.23529434204102,
+          "left": 3.002450942993164
+        },
+        "font": "Orbitron, \"Segoe UI\", sans-serif",
+        "fontSize": "21px",
+        "fontWeight": "900",
+        "fontStyle": "normal",
+        "overflow": 0,
+        "logo": {
+          "src": "assets/skelivia-logo-original.png",
+          "naturalWidth": 2172,
+          "naturalHeight": 724,
+          "rect": {
+            "x": -209.00735473632812,
+            "y": 84.97549438476562,
+            "width": 188.01470947265625,
+            "height": 62.67156982421875,
+            "top": 84.97549438476562,
+            "right": -20.992645263671875,
+            "bottom": 147.64706420898438,
+            "left": -209.00735473632812
+          },
+          "filter": "none",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "role": "employer",
+      "width": 375,
+      "metrics": {
+        "title": "Votre prévention, en actions",
+        "titleRect": {
+          "x": 3.002450942993164,
+          "y": 163.83578491210938,
+          "width": 357.683837890625,
+          "height": 58.79901885986328,
+          "top": 163.83578491210938,
+          "right": 360.68628883361816,
+          "bottom": 222.63480377197266,
+          "left": 3.002450942993164
+        },
+        "font": "Orbitron, \"Segoe UI\", sans-serif",
+        "fontSize": "21px",
+        "fontWeight": "900",
+        "fontStyle": "normal",
+        "overflow": 0,
+        "logo": {
+          "src": "assets/skelivia-logo-original.png",
+          "naturalWidth": 2172,
+          "naturalHeight": 724,
+          "rect": {
+            "x": -209.00735473632812,
+            "y": 84.97549438476562,
+            "width": 188.01470947265625,
+            "height": 62.67156982421875,
+            "top": 84.97549438476562,
+            "right": -20.992645263671875,
+            "bottom": 147.64706420898438,
+            "left": -209.00735473632812
+          },
+          "filter": "none",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "role": "support",
+      "width": 375,
+      "metrics": {
+        "title": "Votre file de support",
+        "titleRect": {
+          "x": 3.002450942993164,
+          "y": 163.83578491210938,
+          "width": 357.683837890625,
+          "height": 29.39950942993164,
+          "top": 163.83578491210938,
+          "right": 360.68628883361816,
+          "bottom": 193.23529434204102,
+          "left": 3.002450942993164
+        },
+        "font": "Orbitron, \"Segoe UI\", sans-serif",
+        "fontSize": "21px",
+        "fontWeight": "900",
+        "fontStyle": "normal",
+        "overflow": 0,
+        "logo": {
+          "src": "assets/skelivia-logo-original.png",
+          "naturalWidth": 2172,
+          "naturalHeight": 724,
+          "rect": {
+            "x": -209.00735473632812,
+            "y": 84.97549438476562,
+            "width": 188.01470947265625,
+            "height": 62.67156982421875,
+            "top": 84.97549438476562,
+            "right": -20.992645263671875,
+            "bottom": 147.64706420898438,
+            "left": -209.00735473632812
+          },
+          "filter": "none",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "role": "admin",
+      "width": 375,
+      "metrics": {
+        "title": "Surveillance et protections",
+        "titleRect": {
+          "x": 3.002450942993164,
+          "y": 163.83578491210938,
+          "width": 357.683837890625,
+          "height": 58.79901885986328,
+          "top": 163.83578491210938,
+          "right": 360.68628883361816,
+          "bottom": 222.63480377197266,
+          "left": 3.002450942993164
+        },
+        "font": "Orbitron, \"Segoe UI\", sans-serif",
+        "fontSize": "21px",
+        "fontWeight": "900",
+        "fontStyle": "normal",
+        "overflow": 0,
+        "logo": {
+          "src": "assets/skelivia-logo-original.png",
+          "naturalWidth": 2172,
+          "naturalHeight": 724,
+          "rect": {
+            "x": -209.00735473632812,
+            "y": 84.97549438476562,
+            "width": 188.01470947265625,
+            "height": 62.67156982421875,
+            "top": 84.97549438476562,
+            "right": -20.992645263671875,
+            "bottom": 147.64706420898438,
+            "left": -209.00735473632812
+          },
+          "filter": "none",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "width": 375,
+      "mobileLogo": {
+        "rect": {
+          "x": 20.992647171020508,
+          "y": 84.97549438476562,
+          "width": 188.01470947265625,
+          "height": 62.67156982421875,
+          "top": 84.97549438476562,
+          "right": 209.00735664367676,
+          "bottom": 147.64706420898438,
+          "left": 20.992647171020508
+        },
+        "naturalWidth": 2172,
+        "naturalHeight": 724,
+        "filter": "none",
+        "objectFit": "contain"
+      }
+    },
+    {
+      "role": "user",
+      "width": 320,
+      "metrics": {
+        "title": "Votre journée, en un regard",
+        "titleRect": {
+          "x": 3.002450942993164,
+          "y": 163.83578491210938,
+          "width": 301.99755859375,
+          "height": 58.79901885986328,
+          "top": 163.83578491210938,
+          "right": 305.00000953674316,
+          "bottom": 222.63480377197266,
+          "left": 3.002450942993164
+        },
+        "font": "Orbitron, \"Segoe UI\", sans-serif",
+        "fontSize": "21px",
+        "fontWeight": "900",
+        "fontStyle": "normal",
+        "overflow": 0,
+        "logo": {
+          "src": "assets/skelivia-logo-original.png",
+          "naturalWidth": 2172,
+          "naturalHeight": 724,
+          "rect": {
+            "x": -209.00735473632812,
+            "y": 84.97549438476562,
+            "width": 188.01470947265625,
+            "height": 62.67156982421875,
+            "top": 84.97549438476562,
+            "right": -20.992645263671875,
+            "bottom": 147.64706420898438,
+            "left": -209.00735473632812
+          },
+          "filter": "none",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "role": "clinician",
+      "width": 320,
+      "metrics": {
+        "title": "Patients suivis",
+        "titleRect": {
+          "x": 3.002450942993164,
+          "y": 163.83578491210938,
+          "width": 301.99755859375,
+          "height": 29.39950942993164,
+          "top": 163.83578491210938,
+          "right": 305.00000953674316,
+          "bottom": 193.23529434204102,
+          "left": 3.002450942993164
+        },
+        "font": "Orbitron, \"Segoe UI\", sans-serif",
+        "fontSize": "21px",
+        "fontWeight": "900",
+        "fontStyle": "normal",
+        "overflow": 0,
+        "logo": {
+          "src": "assets/skelivia-logo-original.png",
+          "naturalWidth": 2172,
+          "naturalHeight": 724,
+          "rect": {
+            "x": -209.00735473632812,
+            "y": 84.97549438476562,
+            "width": 188.01470947265625,
+            "height": 62.67156982421875,
+            "top": 84.97549438476562,
+            "right": -20.992645263671875,
+            "bottom": 147.64706420898438,
+            "left": -209.00735473632812
+          },
+          "filter": "none",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "role": "employer",
+      "width": 320,
+      "metrics": {
+        "title": "Votre prévention, en actions",
+        "titleRect": {
+          "x": 3.002450942993164,
+          "y": 163.83578491210938,
+          "width": 301.99755859375,
+          "height": 58.79901885986328,
+          "top": 163.83578491210938,
+          "right": 305.00000953674316,
+          "bottom": 222.63480377197266,
+          "left": 3.002450942993164
+        },
+        "font": "Orbitron, \"Segoe UI\", sans-serif",
+        "fontSize": "21px",
+        "fontWeight": "900",
+        "fontStyle": "normal",
+        "overflow": 0,
+        "logo": {
+          "src": "assets/skelivia-logo-original.png",
+          "naturalWidth": 2172,
+          "naturalHeight": 724,
+          "rect": {
+            "x": -209.00735473632812,
+            "y": 84.97549438476562,
+            "width": 188.01470947265625,
+            "height": 62.67156982421875,
+            "top": 84.97549438476562,
+            "right": -20.992645263671875,
+            "bottom": 147.64706420898438,
+            "left": -209.00735473632812
+          },
+          "filter": "none",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "role": "support",
+      "width": 320,
+      "metrics": {
+        "title": "Votre file de support",
+        "titleRect": {
+          "x": 3.002450942993164,
+          "y": 163.83578491210938,
+          "width": 301.99755859375,
+          "height": 58.79901885986328,
+          "top": 163.83578491210938,
+          "right": 305.00000953674316,
+          "bottom": 222.63480377197266,
+          "left": 3.002450942993164
+        },
+        "font": "Orbitron, \"Segoe UI\", sans-serif",
+        "fontSize": "21px",
+        "fontWeight": "900",
+        "fontStyle": "normal",
+        "overflow": 0,
+        "logo": {
+          "src": "assets/skelivia-logo-original.png",
+          "naturalWidth": 2172,
+          "naturalHeight": 724,
+          "rect": {
+            "x": -209.00735473632812,
+            "y": 84.97549438476562,
+            "width": 188.01470947265625,
+            "height": 62.67156982421875,
+            "top": 84.97549438476562,
+            "right": -20.992645263671875,
+            "bottom": 147.64706420898438,
+            "left": -209.00735473632812
+          },
+          "filter": "none",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "role": "admin",
+      "width": 320,
+      "metrics": {
+        "title": "Surveillance et protections",
+        "titleRect": {
+          "x": 3.002450942993164,
+          "y": 163.83578491210938,
+          "width": 301.99755859375,
+          "height": 58.79901885986328,
+          "top": 163.83578491210938,
+          "right": 305.00000953674316,
+          "bottom": 222.63480377197266,
+          "left": 3.002450942993164
+        },
+        "font": "Orbitron, \"Segoe UI\", sans-serif",
+        "fontSize": "21px",
+        "fontWeight": "900",
+        "fontStyle": "normal",
+        "overflow": 0,
+        "logo": {
+          "src": "assets/skelivia-logo-original.png",
+          "naturalWidth": 2172,
+          "naturalHeight": 724,
+          "rect": {
+            "x": -209.00735473632812,
+            "y": 84.97549438476562,
+            "width": 188.01470947265625,
+            "height": 62.67156982421875,
+            "top": 84.97549438476562,
+            "right": -20.992645263671875,
+            "bottom": 147.64706420898438,
+            "left": -209.00735473632812
+          },
+          "filter": "none",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "width": 320,
+      "mobileLogo": {
+        "rect": {
+          "x": 20.992647171020508,
+          "y": 84.97549438476562,
+          "width": 188.01470947265625,
+          "height": 62.67156982421875,
+          "top": 84.97549438476562,
+          "right": 209.00735664367676,
+          "bottom": 147.64706420898438,
+          "left": 20.992647171020508
+        },
+        "naturalWidth": 2172,
+        "naturalHeight": 724,
+        "filter": "none",
+        "objectFit": "contain"
+      }
+    }
+  ],
+  "errors": []
+}

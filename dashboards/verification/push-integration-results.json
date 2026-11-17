@@ -1,0 +1,13 @@
+{
+  "checks": 4,
+  "configured": false,
+  "permissionRequests": 0,
+  "serviceWorkerRegistrations": 0,
+  "errors": [],
+  "results": [
+    "Route notifications après authentification",
+    "Configuration serveur réelle affichée",
+    "Aucune permission ou inscription automatique",
+    "Paramètres Push sans débordement à390px"
+  ]
+}

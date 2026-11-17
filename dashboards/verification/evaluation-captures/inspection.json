@@ -1,0 +1,522 @@
+{
+  "report": [
+    {
+      "role": "user",
+      "width": 1440,
+      "stats": {
+        "documentWidth": 1440,
+        "viewport": 1440,
+        "heading": "VOTRE JOURNÉE, EN UN REGARD",
+        "smallTargets": [
+          {
+            "text": "Utilisateur\nSoignant\nEmployeur / prévention\nSupport\nAdministration sécurité",
+            "h": 27,
+            "w": 171
+          },
+          {
+            "text": "Jour",
+            "h": 29,
+            "w": 47
+          },
+          {
+            "text": "Semaine",
+            "h": 29,
+            "w": 68
+          },
+          {
+            "text": "Mois",
+            "h": 29,
+            "w": 50
+          }
+        ]
+      }
+    },
+    {
+      "role": "clinician",
+      "width": 1440,
+      "stats": {
+        "documentWidth": 1440,
+        "viewport": 1440,
+        "heading": "PATIENTS SUIVIS",
+        "smallTargets": [
+          {
+            "text": "Utilisateur\nSoignant\nEmployeur / prévention\nSupport\nAdministration sécurité",
+            "h": 27,
+            "w": 171
+          },
+          {
+            "text": "Patient ↕",
+            "h": 15,
+            "w": 40
+          }
+        ]
+      }
+    },
+    {
+      "role": "employer",
+      "width": 1440,
+      "stats": {
+        "documentWidth": 1440,
+        "viewport": 1440,
+        "heading": "VOTRE PRÉVENTION, EN ACTIONS",
+        "smallTargets": [
+          {
+            "text": "Utilisateur\nSoignant\nEmployeur / prévention\nSupport\nAdministration sécurité",
+            "h": 27,
+            "w": 171
+          }
+        ]
+      }
+    },
+    {
+      "role": "support",
+      "width": 1440,
+      "stats": {
+        "documentWidth": 1440,
+        "viewport": 1440,
+        "heading": "VOTRE FILE DE SUPPORT",
+        "smallTargets": [
+          {
+            "text": "Utilisateur\nSoignant\nEmployeur / prévention\nSupport\nAdministration sécurité",
+            "h": 27,
+            "w": 171
+          },
+          {
+            "text": "",
+            "h": 15,
+            "w": 15
+          },
+          {
+            "text": "",
+            "h": 15,
+            "w": 15
+          },
+          {
+            "text": "",
+            "h": 15,
+            "w": 15
+          }
+        ]
+      }
+    },
+    {
+      "role": "admin",
+      "width": 1440,
+      "stats": {
+        "documentWidth": 1440,
+        "viewport": 1440,
+        "heading": "SURVEILLANCE ET PROTECTIONS",
+        "smallTargets": [
+          {
+            "text": "Utilisateur\nSoignant\nEmployeur / prévention\nSupport\nAdministration sécurité",
+            "h": 27,
+            "w": 171
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "width": 1024,
+      "stats": {
+        "documentWidth": 1024,
+        "viewport": 1024,
+        "heading": "VOTRE JOURNÉE, EN UN REGARD",
+        "smallTargets": [
+          {
+            "text": "Utilisateur\nSoignant\nEmployeur / prévention\nSupport\nAdministration sécurité",
+            "h": 27,
+            "w": 171
+          },
+          {
+            "text": "Jour",
+            "h": 29,
+            "w": 47
+          },
+          {
+            "text": "Semaine",
+            "h": 29,
+            "w": 68
+          },
+          {
+            "text": "Mois",
+            "h": 29,
+            "w": 50
+          }
+        ]
+      }
+    },
+    {
+      "role": "clinician",
+      "width": 1024,
+      "stats": {
+        "documentWidth": 1024,
+        "viewport": 1024,
+        "heading": "PATIENTS SUIVIS",
+        "smallTargets": [
+          {
+            "text": "Utilisateur\nSoignant\nEmployeur / prévention\nSupport\nAdministration sécurité",
+            "h": 27,
+            "w": 171
+          },
+          {
+            "text": "Patient ↕",
+            "h": 15,
+            "w": 40
+          }
+        ]
+      }
+    },
+    {
+      "role": "employer",
+      "width": 1024,
+      "stats": {
+        "documentWidth": 1024,
+        "viewport": 1024,
+        "heading": "VOTRE PRÉVENTION, EN ACTIONS",
+        "smallTargets": [
+          {
+            "text": "Utilisateur\nSoignant\nEmployeur / prévention\nSupport\nAdministration sécurité",
+            "h": 27,
+            "w": 171
+          }
+        ]
+      }
+    },
+    {
+      "role": "support",
+      "width": 1024,
+      "stats": {
+        "documentWidth": 1024,
+        "viewport": 1024,
+        "heading": "VOTRE FILE DE SUPPORT",
+        "smallTargets": [
+          {
+            "text": "Utilisateur\nSoignant\nEmployeur / prévention\nSupport\nAdministration sécurité",
+            "h": 27,
+            "w": 171
+          },
+          {
+            "text": "",
+            "h": 15,
+            "w": 15
+          },
+          {
+            "text": "",
+            "h": 15,
+            "w": 15
+          },
+          {
+            "text": "",
+            "h": 15,
+            "w": 15
+          }
+        ]
+      }
+    },
+    {
+      "role": "admin",
+      "width": 1024,
+      "stats": {
+        "documentWidth": 1024,
+        "viewport": 1024,
+        "heading": "SURVEILLANCE ET PROTECTIONS",
+        "smallTargets": [
+          {
+            "text": "Utilisateur\nSoignant\nEmployeur / prévention\nSupport\nAdministration sécurité",
+            "h": 27,
+            "w": 171
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "width": 768,
+      "stats": {
+        "documentWidth": 769,
+        "viewport": 769,
+        "heading": "VOTRE JOURNÉE, EN UN REGARD",
+        "smallTargets": [
+          {
+            "text": "Jour",
+            "h": 29,
+            "w": 47
+          },
+          {
+            "text": "Semaine",
+            "h": 29,
+            "w": 68
+          },
+          {
+            "text": "Mois",
+            "h": 29,
+            "w": 50
+          }
+        ]
+      }
+    },
+    {
+      "role": "clinician",
+      "width": 768,
+      "stats": {
+        "documentWidth": 769,
+        "viewport": 769,
+        "heading": "PATIENTS SUIVIS",
+        "smallTargets": [
+          {
+            "text": "Patient ↕",
+            "h": 15,
+            "w": 40
+          }
+        ]
+      }
+    },
+    {
+      "role": "employer",
+      "width": 768,
+      "stats": {
+        "documentWidth": 769,
+        "viewport": 769,
+        "heading": "VOTRE PRÉVENTION, EN ACTIONS",
+        "smallTargets": []
+      }
+    },
+    {
+      "role": "support",
+      "width": 768,
+      "stats": {
+        "documentWidth": 769,
+        "viewport": 769,
+        "heading": "VOTRE FILE DE SUPPORT",
+        "smallTargets": []
+      }
+    },
+    {
+      "role": "admin",
+      "width": 768,
+      "stats": {
+        "documentWidth": 769,
+        "viewport": 769,
+        "heading": "SURVEILLANCE ET PROTECTIONS",
+        "smallTargets": []
+      }
+    },
+    {
+      "role": "user",
+      "width": 375,
+      "stats": {
+        "documentWidth": 376,
+        "viewport": 376,
+        "heading": "VOTRE JOURNÉE, EN UN REGARD",
+        "smallTargets": [
+          {
+            "text": "☰",
+            "h": 35,
+            "w": 28
+          },
+          {
+            "text": "Jour",
+            "h": 27,
+            "w": 100
+          },
+          {
+            "text": "Semaine",
+            "h": 27,
+            "w": 100
+          },
+          {
+            "text": "Mois",
+            "h": 27,
+            "w": 100
+          }
+        ]
+      }
+    },
+    {
+      "role": "clinician",
+      "width": 375,
+      "stats": {
+        "documentWidth": 376,
+        "viewport": 376,
+        "heading": "PATIENTS SUIVIS",
+        "smallTargets": [
+          {
+            "text": "☰",
+            "h": 35,
+            "w": 28
+          },
+          {
+            "text": "Patient ↕",
+            "h": 15,
+            "w": 40
+          }
+        ]
+      }
+    },
+    {
+      "role": "employer",
+      "width": 375,
+      "stats": {
+        "documentWidth": 376,
+        "viewport": 376,
+        "heading": "VOTRE PRÉVENTION, EN ACTIONS",
+        "smallTargets": [
+          {
+            "text": "☰",
+            "h": 35,
+            "w": 28
+          }
+        ]
+      }
+    },
+    {
+      "role": "support",
+      "width": 375,
+      "stats": {
+        "documentWidth": 376,
+        "viewport": 376,
+        "heading": "VOTRE FILE DE SUPPORT",
+        "smallTargets": [
+          {
+            "text": "☰",
+            "h": 35,
+            "w": 28
+          }
+        ]
+      }
+    },
+    {
+      "role": "admin",
+      "width": 375,
+      "stats": {
+        "documentWidth": 376,
+        "viewport": 376,
+        "heading": "SURVEILLANCE ET PROTECTIONS",
+        "smallTargets": [
+          {
+            "text": "☰",
+            "h": 35,
+            "w": 28
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "width": 320,
+      "stats": {
+        "documentWidth": 320,
+        "viewport": 320,
+        "heading": "VOTRE JOURNÉE, EN UN REGARD",
+        "smallTargets": [
+          {
+            "text": "☰",
+            "h": 35,
+            "w": 28
+          },
+          {
+            "text": "Jour",
+            "h": 27,
+            "w": 81
+          },
+          {
+            "text": "Semaine",
+            "h": 27,
+            "w": 81
+          },
+          {
+            "text": "Mois",
+            "h": 27,
+            "w": 81
+          }
+        ]
+      }
+    },
+    {
+      "role": "clinician",
+      "width": 320,
+      "stats": {
+        "documentWidth": 320,
+        "viewport": 320,
+        "heading": "PATIENTS SUIVIS",
+        "smallTargets": [
+          {
+            "text": "☰",
+            "h": 35,
+            "w": 28
+          },
+          {
+            "text": "Patient ↕",
+            "h": 15,
+            "w": 40
+          }
+        ]
+      }
+    },
+    {
+      "role": "employer",
+      "width": 320,
+      "stats": {
+        "documentWidth": 320,
+        "viewport": 320,
+        "heading": "VOTRE PRÉVENTION, EN ACTIONS",
+        "smallTargets": [
+          {
+            "text": "☰",
+            "h": 35,
+            "w": 28
+          }
+        ]
+      }
+    },
+    {
+      "role": "support",
+      "width": 320,
+      "stats": {
+        "documentWidth": 320,
+        "viewport": 320,
+        "heading": "VOTRE FILE DE SUPPORT",
+        "smallTargets": [
+          {
+            "text": "☰",
+            "h": 35,
+            "w": 28
+          }
+        ]
+      }
+    },
+    {
+      "role": "admin",
+      "width": 320,
+      "stats": {
+        "documentWidth": 320,
+        "viewport": 320,
+        "heading": "SURVEILLANCE ET PROTECTIONS",
+        "smallTargets": [
+          {
+            "text": "☰",
+            "h": 35,
+            "w": 28
+          }
+        ]
+      }
+    },
+    {
+      "userNavigation": "Vue d’ensemble\nMes mesures\nConseils & bilans\nMes partages\nMa souris\nAssistance\nParamètres",
+      "userButtons": [
+        "+ Nouveau partage",
+        "Révoquer"
+      ]
+    },
+    {
+      "clinician": "← Tous les patients\n\nP-001\n\nPATIENT DÉMO 01\n\nPartage actif jusqu’au 30 nov. 2026 · Relation de suivi vérifiée.\n\nBilan autorisé\n\nMesures et documents du suivi\n\nMesures\nConseils\nBilan de suivi\nCalibration vérifiée · C-02 7 novembre 2026\nComparer deux périodes\nVos mesures en perspective\n\n14 novembre 2026\n\nJour\nSemaine\nMois\n\nTemps de contact détecté\n\n3 h 12\n\nCumul des périodes renseignées\n\n0\n30\n60\n08 h\n10 h\n12 h\n14 h\n16 h\n18 h\n\nMinutes par tranche de 2 heures\n\nAppuis relatifs\n\n21% · pouce\n\nMoyenne des points d’exemple valides\n\n0\n20\n40\n08 h\n10 h\n12 h\n14 h\n16 h\n18 h\nPouce\nPaume\n% relatif simulé\n\nÉpisodes de mouvement\n\n164épisodes\n\nComptage sur les périodes renseignées\n\n0\n30\n60\n08 h\n10 h\n12 h\n14 h\n16 h\n18 h\n\nÉpisodes par tranche de 2 heures\n\n12 h – 14 h : données indisponibles\nCalibration du 7 novembre · version C-02\n\nLa qualité de mesure est distincte de l’état de santé. Les appuis relatifs simulés ne permettent pas un diagnostic.",
+      "tabs": [
+        "Mesures",
+        "Conseils",
+        "Bilan de suivi"
+      ]
+    }
+  ],
+  "errors": []
+}

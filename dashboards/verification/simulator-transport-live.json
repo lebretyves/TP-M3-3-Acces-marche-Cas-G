@@ -1,0 +1,40 @@
+{
+  "verified_at": "2026-11-14T17:44:35.003254+00:00",
+  "scope": "dedicated_local_synthetic_skelivia",
+  "interface": "http://127.0.0.1:8774",
+  "docker_project": "skelivia",
+  "service": "simulator",
+  "port_binding": {"host_ip": "127.0.0.1", "host_port": 8774},
+  "networks": ["private", "edge"],
+  "mqtt": {"host": "broker", "port": 8883, "tls_verified": true, "certificate_cn": "skm-001", "public_port": false},
+  "web_database_credentials": false,
+  "private_ca_mounted": false,
+  "source_read_only": true,
+  "only_writable_bind": "/run/simulator-runs",
+  "calibration_preparation": {
+    "method": "existing_synthetic_command_and_authenticated_ack",
+    "forged_nonce_rejected": true,
+    "status": "synthetic_reference",
+    "version": "C-LIVE-BANK",
+    "physical_calibration_claim": false,
+    "firmware_update_performed": false
+  },
+  "run": {
+    "run_id": "04fb088d-2c40-404f-bce4-f16c68432dbf",
+    "mode": "normal",
+    "duration_seconds": 10,
+    "status": "completed",
+    "broker_accepted": 2,
+    "skipped_windows": 0,
+    "database_receipts": 2,
+    "all_synthetic": true,
+    "fixed_patient_binding": true,
+    "reports": [
+      {"sequence": 0, "report_id": "ingest-442b94f7530e4a49ad23528583f1dc75", "quality": "valid"},
+      {"sequence": 1, "report_id": "ingest-74dee137608d4838bebf659a42b19b75", "quality": "valid"}
+    ]
+  },
+  "transport_unit_tests": {"passed": 12},
+  "compose_configuration": "PASS",
+  "production_or_clinical_validation": false
+}

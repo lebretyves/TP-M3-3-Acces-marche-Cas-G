@@ -1,0 +1,15 @@
+{
+  "checks": 8,
+  "osPermissionRequested": false,
+  "externalPushSent": false,
+  "results": [
+    "Aucune permission ou inscription automatique",
+    "Activation explicite : permission puis scope limité et abonnement owner",
+    "Désactivation de l’abonnement courant",
+    "iOS non installé, refus et contexte non sécurisé : aucun prompt",
+    "Payload affiché générique : aucun contenu médical ni URL injectée",
+    "Alertes sécurité exclues du téléphone et de la montre",
+    "Clic limité à l’application, aucun cache hors ligne ni API santé",
+    "Manifest local lié à l’identité originale"
+  ]
+}

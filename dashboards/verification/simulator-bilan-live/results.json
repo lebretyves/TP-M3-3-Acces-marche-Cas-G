@@ -1,0 +1,121 @@
+{
+  "checks": [
+    "Direct access to visible scenario summary",
+    {
+      "mode": "normal",
+      "preview": [
+        [
+          "6",
+          "Non exécuté"
+        ],
+        [
+          "6",
+          "Non exécuté"
+        ],
+        [
+          "0",
+          "Non exécuté"
+        ],
+        [
+          "6",
+          "Non exécuté"
+        ],
+        [
+          "12",
+          "Non exécuté"
+        ]
+      ]
+    },
+    {
+      "mode": "invalid",
+      "preview": [
+        [
+          "2",
+          "Non exécuté"
+        ],
+        [
+          "0",
+          "Non exécuté"
+        ],
+        [
+          "2",
+          "Non exécuté"
+        ],
+        [
+          "2",
+          "Non exécuté"
+        ],
+        [
+          "0",
+          "Non exécuté"
+        ]
+      ]
+    },
+    {
+      "mode": "network_cut",
+      "preview": [
+        [
+          "6",
+          "Non exécuté"
+        ],
+        [
+          "6",
+          "Non exécuté"
+        ],
+        [
+          "0",
+          "Non exécuté"
+        ],
+        [
+          "0",
+          "Non exécuté"
+        ],
+        [
+          "20",
+          "Non exécuté"
+        ]
+      ]
+    }
+  ],
+  "screenshots": [
+    "E:/TP M3 3/dashboards/verification/simulator-bilan-live/bilan-1440.png",
+    "E:/TP M3 3/dashboards/verification/simulator-bilan-live/bilan-390.png",
+    "E:/TP M3 3/dashboards/verification/simulator-bilan-live/bilan-320.png",
+    "E:/TP M3 3/dashboards/verification/simulator-bilan-live/bilan-768.png"
+  ],
+  "local_run": {
+    "status": "completed",
+    "windows": [
+      {
+        "quality": "valid",
+        "delivery": "local_only"
+      }
+    ],
+    "broker_accepted": 0
+  },
+  "local_summary": "Bilan du scénario\n\nUne fenêtre est un groupe de mesures de 5 secondes.\n\nScénario terminé\n\nExécution terminée. Les compteurs décrivent les fenêtres effectivement traitées. Mode local : aucune transmission aux dashboards n’est prévue.\n\nFenêtres valides\n1\nQualité exploitable dans le banc\nNon exploitables\n0\nInvalides ou calibration requise\nTransmises\n0\nEnvoi accepté par le service\nNon transmises\n1\nMode local ou coupure réseau\nEnvoi non confirmé\n0\nRéception de l’envoi inconnue\nAttendu / observé\nCompteurs de cette exécution\nIndicateur\tPrévu pour le scénario complet\tObservé à cet instant\nFenêtres totales\t1\t1\nFenêtres valides\t1\t1\nFenêtres non exploitables\t0\t0\nFenêtres transmises\t0\t0\nÉpisodes de mouvement\t3\t3\n\nPrévisions et observations proviennent du même moteur. Ce tableau compare le calcul prévu avec l’exécution ; il ne certifie ni l’enregistrement en base ni la réception dans le dashboard. Les notifications confirmées sont indiquées séparément dans les alertes.",
+  "local_cells": [
+    [
+      "1",
+      "1"
+    ],
+    [
+      "1",
+      "1"
+    ],
+    [
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0"
+    ],
+    [
+      "3",
+      "3"
+    ]
+  ],
+  "errors": [],
+  "status": "PASS"
+}

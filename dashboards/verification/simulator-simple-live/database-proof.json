@@ -1,0 +1,52 @@
+{
+  "force": {
+    "run_id": "e9a7305b-90d4-4f2e-a4de-8e4788549bd1",
+    "device_id": "demo-device-a",
+    "verified_at": "2026-11-16T18:33:18.944077+00:00",
+    "database_receipts": 2,
+    "fixed_synthetic_binding": true,
+    "events_by_kind": {
+      "high_force": 1
+    },
+    "events_by_status": {
+      "notification_created": 1
+    },
+    "notifications_expected": 1,
+    "notifications_verified": 1,
+    "events": [
+      {
+        "sequence": 0,
+        "kind": "high_force",
+        "origin": "computed",
+        "status": "notification_created",
+        "notification_verified": true
+      }
+    ],
+    "scope": "database_only_not_external_delivery"
+  },
+  "intensive": {
+    "run_id": "f827e791-eb62-4335-be51-8b61e67a9668",
+    "device_id": "demo-device-a",
+    "verified_at": "2026-11-16T18:33:18.952452+00:00",
+    "database_receipts": 6,
+    "fixed_synthetic_binding": true,
+    "events_by_kind": {
+      "pause_reminder": 1
+    },
+    "events_by_status": {
+      "notification_created": 1
+    },
+    "notifications_expected": 1,
+    "notifications_verified": 1,
+    "events": [
+      {
+        "sequence": 3,
+        "kind": "pause_reminder",
+        "origin": "computed",
+        "status": "notification_created",
+        "notification_verified": true
+      }
+    ],
+    "scope": "database_only_not_external_delivery"
+  }
+}

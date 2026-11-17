@@ -1,0 +1,25 @@
+{
+  "checks": [
+    "targeted-fault-visible-outside-advanced",
+    "active-contact-in-drawing-future-event-excluded",
+    "responsive-1440",
+    "responsive-768",
+    "responsive-390",
+    "responsive-375",
+    "responsive-320",
+    "sensor-keyboard-details",
+    "timeline-keyboard-no-time-change",
+    "high-orange-and-real-pause-flag",
+    "single-target-fault-other-sensors-normal",
+    "phyphox-unknown-not-fault-local",
+    "rest-absent-pause-and-reduced-motion",
+    "network-cut-and-stopped-animation",
+    "preview-planned-no-running-animation",
+    "old-contract-null-not-fault"
+  ],
+  "errors": [],
+  "intercepted_posts": [
+    "/simulateur/api/preview"
+  ],
+  "scope": "Deployed UI, mocked state and preview only. No real run, mutation or login."
+}

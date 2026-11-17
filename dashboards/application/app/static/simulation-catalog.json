@@ -1,0 +1,1877 @@
+{
+  "schema_version": "skelivia.actions.v1",
+  "roles": [
+    {
+      "id": "user",
+      "label": "Utilisateur / patient"
+    },
+    {
+      "id": "clinician",
+      "label": "Soignant"
+    },
+    {
+      "id": "employer",
+      "label": "Employeur / prévention"
+    },
+    {
+      "id": "support",
+      "label": "Support"
+    },
+    {
+      "id": "security",
+      "label": "Administration sécurité"
+    }
+  ],
+  "actions": [
+    {
+      "id": "settings.accessibility",
+      "action": "settings.save",
+      "label": "Adapter les textes et les contrastes",
+      "roles": [
+        "user",
+        "clinician",
+        "employer",
+        "support",
+        "security"
+      ],
+      "description": "Modifier les préférences du compte connecté.",
+      "effect": "Préférences enregistrées pour ce compte.",
+      "limitations": "",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "large_text",
+          "label": "Grands textes",
+          "type": "boolean",
+          "required": true,
+          "default": false
+        },
+        {
+          "name": "high_contrast",
+          "label": "Contrastes renforcés",
+          "type": "boolean",
+          "required": true,
+          "default": false
+        }
+      ]
+    },
+    {
+      "id": "settings.pauses",
+      "action": "settings.save",
+      "label": "Régler les rappels de pause",
+      "roles": [
+        "user"
+      ],
+      "description": "Choisir si les rappels sont actifs et leur intervalle.",
+      "effect": "Préférences de pause enregistrées.",
+      "limitations": "",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "pause_enabled",
+          "label": "Activer les rappels",
+          "type": "boolean",
+          "required": true,
+          "default": true
+        },
+        {
+          "name": "pause_minutes",
+          "label": "Intervalle en minutes",
+          "type": "integer",
+          "required": true,
+          "default": 45,
+          "min": 5,
+          "max": 180
+        }
+      ]
+    },
+    {
+      "id": "settings.notifications",
+      "action": "settings.save",
+      "label": "Choisir les canaux et horaires silencieux",
+      "roles": [
+        "user"
+      ],
+      "description": "Paramétrer les notifications déjà prévues dans le projet.",
+      "effect": "Préférences enregistrées.",
+      "limitations": "Un canal sélectionné ne prouve pas une livraison. Web Push doit être configuré ; la montre dépend du relais du téléphone.",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "channels.pause",
+          "label": "Rappels de pause",
+          "type": "select",
+          "required": true,
+          "options": [
+            {
+              "value": "none",
+              "label": "Aucun"
+            },
+            {
+              "value": "phone",
+              "label": "Téléphone"
+            },
+            {
+              "value": "watch",
+              "label": "Montre"
+            },
+            {
+              "value": "both",
+              "label": "Les deux"
+            }
+          ],
+          "payload_path": [
+            "channels",
+            "pause"
+          ],
+          "default": "none"
+        },
+        {
+          "name": "channels.advice",
+          "label": "Conseils",
+          "type": "select",
+          "required": true,
+          "options": [
+            {
+              "value": "none",
+              "label": "Aucun"
+            },
+            {
+              "value": "phone",
+              "label": "Téléphone"
+            },
+            {
+              "value": "watch",
+              "label": "Montre"
+            },
+            {
+              "value": "both",
+              "label": "Les deux"
+            }
+          ],
+          "payload_path": [
+            "channels",
+            "advice"
+          ],
+          "default": "none"
+        },
+        {
+          "name": "channels.report",
+          "label": "Bilans",
+          "type": "select",
+          "required": true,
+          "options": [
+            {
+              "value": "none",
+              "label": "Aucun"
+            },
+            {
+              "value": "phone",
+              "label": "Téléphone"
+            },
+            {
+              "value": "watch",
+              "label": "Montre"
+            },
+            {
+              "value": "both",
+              "label": "Les deux"
+            }
+          ],
+          "payload_path": [
+            "channels",
+            "report"
+          ],
+          "default": "none"
+        },
+        {
+          "name": "channels.support",
+          "label": "Support",
+          "type": "select",
+          "required": true,
+          "options": [
+            {
+              "value": "none",
+              "label": "Aucun"
+            },
+            {
+              "value": "phone",
+              "label": "Téléphone"
+            },
+            {
+              "value": "watch",
+              "label": "Montre"
+            },
+            {
+              "value": "both",
+              "label": "Les deux"
+            }
+          ],
+          "payload_path": [
+            "channels",
+            "support"
+          ],
+          "default": "none"
+        },
+        {
+          "name": "channels.calibration",
+          "label": "Calibration",
+          "type": "select",
+          "required": true,
+          "options": [
+            {
+              "value": "none",
+              "label": "Aucun"
+            },
+            {
+              "value": "phone",
+              "label": "Téléphone"
+            },
+            {
+              "value": "watch",
+              "label": "Montre"
+            },
+            {
+              "value": "both",
+              "label": "Les deux"
+            }
+          ],
+          "payload_path": [
+            "channels",
+            "calibration"
+          ],
+          "default": "none"
+        },
+        {
+          "name": "quiet_start",
+          "label": "Début du silence",
+          "type": "time",
+          "required": true,
+          "default": "19:00"
+        },
+        {
+          "name": "quiet_end",
+          "label": "Fin du silence",
+          "type": "time",
+          "required": true,
+          "default": "08:00"
+        }
+      ]
+    },
+    {
+      "id": "notification.read",
+      "action": "notification.read",
+      "label": "Marquer une notification comme lue",
+      "roles": [
+        "user",
+        "clinician",
+        "employer",
+        "support",
+        "security"
+      ],
+      "description": "Choisir une notification du compte connecté.",
+      "effect": "Notification marquée comme lue.",
+      "limitations": "",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "id",
+          "label": "Notification personnelle",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "notifications",
+            "value": "id",
+            "label": "title",
+            "filters": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "pause.snooze",
+      "action": "pause.snooze",
+      "label": "Reporter les rappels de pause",
+      "roles": [
+        "user"
+      ],
+      "description": "Suspendre temporairement les rappels.",
+      "effect": "Report enregistré pour le compte connecté.",
+      "limitations": "",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "minutes",
+          "label": "Report en minutes",
+          "type": "integer",
+          "required": true,
+          "default": 15,
+          "min": 1,
+          "max": 120
+        }
+      ]
+    },
+    {
+      "id": "share.create",
+      "action": "share.create",
+      "label": "Autoriser un partage au soignant",
+      "roles": [
+        "user"
+      ],
+      "description": "Sélectionner le soignant, la période et les catégories autorisées.",
+      "effect": "Partage actif borné par sa période et sa date d’expiration.",
+      "limitations": "Le soignant doit déjà être lié au patient. La période ne peut pas finir dans le futur.",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "clinician_id",
+          "label": "Soignant habilité",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "clinicians",
+            "value": "id",
+            "label": "name",
+            "filters": {}
+          }
+        },
+        {
+          "name": "start",
+          "label": "Début de période",
+          "type": "date",
+          "required": true,
+          "default": "today"
+        },
+        {
+          "name": "end",
+          "label": "Fin de période",
+          "type": "date",
+          "required": true,
+          "default": "today"
+        },
+        {
+          "name": "categories",
+          "label": "Mesures partagées",
+          "type": "multiselect",
+          "required": true,
+          "options": [
+            {
+              "value": "contact",
+              "label": "Temps de contact"
+            },
+            {
+              "value": "pressure",
+              "label": "Appuis relatifs"
+            },
+            {
+              "value": "moves",
+              "label": "Mouvements"
+            }
+          ],
+          "default": [
+            "contact",
+            "pressure",
+            "moves"
+          ]
+        },
+        {
+          "name": "duration_hours",
+          "label": "Durée du partage en heures",
+          "type": "integer",
+          "required": true,
+          "default": 24,
+          "min": 1,
+          "max": 2160
+        }
+      ]
+    },
+    {
+      "id": "share.revoke",
+      "action": "share.revoke",
+      "label": "Révoquer un partage",
+      "roles": [
+        "user"
+      ],
+      "description": "Retirer un partage existant.",
+      "effect": "Accès futur correspondant révoqué ; les copies déjà exportées ne sont pas récupérées.",
+      "limitations": "",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "id",
+          "label": "Partage personnel",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "shares",
+            "value": "id",
+            "label": "clinician_id",
+            "filters": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "document.publish",
+      "action": "document.publish",
+      "label": "Publier ou corriger un conseil / bilan",
+      "roles": [
+        "clinician"
+      ],
+      "description": "Le soignant saisit le contenu destiné au patient.",
+      "effect": "Nouvelle version datée et notification au patient.",
+      "limitations": "Partage actif requis. Une correction conserve le type, le patient et l’auteur de la série. Aucun diagnostic automatique.",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "patient_id",
+          "label": "Patient suivi",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "patients",
+            "value": "id",
+            "label": "name",
+            "filters": {}
+          }
+        },
+        {
+          "name": "kind",
+          "label": "Document",
+          "type": "select",
+          "required": true,
+          "options": [
+            {
+              "value": "advice",
+              "label": "Conseil de prévention"
+            },
+            {
+              "value": "report",
+              "label": "Bilan de fin de suivi"
+            }
+          ]
+        },
+        {
+          "name": "title",
+          "label": "Titre",
+          "type": "text",
+          "required": true,
+          "max_length": 160
+        },
+        {
+          "name": "body",
+          "label": "Texte de démonstration à saisir",
+          "type": "textarea",
+          "required": true,
+          "max_length": 2000
+        },
+        {
+          "name": "document_id",
+          "label": "Série existante à corriger (facultatif)",
+          "type": "select",
+          "required": false,
+          "source": {
+            "collection": "documents",
+            "value": "document_id",
+            "label": "title",
+            "filters": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "reminder.create",
+      "action": "reminder.create",
+      "label": "Créer un rappel de réexamen",
+      "roles": [
+        "clinician"
+      ],
+      "description": "Programmer un rappel personnel sur un patient suivi.",
+      "effect": "Rappel visible dans l’espace soignant.",
+      "limitations": "Le rappel ne prolonge pas les droits sur les données.",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "patient_id",
+          "label": "Patient suivi",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "patients",
+            "value": "id",
+            "label": "name",
+            "filters": {}
+          }
+        },
+        {
+          "name": "due",
+          "label": "Date de réexamen",
+          "type": "date",
+          "required": true,
+          "default": "today"
+        },
+        {
+          "name": "body",
+          "label": "Texte de démonstration à saisir",
+          "type": "textarea",
+          "required": true,
+          "max_length": 2000
+        }
+      ]
+    },
+    {
+      "id": "reminder.delete",
+      "action": "reminder.delete",
+      "label": "Retirer un rappel de réexamen",
+      "roles": [
+        "clinician"
+      ],
+      "description": "Choisir un rappel créé par le compte connecté.",
+      "effect": "Rappel retiré de la liste active.",
+      "limitations": "",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "id",
+          "label": "Rappel personnel",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "reminders",
+            "value": "id",
+            "label": "body",
+            "filters": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "recommendation.publish",
+      "action": "recommendation.publish",
+      "label": "Publier une recommandation à l’employeur",
+      "roles": [
+        "clinician"
+      ],
+      "description": "Décrire un aménagement sans données médicales individuelles.",
+      "effect": "Recommandation à traiter et notification dans l’espace employeur.",
+      "limitations": "",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "org_id",
+          "label": "Organisation liée",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "organisations",
+            "value": "id",
+            "label": "id",
+            "filters": {}
+          }
+        },
+        {
+          "name": "title",
+          "label": "Titre",
+          "type": "text",
+          "required": true,
+          "max_length": 160
+        },
+        {
+          "name": "body",
+          "label": "Texte de démonstration à saisir",
+          "type": "textarea",
+          "required": true,
+          "max_length": 2000
+        },
+        {
+          "name": "category",
+          "label": "Type d’aménagement",
+          "type": "select",
+          "required": true,
+          "options": [
+            {
+              "value": "equipment",
+              "label": "Matériel"
+            },
+            {
+              "value": "layout",
+              "label": "Poste de travail"
+            },
+            {
+              "value": "organisation",
+              "label": "Organisation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recommendation.revise",
+      "action": "recommendation.revise",
+      "label": "Corriger une recommandation",
+      "roles": [
+        "clinician"
+      ],
+      "description": "Modifier une recommandation du soignant connecté.",
+      "effect": "Historique conservé et notification à l’employeur.",
+      "limitations": "",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "id",
+          "label": "Recommandation",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "recommendations",
+            "value": "id",
+            "label": "title",
+            "filters": {}
+          }
+        },
+        {
+          "name": "title",
+          "label": "Titre",
+          "type": "text",
+          "required": true,
+          "max_length": 160
+        },
+        {
+          "name": "body",
+          "label": "Texte de démonstration à saisir",
+          "type": "textarea",
+          "required": true,
+          "max_length": 2000
+        },
+        {
+          "name": "category",
+          "label": "Type d’aménagement",
+          "type": "select",
+          "required": true,
+          "options": [
+            {
+              "value": "equipment",
+              "label": "Matériel"
+            },
+            {
+              "value": "layout",
+              "label": "Poste de travail"
+            },
+            {
+              "value": "organisation",
+              "label": "Organisation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recommendation.status",
+      "action": "recommendation.status",
+      "label": "Modifier l’avancement d’une recommandation",
+      "roles": [
+        "employer"
+      ],
+      "description": "Choisir une recommandation de son organisation.",
+      "effect": "Statut et historique actualisés, visibles par le soignant auteur.",
+      "limitations": "",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "id",
+          "label": "Recommandation",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "recommendations",
+            "value": "id",
+            "label": "title",
+            "filters": {}
+          }
+        },
+        {
+          "name": "status",
+          "label": "Avancement",
+          "type": "select",
+          "required": true,
+          "options": [
+            {
+              "value": "todo",
+              "label": "À traiter"
+            },
+            {
+              "value": "in_progress",
+              "label": "En cours"
+            },
+            {
+              "value": "done",
+              "label": "Réalisée"
+            },
+            {
+              "value": "blocked",
+              "label": "Bloquée"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ticket.create",
+      "action": "ticket.create",
+      "label": "Ouvrir un ticket technique",
+      "roles": [
+        "user",
+        "clinician"
+      ],
+      "description": "Décrire uniquement le problème technique rencontré.",
+      "effect": "Ticket créé et attribué si un support habilité est disponible.",
+      "limitations": "Le soignant choisit uniquement Logiciel, sans souris de patient. Déclarer une perte ne révoque pas à lui seul un certificat.",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Titre",
+          "type": "text",
+          "required": true,
+          "max_length": 160
+        },
+        {
+          "name": "body",
+          "label": "Texte de démonstration à saisir",
+          "type": "textarea",
+          "required": true,
+          "max_length": 2000
+        },
+        {
+          "name": "category",
+          "label": "Problème",
+          "type": "select",
+          "required": true,
+          "options": [
+            {
+              "value": "connection",
+              "label": "Connexion"
+            },
+            {
+              "value": "calibration",
+              "label": "Calibration"
+            },
+            {
+              "value": "replacement",
+              "label": "Remplacement"
+            },
+            {
+              "value": "loss",
+              "label": "Perte"
+            },
+            {
+              "value": "software",
+              "label": "Logiciel"
+            }
+          ]
+        },
+        {
+          "name": "device_id",
+          "label": "Souris personnelle (facultatif)",
+          "type": "select",
+          "required": false,
+          "source": {
+            "collection": "devices",
+            "value": "id",
+            "label": "id",
+            "filters": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "ticket.reply",
+      "action": "ticket.reply",
+      "label": "Répondre à un ticket",
+      "roles": [
+        "user",
+        "clinician",
+        "support"
+      ],
+      "description": "Ajouter une réponse technique au ticket autorisé.",
+      "effect": "Message ajouté et notification au destinataire.",
+      "limitations": "",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "id",
+          "label": "Ticket autorisé",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "tickets",
+            "value": "id",
+            "label": "title",
+            "filters": {}
+          }
+        },
+        {
+          "name": "body",
+          "label": "Texte de démonstration à saisir",
+          "type": "textarea",
+          "required": true,
+          "max_length": 2000
+        }
+      ]
+    },
+    {
+      "id": "ticket.status",
+      "action": "ticket.status",
+      "label": "Changer le statut d’un ticket",
+      "roles": [
+        "support"
+      ],
+      "description": "Mettre à jour un ticket attribué au support connecté.",
+      "effect": "Statut actualisé et notification au propriétaire.",
+      "limitations": "Un ticket matériel ne peut être résolu sans diagnostic actif, contrôles et calibration physique vérifiée. Une référence synthétique ne suffit pas.",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "id",
+          "label": "Ticket autorisé",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "tickets",
+            "value": "id",
+            "label": "title",
+            "filters": {}
+          }
+        },
+        {
+          "name": "status",
+          "label": "Statut",
+          "type": "select",
+          "required": true,
+          "options": [
+            {
+              "value": "in_progress",
+              "label": "En cours"
+            },
+            {
+              "value": "waiting",
+              "label": "En attente"
+            },
+            {
+              "value": "resolved",
+              "label": "Résolu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ticket.checks",
+      "action": "ticket.checks",
+      "label": "Enregistrer les contrôles après intervention",
+      "roles": [
+        "support"
+      ],
+      "description": "Consigner les contrôles réellement effectués.",
+      "effect": "Contrôles enregistrés sur le ticket attribué.",
+      "limitations": "Diagnostic actif obligatoire. Ces cases ne remplacent pas une preuve matérielle.",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "id",
+          "label": "Ticket autorisé",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "tickets",
+            "value": "id",
+            "label": "title",
+            "filters": {}
+          }
+        },
+        {
+          "name": "connection",
+          "label": "Connexion vérifiée",
+          "type": "boolean",
+          "required": true,
+          "default": false
+        },
+        {
+          "name": "sensors",
+          "label": "Capteurs vérifiés",
+          "type": "boolean",
+          "required": true,
+          "default": false
+        },
+        {
+          "name": "calibration",
+          "label": "Calibration vérifiée",
+          "type": "boolean",
+          "required": true,
+          "default": false
+        }
+      ]
+    },
+    {
+      "id": "diagnostic.request",
+      "action": "diagnostic.request",
+      "label": "Demander un diagnostic temporaire",
+      "roles": [
+        "support"
+      ],
+      "description": "Demander au propriétaire du ticket l’accès technique temporaire.",
+      "effect": "Demande en attente et notification au propriétaire ; accès encore fermé.",
+      "limitations": "",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "id",
+          "label": "Ticket autorisé",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "tickets",
+            "value": "id",
+            "label": "title",
+            "filters": {}
+          }
+        },
+        {
+          "name": "duration_minutes",
+          "label": "Durée en minutes",
+          "type": "integer",
+          "required": true,
+          "default": 15,
+          "min": 1,
+          "max": 60
+        },
+        {
+          "name": "reason",
+          "label": "Motif à saisir",
+          "type": "textarea",
+          "required": true,
+          "max_length": 2000
+        }
+      ]
+    },
+    {
+      "id": "diagnostic.approve",
+      "action": "diagnostic.approve",
+      "label": "Autoriser le diagnostic demandé",
+      "roles": [
+        "user"
+      ],
+      "description": "Le propriétaire approuve la demande choisie.",
+      "effect": "Accès technique ouvert pour la durée demandée, sans données de santé.",
+      "limitations": "",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "id",
+          "label": "Demande de diagnostic en attente",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "jobs",
+            "value": "id",
+            "label": "kind",
+            "filters": {
+              "kind": "diagnostic_request",
+              "status": "awaiting_approval"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "diagnostic.revoke",
+      "action": "diagnostic.revoke",
+      "label": "Fermer un diagnostic temporaire",
+      "roles": [
+        "support",
+        "security"
+      ],
+      "description": "Retirer un accès technique temporaire existant.",
+      "effect": "Diagnostic fermé.",
+      "limitations": "La référence reste contrôlée côté serveur selon le rôle.",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "id",
+          "label": "Identifiant du ticket concerné",
+          "type": "text",
+          "required": true,
+          "max_length": 80,
+          "help": "Support : recopier l’identifiant du ticket attribué. Sécurité : utiliser la référence technique de l’intervention ; aucun dossier patient n’est exposé."
+        }
+      ]
+    },
+    {
+      "id": "device.calibrate",
+      "action": "device.calibrate",
+      "label": "Demander une calibration",
+      "roles": [
+        "user",
+        "support"
+      ],
+      "description": "Créer une commande de calibration pour l’appareil autorisé.",
+      "effect": "Commande en attente de l’adaptateur matériel.",
+      "limitations": "Le support doit préciser son ticket avec diagnostic actif. Aucun résultat physique n’est inventé.",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "device_id",
+          "label": "Souris autorisée",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "devices",
+            "value": "id",
+            "label": "id",
+            "filters": {}
+          }
+        },
+        {
+          "name": "ticket_id",
+          "label": "Ticket autorisé",
+          "type": "select",
+          "required": false,
+          "source": {
+            "collection": "tickets",
+            "value": "id",
+            "label": "title",
+            "filters": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "device.replace",
+      "action": "device.replace",
+      "label": "Demander le remplacement d’une souris",
+      "roles": [
+        "support"
+      ],
+      "description": "Préparer le remplacement dans une intervention attribuée.",
+      "effect": "Commande en attente de vérification par l’adaptateur.",
+      "limitations": "Diagnostic actif requis et nouvel identifiant encore non associé. Aucune association réussie n’est présumée.",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "ticket_id",
+          "label": "Ticket autorisé",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "tickets",
+            "value": "id",
+            "label": "title",
+            "filters": {}
+          }
+        },
+        {
+          "name": "new_device_id",
+          "label": "Identifiant de la nouvelle souris",
+          "type": "text",
+          "required": true,
+          "max_length": 80
+        }
+      ]
+    },
+    {
+      "id": "device.update",
+      "action": "device.update",
+      "label": "Demander une mise à jour approuvée",
+      "roles": [
+        "support"
+      ],
+      "description": "Lancer une demande pour une version déjà approuvée.",
+      "effect": "Commande en attente de résultat technique vérifié.",
+      "limitations": "Diagnostic actif requis. L’envoi ne prouve pas l’installation.",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "ticket_id",
+          "label": "Ticket autorisé",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "tickets",
+            "value": "id",
+            "label": "title",
+            "filters": {}
+          }
+        },
+        {
+          "name": "patch_id",
+          "label": "Correctif approuvé",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "approved_patches",
+            "value": "id",
+            "label": "title",
+            "filters": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "security.report",
+      "action": "security.report",
+      "label": "Signaler une anomalie technique",
+      "roles": [
+        "user",
+        "clinician",
+        "support"
+      ],
+      "description": "Transmettre un signalement technique minimal sans contenu médical.",
+      "effect": "Événement à examiner dans l’administration sécurité.",
+      "limitations": "Le signalement de démonstration ne prouve pas une intrusion réelle.",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "body",
+          "label": "Texte de démonstration à saisir",
+          "type": "textarea",
+          "required": true,
+          "max_length": 2000
+        },
+        {
+          "name": "ticket_id",
+          "label": "Ticket autorisé",
+          "type": "select",
+          "required": false,
+          "source": {
+            "collection": "tickets",
+            "value": "id",
+            "label": "title",
+            "filters": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "incident.qualify",
+      "action": "incident.qualify",
+      "label": "Qualifier un incident",
+      "roles": [
+        "security"
+      ],
+      "description": "Examiner un événement encore non qualifié.",
+      "effect": "Qualification et chronologie enregistrées.",
+      "limitations": "",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "id",
+          "label": "Incident",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "incidents",
+            "value": "id",
+            "label": "title",
+            "filters": {}
+          }
+        },
+        {
+          "name": "status",
+          "label": "Qualification",
+          "type": "select",
+          "required": true,
+          "options": [
+            {
+              "value": "confirmed",
+              "label": "Confirmé"
+            },
+            {
+              "value": "false_positive",
+              "label": "Fausse alerte"
+            }
+          ]
+        },
+        {
+          "name": "reason",
+          "label": "Motif à saisir",
+          "type": "textarea",
+          "required": true,
+          "max_length": 2000
+        }
+      ]
+    },
+    {
+      "id": "incident.action",
+      "action": "incident.action",
+      "label": "Consigner une action sur un incident",
+      "roles": [
+        "security"
+      ],
+      "description": "Décrire une action effectuée sur un incident confirmé.",
+      "effect": "Action ajoutée à la chronologie.",
+      "limitations": "Cette action consigne un traitement ; elle ne lance pas une commande système.",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "id",
+          "label": "Incident",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "incidents",
+            "value": "id",
+            "label": "title",
+            "filters": {}
+          }
+        },
+        {
+          "name": "body",
+          "label": "Texte de démonstration à saisir",
+          "type": "textarea",
+          "required": true,
+          "max_length": 2000
+        }
+      ]
+    },
+    {
+      "id": "incident.close",
+      "action": "incident.close",
+      "label": "Clôturer un incident avec une vérification",
+      "roles": [
+        "security"
+      ],
+      "description": "Enregistrer le contrôle effectué après le traitement.",
+      "effect": "Incident clôturé avec sa chronologie.",
+      "limitations": "Incident confirmé et action préalable obligatoires. Ne pas inventer de preuve.",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "id",
+          "label": "Incident",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "incidents",
+            "value": "id",
+            "label": "title",
+            "filters": {}
+          }
+        },
+        {
+          "name": "proof",
+          "label": "Vérification réalisée et référence de preuve",
+          "type": "textarea",
+          "required": true,
+          "max_length": 2000
+        }
+      ]
+    },
+    {
+      "id": "account.request",
+      "action": "account.request",
+      "label": "Demander une opération sur un compte",
+      "roles": [
+        "security"
+      ],
+      "description": "Préparer une demande sans modifier immédiatement les droits.",
+      "effect": "Demande en attente d’un administrateur distinct.",
+      "limitations": "Réauthentification récente requise. Création : identité, rôle et organisation obligatoires. Une suspension ne cible pas son propre compte.",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "operation",
+          "label": "Opération",
+          "type": "select",
+          "required": true,
+          "options": [
+            {
+              "value": "create",
+              "label": "Créer"
+            },
+            {
+              "value": "suspend",
+              "label": "Suspendre"
+            },
+            {
+              "value": "reactivate",
+              "label": "Réactiver"
+            },
+            {
+              "value": "role",
+              "label": "Changer le rôle"
+            }
+          ]
+        },
+        {
+          "name": "target_id",
+          "label": "Compte existant (sauf création)",
+          "type": "select",
+          "required": false,
+          "source": {
+            "collection": "accounts",
+            "value": "id",
+            "label": "name",
+            "filters": {}
+          }
+        },
+        {
+          "name": "role",
+          "label": "Rôle pour création ou changement",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "user",
+              "label": "Utilisateur / patient"
+            },
+            {
+              "value": "clinician",
+              "label": "Soignant"
+            },
+            {
+              "value": "employer",
+              "label": "Employeur / prévention"
+            },
+            {
+              "value": "support",
+              "label": "Support"
+            },
+            {
+              "value": "security",
+              "label": "Administration sécurité"
+            }
+          ]
+        },
+        {
+          "name": "name",
+          "label": "Nom pour une création",
+          "type": "text",
+          "required": false,
+          "max_length": 160
+        },
+        {
+          "name": "username",
+          "label": "Identifiant pour une création",
+          "type": "text",
+          "required": false,
+          "max_length": 80
+        },
+        {
+          "name": "org_id",
+          "label": "Organisation pour une création",
+          "type": "text",
+          "required": false,
+          "max_length": 80
+        },
+        {
+          "name": "reason",
+          "label": "Motif à saisir",
+          "type": "textarea",
+          "required": true,
+          "max_length": 2000
+        }
+      ]
+    },
+    {
+      "id": "account.approve",
+      "action": "account.approve",
+      "label": "Approuver une demande de compte",
+      "roles": [
+        "security"
+      ],
+      "description": "Un second administrateur examine la demande.",
+      "effect": "Opération appliquée ou provisionnement en attente selon la demande.",
+      "limitations": "Approbateur distinct du demandeur et de la cible, identité récemment vérifiée. La création reste inactive avant l’enrôlement.",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "id",
+          "label": "Demande de compte",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "account_requests",
+            "value": "id",
+            "label": "operation",
+            "filters": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "session.revoke",
+      "action": "session.revoke",
+      "label": "Couper une session autorisée",
+      "roles": [
+        "user",
+        "clinician",
+        "support",
+        "security"
+      ],
+      "description": "Choisir une session visible dans le périmètre du compte.",
+      "effect": "Session révoquée immédiatement.",
+      "limitations": "Une révocation de sa session courante déconnecte cette fenêtre. Pour un tiers, réauthentification sécurité récente requise.",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "id",
+          "label": "Session",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "sessions",
+            "value": "id",
+            "label": "account_id",
+            "filters": {}
+          }
+        },
+        {
+          "name": "reason",
+          "label": "Motif à saisir",
+          "type": "textarea",
+          "required": true,
+          "max_length": 2000
+        }
+      ]
+    },
+    {
+      "id": "certificate.request",
+      "action": "certificate.request",
+      "label": "Demander une opération de certificat",
+      "roles": [
+        "security"
+      ],
+      "description": "Créer une demande pour l’opérateur PKI.",
+      "effect": "Commande en attente de l’adaptateur de certificats.",
+      "limitations": "Réauthentification récente requise. Aucun certificat n’est déclaré installé ou révoqué par ce seul clic.",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "device_id",
+          "label": "Souris du registre",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "certificates",
+            "value": "device_id",
+            "label": "device_id",
+            "filters": {}
+          }
+        },
+        {
+          "name": "operation",
+          "label": "Opération",
+          "type": "select",
+          "required": true,
+          "options": [
+            {
+              "value": "renew",
+              "label": "Renouveler"
+            },
+            {
+              "value": "revoke",
+              "label": "Révoquer"
+            }
+          ]
+        },
+        {
+          "name": "reason",
+          "label": "Motif à saisir",
+          "type": "textarea",
+          "required": true,
+          "max_length": 2000
+        }
+      ]
+    },
+    {
+      "id": "patch.evaluate",
+      "action": "patch.evaluate",
+      "label": "Évaluer ou approuver une mise à jour",
+      "roles": [
+        "security"
+      ],
+      "description": "Documenter les tests et la décision sur une mise à jour.",
+      "effect": "Évaluation ou approbation enregistrée.",
+      "limitations": "Réauthentification récente requise. L’approbateur doit être distinct de l’évaluateur ; aucun déploiement n’est simulé comme réussi.",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "id",
+          "label": "Mise à jour",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "patches",
+            "value": "id",
+            "label": "title",
+            "filters": {}
+          }
+        },
+        {
+          "name": "priority",
+          "label": "Priorité",
+          "type": "select",
+          "required": true,
+          "options": [
+            {
+              "value": "low",
+              "label": "Faible"
+            },
+            {
+              "value": "medium",
+              "label": "Moyenne"
+            },
+            {
+              "value": "high",
+              "label": "Élevée"
+            },
+            {
+              "value": "critical",
+              "label": "Critique"
+            }
+          ]
+        },
+        {
+          "name": "exposure",
+          "label": "Exposition constatée",
+          "type": "textarea",
+          "required": true,
+          "max_length": 2000
+        },
+        {
+          "name": "tests",
+          "label": "Tests effectués et résultats",
+          "type": "textarea",
+          "required": true,
+          "max_length": 2000
+        },
+        {
+          "name": "decision",
+          "label": "Décision",
+          "type": "select",
+          "required": true,
+          "options": [
+            {
+              "value": "review",
+              "label": "À examiner"
+            },
+            {
+              "value": "approved",
+              "label": "Approuver"
+            },
+            {
+              "value": "deferred",
+              "label": "Différer"
+            }
+          ]
+        },
+        {
+          "name": "reason",
+          "label": "Motif à saisir",
+          "type": "textarea",
+          "required": true,
+          "max_length": 2000
+        }
+      ]
+    },
+    {
+      "id": "deletion.request",
+      "action": "deletion.request",
+      "label": "Demander la suppression de son compte",
+      "roles": [
+        "user"
+      ],
+      "description": "Créer une demande de suppression du compte connecté.",
+      "effect": "Demande visible par la sécurité, sans effacement immédiat.",
+      "limitations": "Réauthentification récente requise. Le traitement respecte les contraintes de conservation.",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "reason",
+          "label": "Motif à saisir",
+          "type": "textarea",
+          "required": true,
+          "max_length": 2000
+        }
+      ]
+    },
+    {
+      "id": "deletion.review",
+      "action": "deletion.review",
+      "label": "Examiner une demande de suppression",
+      "roles": [
+        "security"
+      ],
+      "description": "Prendre en charge une demande encore non traitée.",
+      "effect": "Travail de suppression préparé pour l’opérateur.",
+      "limitations": "Réauthentification récente requise. Aucune suppression ou preuve d’exécution n’est fabriquée.",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": [
+        {
+          "name": "id",
+          "label": "Demande de suppression",
+          "type": "select",
+          "required": true,
+          "source": {
+            "collection": "deletions",
+            "value": "id",
+            "label": "status",
+            "filters": {}
+          }
+        },
+        {
+          "name": "reason",
+          "label": "Motif à saisir",
+          "type": "textarea",
+          "required": true,
+          "max_length": 2000
+        }
+      ]
+    },
+    {
+      "id": "access.check",
+      "action": "access.check",
+      "label": "Contrôler les accès expirés",
+      "roles": [
+        "security"
+      ],
+      "description": "Vérifier les états des partages et diagnostics en base.",
+      "effect": "Résultat du contrôle applicatif enregistré.",
+      "limitations": "Ce contrôle ne teste ni le pare-feu ni le broker ni une restauration.",
+      "method": "POST",
+      "path": "/api/actions",
+      "fields": []
+    },
+    {
+      "id": "export.personal",
+      "action": "export.personal",
+      "label": "Télécharger ses mesures",
+      "roles": [
+        "user"
+      ],
+      "description": "Exporter les mesures personnelles sur une période choisie.",
+      "effect": "Fichier JSON téléchargé dans la fenêtre authentifiée.",
+      "limitations": "Période de 1 à 90 jours ; aucun transfert du fichier vers le simulateur.",
+      "method": "GET",
+      "path": "/api/export",
+      "fields": [
+        {
+          "name": "start",
+          "label": "Début de période",
+          "type": "date",
+          "required": true,
+          "default": "today"
+        },
+        {
+          "name": "end",
+          "label": "Fin de période",
+          "type": "date",
+          "required": true,
+          "default": "today"
+        }
+      ],
+      "fixed_payload": {
+        "kind": "personal"
+      }
+    },
+    {
+      "id": "export.prevention",
+      "action": "export.prevention",
+      "label": "Télécharger les recommandations",
+      "roles": [
+        "employer"
+      ],
+      "description": "Exporter les recommandations de son organisation.",
+      "effect": "Fichier JSON sans mesures médicales téléchargé dans la fenêtre authentifiée.",
+      "limitations": "",
+      "method": "GET",
+      "path": "/api/export",
+      "fields": [],
+      "fixed_payload": {
+        "kind": "prevention"
+      }
+    }
+  ],
+  "workflows": [
+    {
+      "id": "care",
+      "label": "Conseil et bilan de suivi",
+      "description": "Chaque étape est choisie et exécutée séparément dans le compte correspondant.",
+      "steps": [
+        {
+          "action_id": "share.create",
+          "role": "user",
+          "label": "Autoriser le partage"
+        },
+        {
+          "action_id": "document.publish",
+          "role": "clinician",
+          "label": "Publier un conseil puis, si souhaité, un bilan"
+        },
+        {
+          "action_id": "notification.read",
+          "role": "user",
+          "label": "Consulter la notification"
+        },
+        {
+          "action_id": "share.revoke",
+          "role": "user",
+          "label": "Révoquer le partage"
+        }
+      ]
+    },
+    {
+      "id": "support",
+      "label": "Ticket et calibration",
+      "description": "La fin matérielle reste en attente d’une preuve réelle ; aucune résolution automatique.",
+      "steps": [
+        {
+          "action_id": "ticket.create",
+          "role": "user",
+          "label": "Ouvrir le ticket technique"
+        },
+        {
+          "action_id": "ticket.reply",
+          "role": "support",
+          "label": "Répondre au ticket attribué"
+        },
+        {
+          "action_id": "diagnostic.request",
+          "role": "support",
+          "label": "Demander un diagnostic"
+        },
+        {
+          "action_id": "diagnostic.approve",
+          "role": "user",
+          "label": "Autoriser le diagnostic"
+        },
+        {
+          "action_id": "device.calibrate",
+          "role": "support",
+          "label": "Demander la calibration"
+        },
+        {
+          "action_id": "ticket.checks",
+          "role": "support",
+          "label": "Consigner les contrôles effectivement réalisés"
+        },
+        {
+          "action_id": "ticket.status",
+          "role": "support",
+          "label": "Choisir le statut permis par les preuves"
+        }
+      ]
+    },
+    {
+      "id": "prevention",
+      "label": "Recommandation et avancement",
+      "description": "Les recommandations restent organisationnelles, sans données médicales individuelles.",
+      "steps": [
+        {
+          "action_id": "recommendation.publish",
+          "role": "clinician",
+          "label": "Publier une recommandation"
+        },
+        {
+          "action_id": "recommendation.status",
+          "role": "employer",
+          "label": "Choisir l’avancement"
+        },
+        {
+          "action_id": "recommendation.revise",
+          "role": "clinician",
+          "label": "Corriger si nécessaire"
+        },
+        {
+          "action_id": "export.prevention",
+          "role": "employer",
+          "label": "Télécharger le récapitulatif"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "label": "Signalement et incident",
+      "description": "Un signalement synthétique teste le suivi ; il ne constitue pas une attaque réseau.",
+      "steps": [
+        {
+          "action_id": "security.report",
+          "role": "support",
+          "label": "Signaler une anomalie technique"
+        },
+        {
+          "action_id": "incident.qualify",
+          "role": "security",
+          "label": "Qualifier le signalement"
+        },
+        {
+          "action_id": "incident.action",
+          "role": "security",
+          "label": "Consigner le traitement effectué"
+        },
+        {
+          "action_id": "incident.close",
+          "role": "security",
+          "label": "Clôturer avec une vérification"
+        }
+      ]
+    },
+    {
+      "id": "update",
+      "label": "Évaluation et demande de mise à jour",
+      "description": "Changer d’administrateur pour l’approbation. L’installation doit être vérifiée par l’adaptateur.",
+      "steps": [
+        {
+          "action_id": "patch.evaluate",
+          "role": "security",
+          "label": "Évaluer les résultats des tests"
+        },
+        {
+          "action_id": "patch.evaluate",
+          "role": "security",
+          "label": "Faire approuver par un second administrateur"
+        },
+        {
+          "action_id": "device.update",
+          "role": "support",
+          "label": "Demander l’installation dans une intervention autorisée"
+        }
+      ]
+    }
+  ],
+  "notice": "Les actions modifient réellement le banc local. Elles utilisent le compte connecté et les contrôles existants. Aucune étape suivante n’est lancée automatiquement."
+}

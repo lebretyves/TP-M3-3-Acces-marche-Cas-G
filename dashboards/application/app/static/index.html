@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="SKELIVIA : vos mesures, vos partages et votre accompagnement dans un espace authentifié.">
+  <title>SKELIVIA — Votre espace</title>
+  <link rel="manifest" href="/static/manifest.webmanifest">
+  <link rel="apple-touch-icon" href="/static/skelivia-logo-original.png">
+  <meta name="theme-color" content="#09243e">
+  <meta name="apple-mobile-web-app-title" content="SKELIVIA">
+  <link rel="stylesheet" href="/static/app.css">
+  <script src="/static/push.js" defer></script>
+  <script src="/static/app.js" defer></script>
+  
+</head>
+<body>
+  <a class="skip-link" href="#content">Aller au contenu</a>
+  <main id="login-screen" class="login-screen">
+  <aside class="login-identity"><div class="brand-row"><img src="/static/skelivia-logo-original.png" width="2172" height="724" alt="SKELIVIA"></div><div><p class="eyebrow">VOS DONNÉES, VOTRE ESPACE</p><h1><span class="title-lettering">Un suivi.<br>Les bons accès.</span></h1><p>Consultez votre espace, suivez les informations qui vous concernent et gardez la main sur vos partages.</p></div><p class="login-boundary">Les mesures d’usage ne constituent pas un diagnostic médical.</p></aside>
+  <section class="login-panel" aria-labelledby="login-title"><p class="eyebrow">BIENVENUE</p><h2 id="login-title">Ouvrir mon espace</h2><p id="login-mode" class="muted">Connexion au service…</p>
+   <form id="login-form" hidden><div class="field"><label for="username">Identifiant</label><input id="username" name="username" autocomplete="username" required maxlength="120"></div><div class="field"><label for="password">Mot de passe</label><input id="password" name="password" type="password" autocomplete="current-password" required maxlength="256"></div><div class="field"><label for="otp">Code temporaire</label><input id="otp" name="otp" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6}" minlength="6" maxlength="6" required><small>Code de votre application d’authentification.</small></div><p id="login-error" class="notice warn" role="alert" hidden></p><button id="login-submit" class="button primary" type="submit">Se connecter</button></form>
+   <a id="oidc-login" class="button primary" href="/auth/login" hidden>Se connecter avec Keycloak</a><button id="retry-session" class="button secondary" hidden>Réessayer la connexion au service</button><p id="local-help" class="footnote" hidden>Banc local : utilisez les accès remis par l’administrateur et votre code temporaire. Les droits sont contrôlés par le serveur.</p>
+  </section></main>
+  <div id="workspace" hidden><div id="environment-bar" class="environment-bar"></div>
+  <button id="backdrop" class="backdrop" aria-label="Fermer le menu" hidden></button>
+  <aside class="sidebar" id="sidebar" aria-label="Navigation principale">
+    <div class="brand-row"><a class="brand" href="#" aria-label="SKELIVIA, accueil"><img src="/static/skelivia-logo-original.png" width="2172" height="724" alt="SKELIVIA"></a><button id="close-menu" class="icon-button mobile-only" aria-label="Fermer le menu">×</button></div>
+    <div class="space-label" id="space-label"></div>
+    <nav id="navigation" aria-label="Rubriques de cet espace"></nav>
+    <div class="sidebar-bottom"><span class="sidebar-caption">UN ESPACE QUI VOUS EST DÉDIÉ</span><p id="sidebar-description"></p><div class="sidebar-rule"></div><span class="sidebar-version">SKELIVIA <span>Application</span></span></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><button id="open-menu" class="menu-button mobile-only" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="sidebar"><span aria-hidden="true">☰</span> <span>Menu</span></button><div class="topbar-context"><p id="topbar-space"></p><span id="topbar-title">Vue d’ensemble</span></div><div class="topbar-actions"><button id="notifications" class="icon-button notification-button" aria-label="Ouvrir les notifications"></button><span class="topbar-divider"></span><button id="account" class="account-button" aria-label="Ouvrir le menu du compte"><span class="avatar" id="account-avatar"></span><span class="account-copy"><strong id="account-label"></strong><small id="account-role">Utilisateur</small></span><span aria-hidden="true">⌄</span></button></div></header>
+    <main id="content" tabindex="-1"></main>
+    <footer class="page-footer"><span>SKELIVIA · Vos données, votre espace.</span><span><button id="refresh" class="button quiet small">Actualiser</button></span></footer>
+  </div>
+  </div><dialog id="dialog" aria-labelledby="dialog-title"><form id="dialog-form"><div class="dialog-heading"><h2 id="dialog-title"></h2><button type="button" id="dialog-close" class="icon-button" aria-label="Fermer">×</button></div><div id="dialog-content"></div><p id="dialog-error" class="notice warn" role="alert" hidden></p><div class="dialog-actions"><button type="button" id="dialog-cancel" class="button secondary">Fermer</button><button id="dialog-submit" class="button primary" type="submit">Valider</button></div></form></dialog>
+  <div id="toast" role="status" aria-live="polite" class="toast" hidden></div>
+  <noscript><p class="noscript">Activez JavaScript pour utiliser SKELIVIA.</p></noscript>
+</body>
+</html>

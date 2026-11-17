@@ -1,0 +1,16 @@
+{
+  "id": "/",
+  "name": "SKELIVIA",
+  "short_name": "SKELIVIA",
+  "lang": "fr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#09243e",
+  "description": "Votre espace SKELIVIA authentifié. Connexion réseau nécessaire.",
+  "icons": [
+    {"src": "/static/app-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"},
+    {"src": "/static/skelivia-logo-original.png", "sizes": "2172x724", "type": "image/png", "purpose": "any"}
+  ]
+}

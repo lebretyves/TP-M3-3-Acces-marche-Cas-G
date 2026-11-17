@@ -1,0 +1,5161 @@
+[
+  {
+    "role": "user",
+    "name": "home-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      }
+    ],
+    "text": "VOTRE ESPACE PERSONNEL\n\nVOTRE JOURNÉE, EN UN REGARD\n\nVos informations de suivi et la disponibilité de votre souris.\n\nVotre souris SKELIVIA\n\ndemo-device-a\n\nConnexion\nÉtat inconnu\nDernières données\nNon renseigné\nCalibration\nRéférence synthétique\nC-DEMO-01\nVérifier la souris\nVos mesures en perspective\n\n08/11/2026 – 14/11/2026 · 2 mesure(s) chargée(s)\n\nJour\nSemaine\nMois\nFin de la période\n\nTemps de contact détecté\n\n180secondes\n\nCumul des mesures disponibles\n\n180\n0\n—\n14/11/2026\n14/11/2026\n\nAppuis relatifs\n\n42% relatif\n\nMoyenne des points · durée absente\n\n42\n0\n—\n—\n14/11/2026\n14/11/2026\nPouce\nPaume\n\nÉpisodes de mouvement\n\n12épisodes\n\nCumul des mesures disponibles\n\n12\n0\n—\n14/11/2026\n14/11/2026\nPoints non exploitables exclus de la synthèse. Qualité et calibration dans le détail. Les mesures seules ne démontrent pas une évolution de santé.\nConseils de prévention\n\nSélectionnés par votre soignant\n\nContrôle UI — conseil fictif\nConseil\n\nPublication de test sur données synthétiques.\n\n14 nov. 2026, 09:35 · Dr Lina · soignante fictive\nVersion 1\nRéglage du poste — exemple\nConseil\n\nConseil fictif de démonstration, à remplacer par un conseil rédigé par le professionnel.\n\n14 nov. 2026, 09:35 · Dr Lina · soignante fictive\nVersion 1\nBilan de fin de suivi\n\nConclusions et conseils à conserver\n\nAucun bilan disponible\n\nLes publications du soignant apparaîtront ici.",
+    "buttons": [
+      {
+        "action": "page:device",
+        "label": "Vérifier la souris",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "user",
+    "name": "home-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      }
+    ],
+    "text": "VOTRE ESPACE PERSONNEL\n\nVOTRE JOURNÉE, EN UN REGARD\n\nVos informations de suivi et la disponibilité de votre souris.\n\nVotre souris SKELIVIA\n\ndemo-device-a\n\nConnexion\nÉtat inconnu\nDernières données\nNon renseigné\nCalibration\nRéférence synthétique\nC-DEMO-01\nVérifier la souris\nVos mesures en perspective\n\n08/11/2026 – 14/11/2026 · 2 mesure(s) chargée(s)\n\nJour\nSemaine\nMois\nFin de la période\n\nTemps de contact détecté\n\n180secondes\n\nCumul des mesures disponibles\n\n180\n0\n—\n14/11/2026\n14/11/2026\n\nAppuis relatifs\n\n42% relatif\n\nMoyenne des points · durée absente\n\n42\n0\n—\n—\n14/11/2026\n14/11/2026\nPouce\nPaume\n\nÉpisodes de mouvement\n\n12épisodes\n\nCumul des mesures disponibles\n\n12\n0\n—\n14/11/2026\n14/11/2026\nPoints non exploitables exclus de la synthèse. Qualité et calibration dans le détail. Les mesures seules ne démontrent pas une évolution de santé.\nConseils de prévention\n\nSélectionnés par votre soignant\n\nContrôle UI — conseil fictif\nConseil\n\nPublication de test sur données synthétiques.\n\n14 nov. 2026, 09:35 · Dr Lina · soignante fictive\nVersion 1\nRéglage du poste — exemple\nConseil\n\nConseil fictif de démonstration, à remplacer par un conseil rédigé par le professionnel.\n\n14 nov. 2026, 09:35 · Dr Lina · soignante fictive\nVersion 1\nBilan de fin de suivi\n\nConclusions et conseils à conserver\n\nAucun bilan disponible\n\nLes publications du soignant apparaîtront ici.",
+    "buttons": [
+      {
+        "action": "page:device",
+        "label": "Vérifier la souris",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "user",
+    "name": "measures-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "ÉVOLUTION DES MESURES\n\nMES MESURES\n\nMesures reçues, qualité et périodes manquantes.\n\nTélécharger un bilan\nVos mesures en perspective\n\n08/11/2026 – 14/11/2026 · 2 mesure(s) chargée(s)\n\nJour\nSemaine\nMois\nFin de la période\n\nTemps de contact détecté\n\n180secondes\n\nCumul des mesures disponibles\n\n180\n0\n—\n14/11/2026\n14/11/2026\n\nAppuis relatifs\n\n42% relatif\n\nMoyenne des points · durée absente\n\n42\n0\n—\n—\n14/11/2026\n14/11/2026\nPouce\nPaume\n\nÉpisodes de mouvement\n\n12épisodes\n\nCumul des mesures disponibles\n\n12\n0\n—\n14/11/2026\n14/11/2026\nPoints non exploitables exclus de la synthèse. Qualité et calibration dans le détail. Les mesures seules ne démontrent pas une évolution de santé.\nDétail de la période\n\nLes unités sont celles transmises par le service.\n\nDate\tContact · s\tPouce · %\tPaume · %\tMouvements\tQualité\tCalibration\n14 nov. 2026, 09:35\t60\t—\t28\t3\t\nNon exploitable\tC-DEMO-01\n14 nov. 2026, 09:35\t180\t42\t31\t12\t\nValide\tC-DEMO-01",
+    "buttons": [
+      {
+        "action": "export.personal",
+        "label": "Télécharger un bilan",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "user",
+    "name": "measures-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "ÉVOLUTION DES MESURES\n\nMES MESURES\n\nMesures reçues, qualité et périodes manquantes.\n\nTélécharger un bilan\nVos mesures en perspective\n\n08/11/2026 – 14/11/2026 · 2 mesure(s) chargée(s)\n\nJour\nSemaine\nMois\nFin de la période\n\nTemps de contact détecté\n\n180secondes\n\nCumul des mesures disponibles\n\n180\n0\n—\n14/11/2026\n14/11/2026\n\nAppuis relatifs\n\n42% relatif\n\nMoyenne des points · durée absente\n\n42\n0\n—\n—\n14/11/2026\n14/11/2026\nPouce\nPaume\n\nÉpisodes de mouvement\n\n12épisodes\n\nCumul des mesures disponibles\n\n12\n0\n—\n14/11/2026\n14/11/2026\nPoints non exploitables exclus de la synthèse. Qualité et calibration dans le détail. Les mesures seules ne démontrent pas une évolution de santé.\nDétail de la période\n\nLes unités sont celles transmises par le service.\n\nFaites défiler le tableau →\n\nDate\tContact · s\tPouce · %\tPaume · %\tMouvements\tQualité\tCalibration\n14 nov. 2026, 09:35\t60\t—\t28\t3\t\nNon exploitable\tC-DEMO-01\n14 nov. 2026, 09:35\t180\t42\t31\t12\t\nValide\tC-DEMO-01",
+    "buttons": [
+      {
+        "action": "export.personal",
+        "label": "Télécharger un bilan",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "user",
+    "name": "device-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "APPAREIL & MAINTENANCE\n\nMA SOURIS\n\nLes résultats proviennent du service et de l’appareil.\n\nVotre souris SKELIVIA\n\ndemo-device-a\n\nConnexion\nÉtat inconnu\nDernières données\nNon renseigné\nCalibration\nRéférence synthétique\nC-DEMO-01\nVérifier la souris\nCalibration et logiciel\n\ndemo-device-a\n\nVersion installée\n2.4.1\nCalibration\nC-DEMO-01\n\nUne demande de calibration reste en attente tant que l’appareil n’a pas confirmé le résultat.\n\nCalibration guidée\nPerte ou remplacement\nDemandes en cours\n\nUn enregistrement ne confirme pas une exécution matérielle.\n\nDemande\tCible\tÉtat\tRésultat\nCalibration\tdemo-device-a\t\nEn attente\tEn attente de résultat vérifié\nDiagnostic temporaire\tticket-alice\t\nApprouvé\tAutorisation temporaire, aucun résultat matériel.",
+    "buttons": [
+      {
+        "action": "page:device",
+        "label": "Vérifier la souris",
+        "id": ""
+      },
+      {
+        "action": "device.calibrate",
+        "label": "Calibration guidée",
+        "id": "demo-device-a"
+      },
+      {
+        "action": "device.loss",
+        "label": "Perte ou remplacement",
+        "id": "demo-device-a"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "user",
+    "name": "device-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "APPAREIL & MAINTENANCE\n\nMA SOURIS\n\nLes résultats proviennent du service et de l’appareil.\n\nVotre souris SKELIVIA\n\ndemo-device-a\n\nConnexion\nÉtat inconnu\nDernières données\nNon renseigné\nCalibration\nRéférence synthétique\nC-DEMO-01\nVérifier la souris\nCalibration et logiciel\n\ndemo-device-a\n\nVersion installée\n2.4.1\nCalibration\nC-DEMO-01\n\nUne demande de calibration reste en attente tant que l’appareil n’a pas confirmé le résultat.\n\nCalibration guidée\nPerte ou remplacement\nDemandes en cours\n\nUn enregistrement ne confirme pas une exécution matérielle.\n\nFaites défiler le tableau →\n\nDemande\tCible\tÉtat\tRésultat\nCalibration\tdemo-device-a\t\nEn attente\tEn attente de résultat vérifié\nDiagnostic temporaire\tticket-alice\t\nApprouvé\tAutorisation temporaire, aucun résultat matériel.",
+    "buttons": [
+      {
+        "action": "page:device",
+        "label": "Vérifier la souris",
+        "id": ""
+      },
+      {
+        "action": "device.calibrate",
+        "label": "Calibration guidée",
+        "id": "demo-device-a"
+      },
+      {
+        "action": "device.loss",
+        "label": "Perte ou remplacement",
+        "id": "demo-device-a"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "user",
+    "name": "shares-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "VOUS GARDEZ LA MAIN\n\nMES PARTAGES\n\nChoisissez le destinataire, la période, les catégories et la durée.\n\n+ Nouveau partage\nPartages accordés\n\nLa révocation retire les accès futurs.\n\nSoignant\tPériode et catégories\tExpiration\tÉtat\tAction\nDr Lina · soignante fictive\t14/11/2026 – 14/11/2026\nTemps de contact\n\t21 nov. 2026, 09:35\t\nRévoqué\t—",
+    "buttons": [
+      {
+        "action": "share.create",
+        "label": "+ Nouveau partage",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "user",
+    "name": "shares-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "VOUS GARDEZ LA MAIN\n\nMES PARTAGES\n\nChoisissez le destinataire, la période, les catégories et la durée.\n\n+ Nouveau partage\nPartages accordés\n\nLa révocation retire les accès futurs.\n\nFaites défiler le tableau →\n\nSoignant\tPériode et catégories\tExpiration\tÉtat\tAction\nDr Lina · soignante fictive\t14/11/2026 – 14/11/2026\nTemps de contact\n\t21 nov. 2026, 09:35\t\nRévoqué\t—",
+    "buttons": [
+      {
+        "action": "share.create",
+        "label": "+ Nouveau partage",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "user",
+    "name": "help-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      }
+    ],
+    "text": "ASSISTANCE TECHNIQUE\n\nVOS DEMANDES AU SUPPORT\n\nN’incluez aucun dossier patient ni contenu médical.\n\n+ Nouveau ticket\nMes tickets\n\nÉchanges avec le support\n\nVérification technique de démonstration\nEn cours\nticket-alice · 14 nov. 2026, 09:35\nOuvrir les échanges\nDiagnostics à autoriser\n\nL’accès technique reste limité dans le temps.\n\nAucune demande en attente\n\nLes informations apparaîtront lorsqu’elles seront disponibles dans votre périmètre.",
+    "buttons": [
+      {
+        "action": "ticket.create",
+        "label": "+ Nouveau ticket",
+        "id": ""
+      },
+      {
+        "action": "help.open",
+        "label": "Ouvrir les échanges",
+        "id": "ticket-alice"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "user",
+    "name": "help-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      }
+    ],
+    "text": "ASSISTANCE TECHNIQUE\n\nVOS DEMANDES AU SUPPORT\n\nN’incluez aucun dossier patient ni contenu médical.\n\n+ Nouveau ticket\nMes tickets\n\nÉchanges avec le support\n\nVérification technique de démonstration\nEn cours\nticket-alice · 14 nov. 2026, 09:35\nOuvrir les échanges\nDiagnostics à autoriser\n\nL’accès technique reste limité dans le temps.\n\nAucune demande en attente\n\nLes informations apparaîtront lorsqu’elles seront disponibles dans votre périmètre.",
+    "buttons": [
+      {
+        "action": "ticket.create",
+        "label": "+ Nouveau ticket",
+        "id": ""
+      },
+      {
+        "action": "help.open",
+        "label": "Ouvrir les échanges",
+        "id": "ticket-alice"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "user",
+    "name": "settings-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "LABEL",
+        "size": "16px"
+      },
+      {
+        "tag": "LABEL",
+        "size": "16px"
+      },
+      {
+        "tag": "LABEL",
+        "size": "16px"
+      },
+      {
+        "tag": "LABEL",
+        "size": "16px"
+      },
+      {
+        "tag": "LABEL",
+        "size": "16px"
+      },
+      {
+        "tag": "LABEL",
+        "size": "16px"
+      },
+      {
+        "tag": "LABEL",
+        "size": "16px"
+      },
+      {
+        "tag": "LABEL",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button danger",
+        "size": "16px"
+      }
+    ],
+    "text": "VOTRE CONFORT ET VOS ACCÈS\n\nPARAMÈTRES\n\nPréférences enregistrées pour votre compte.\n\nLisibilité\n\nTaille des textes et contrastes.\n\nAgrandir les textes\nRenforcer les contrastes\nEnregistrer la lisibilité\nRappels et notifications\n\nChoisissez vos préférences, puis activez cet appareil dans la section suivante.\n\nActiver les rappels de pause\nFréquence des pauses\n30 minutes\n45 minutes\n60 minutes\n90 minutes\nPauses\nTéléphone et montre\nTéléphone\nMontre\nAucun\nNouveau conseil\nTéléphone et montre\nTéléphone\nMontre\nAucun\nBilan disponible\nTéléphone et montre\nTéléphone\nMontre\nAucun\nRéponse du support\nTéléphone et montre\nTéléphone\nMontre\nAucun\nCalibration nécessaire\nTéléphone et montre\nTéléphone\nMontre\nAucun\n\nLes alertes de nouvelle connexion restent dans le dashboard. La montre seule n’est pas prise en charge : aucun envoi sur le téléphone ne la remplace. Pour un relais vers une montre appairée, choisissez les deux et configurez les notifications dans les réglages du téléphone et de la montre.\n\nDébut des horaires silencieux\nFin des horaires silencieux\nEnregistrer les préférences\nReporter le prochain rappel\nNotifications sur cet appareil\n\nActivation uniquement à votre demande.\n\nL’envoi de notifications n’est pas configuré sur ce service. Vos préférences restent enregistrées.\n\nSur une montre appairée, l’affichage dépend du relais des notifications et des réglages du téléphone et de la montre. SKELIVIA ne peut pas garantir un envoi indépendant vers la montre.\n\nActualiser la disponibilité\nSessions du compte\n\nLes sessions de votre compte uniquement.\n\nGérer les sessions\nCompte et données\n\nDemande et suivi de suppression.\n\nDemander la suppression",
+    "buttons": [
+      {
+        "action": "settings.display",
+        "label": "Enregistrer la lisibilité",
+        "id": ""
+      },
+      {
+        "action": "settings.notifications",
+        "label": "Enregistrer les préférences",
+        "id": ""
+      },
+      {
+        "action": "pause.snooze",
+        "label": "Reporter le prochain rappel",
+        "id": ""
+      },
+      {
+        "action": "push.refresh",
+        "label": "Actualiser la disponibilité"
+      },
+      {
+        "action": "sessions",
+        "label": "Gérer les sessions",
+        "id": ""
+      },
+      {
+        "action": "deletion.request",
+        "label": "Demander la suppression",
+        "id": ""
+      }
+    ],
+    "smallTargets": [
+      {
+        "label": "large_text",
+        "height": 20
+      },
+      {
+        "label": "high_contrast",
+        "height": 20
+      },
+      {
+        "label": "pause_enabled",
+        "height": 20
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "name": "settings-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "LABEL",
+        "size": "16px"
+      },
+      {
+        "tag": "LABEL",
+        "size": "16px"
+      },
+      {
+        "tag": "LABEL",
+        "size": "16px"
+      },
+      {
+        "tag": "LABEL",
+        "size": "16px"
+      },
+      {
+        "tag": "LABEL",
+        "size": "16px"
+      },
+      {
+        "tag": "LABEL",
+        "size": "16px"
+      },
+      {
+        "tag": "LABEL",
+        "size": "16px"
+      },
+      {
+        "tag": "LABEL",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button danger",
+        "size": "16px"
+      }
+    ],
+    "text": "VOTRE CONFORT ET VOS ACCÈS\n\nPARAMÈTRES\n\nPréférences enregistrées pour votre compte.\n\nLisibilité\n\nTaille des textes et contrastes.\n\nAgrandir les textes\nRenforcer les contrastes\nEnregistrer la lisibilité\nRappels et notifications\n\nChoisissez vos préférences, puis activez cet appareil dans la section suivante.\n\nActiver les rappels de pause\nFréquence des pauses\n30 minutes\n45 minutes\n60 minutes\n90 minutes\nPauses\nTéléphone et montre\nTéléphone\nMontre\nAucun\nNouveau conseil\nTéléphone et montre\nTéléphone\nMontre\nAucun\nBilan disponible\nTéléphone et montre\nTéléphone\nMontre\nAucun\nRéponse du support\nTéléphone et montre\nTéléphone\nMontre\nAucun\nCalibration nécessaire\nTéléphone et montre\nTéléphone\nMontre\nAucun\n\nLes alertes de nouvelle connexion restent dans le dashboard. La montre seule n’est pas prise en charge : aucun envoi sur le téléphone ne la remplace. Pour un relais vers une montre appairée, choisissez les deux et configurez les notifications dans les réglages du téléphone et de la montre.\n\nDébut des horaires silencieux\nFin des horaires silencieux\nEnregistrer les préférences\nReporter le prochain rappel\nNotifications sur cet appareil\n\nActivation uniquement à votre demande.\n\nL’envoi de notifications n’est pas configuré sur ce service. Vos préférences restent enregistrées.\n\nSur une montre appairée, l’affichage dépend du relais des notifications et des réglages du téléphone et de la montre. SKELIVIA ne peut pas garantir un envoi indépendant vers la montre.\n\nActualiser la disponibilité\nSessions du compte\n\nLes sessions de votre compte uniquement.\n\nGérer les sessions\nCompte et données\n\nDemande et suivi de suppression.\n\nDemander la suppression",
+    "buttons": [
+      {
+        "action": "settings.display",
+        "label": "Enregistrer la lisibilité",
+        "id": ""
+      },
+      {
+        "action": "settings.notifications",
+        "label": "Enregistrer les préférences",
+        "id": ""
+      },
+      {
+        "action": "pause.snooze",
+        "label": "Reporter le prochain rappel",
+        "id": ""
+      },
+      {
+        "action": "push.refresh",
+        "label": "Actualiser la disponibilité"
+      },
+      {
+        "action": "sessions",
+        "label": "Gérer les sessions",
+        "id": ""
+      },
+      {
+        "action": "deletion.request",
+        "label": "Demander la suppression",
+        "id": ""
+      }
+    ],
+    "smallTargets": [
+      {
+        "label": "large_text",
+        "height": 20
+      },
+      {
+        "label": "high_contrast",
+        "height": 20
+      },
+      {
+        "label": "pause_enabled",
+        "height": 20
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "name": "home-768",
+    "width": 769,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      }
+    ],
+    "text": "VOTRE ESPACE PERSONNEL\n\nVOTRE JOURNÉE, EN UN REGARD\n\nVos informations de suivi et la disponibilité de votre souris.\n\nVotre souris SKELIVIA\n\ndemo-device-a\n\nConnexion\nÉtat inconnu\nDernières données\nNon renseigné\nCalibration\nRéférence synthétique\nC-DEMO-01\nVérifier la souris\nVos mesures en perspective\n\n08/11/2026 – 14/11/2026 · 2 mesure(s) chargée(s)\n\nJour\nSemaine\nMois\nFin de la période\n\nTemps de contact détecté\n\n180secondes\n\nCumul des mesures disponibles\n\n180\n0\n—\n14/11/2026\n14/11/2026\n\nAppuis relatifs\n\n42% relatif\n\nMoyenne des points · durée absente\n\n42\n0\n—\n—\n14/11/2026\n14/11/2026\nPouce\nPaume\n\nÉpisodes de mouvement\n\n12épisodes\n\nCumul des mesures disponibles\n\n12\n0\n—\n14/11/2026\n14/11/2026\nPoints non exploitables exclus de la synthèse. Qualité et calibration dans le détail. Les mesures seules ne démontrent pas une évolution de santé.\nConseils de prévention\n\nSélectionnés par votre soignant\n\nContrôle UI — conseil fictif\nConseil\n\nPublication de test sur données synthétiques.\n\n14 nov. 2026, 09:35 · Dr Lina · soignante fictive\nVersion 1\nRéglage du poste — exemple\nConseil\n\nConseil fictif de démonstration, à remplacer par un conseil rédigé par le professionnel.\n\n14 nov. 2026, 09:35 · Dr Lina · soignante fictive\nVersion 1\nBilan de fin de suivi\n\nConclusions et conseils à conserver\n\nAucun bilan disponible\n\nLes publications du soignant apparaîtront ici.",
+    "buttons": [
+      {
+        "action": "page:device",
+        "label": "Vérifier la souris",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "user",
+    "name": "home-375",
+    "width": 376,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      }
+    ],
+    "text": "VOTRE ESPACE PERSONNEL\n\nVOTRE JOURNÉE, EN UN REGARD\n\nVos informations de suivi et la disponibilité de votre souris.\n\nVotre souris SKELIVIA\n\ndemo-device-a\n\nConnexion\nÉtat inconnu\nDernières données\nNon renseigné\nCalibration\nRéférence synthétique\nC-DEMO-01\nVérifier la souris\nVos mesures en perspective\n\n08/11/2026 – 14/11/2026 · 2 mesure(s) chargée(s)\n\nJour\nSemaine\nMois\nFin de la période\n\nTemps de contact détecté\n\n180secondes\n\nCumul des mesures disponibles\n\n180\n0\n—\n14/11/2026\n14/11/2026\n\nAppuis relatifs\n\n42% relatif\n\nMoyenne des points · durée absente\n\n42\n0\n—\n—\n14/11/2026\n14/11/2026\nPouce\nPaume\n\nÉpisodes de mouvement\n\n12épisodes\n\nCumul des mesures disponibles\n\n12\n0\n—\n14/11/2026\n14/11/2026\nPoints non exploitables exclus de la synthèse. Qualité et calibration dans le détail. Les mesures seules ne démontrent pas une évolution de santé.\nConseils de prévention\n\nSélectionnés par votre soignant\n\nContrôle UI — conseil fictif\nConseil\n\nPublication de test sur données synthétiques.\n\n14 nov. 2026, 09:35 · Dr Lina · soignante fictive\nVersion 1\nRéglage du poste — exemple\nConseil\n\nConseil fictif de démonstration, à remplacer par un conseil rédigé par le professionnel.\n\n14 nov. 2026, 09:35 · Dr Lina · soignante fictive\nVersion 1\nBilan de fin de suivi\n\nConclusions et conseils à conserver\n\nAucun bilan disponible\n\nLes publications du soignant apparaîtront ici.",
+    "buttons": [
+      {
+        "action": "page:device",
+        "label": "Vérifier la souris",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "user",
+    "name": "home-320",
+    "width": 320,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      }
+    ],
+    "text": "VOTRE ESPACE PERSONNEL\n\nVOTRE JOURNÉE, EN UN REGARD\n\nVos informations de suivi et la disponibilité de votre souris.\n\nVotre souris SKELIVIA\n\ndemo-device-a\n\nConnexion\nÉtat inconnu\nDernières données\nNon renseigné\nCalibration\nRéférence synthétique\nC-DEMO-01\nVérifier la souris\nVos mesures en perspective\n\n08/11/2026 – 14/11/2026 · 2 mesure(s) chargée(s)\n\nJour\nSemaine\nMois\nFin de la période\n\nTemps de contact détecté\n\n180secondes\n\nCumul des mesures disponibles\n\n180\n0\n—\n14/11/2026\n14/11/2026\n\nAppuis relatifs\n\n42% relatif\n\nMoyenne des points · durée absente\n\n42\n0\n—\n—\n14/11/2026\n14/11/2026\nPouce\nPaume\n\nÉpisodes de mouvement\n\n12épisodes\n\nCumul des mesures disponibles\n\n12\n0\n—\n14/11/2026\n14/11/2026\nPoints non exploitables exclus de la synthèse. Qualité et calibration dans le détail. Les mesures seules ne démontrent pas une évolution de santé.\nConseils de prévention\n\nSélectionnés par votre soignant\n\nContrôle UI — conseil fictif\nConseil\n\nPublication de test sur données synthétiques.\n\n14 nov. 2026, 09:35 · Dr Lina · soignante fictive\nVersion 1\nRéglage du poste — exemple\nConseil\n\nConseil fictif de démonstration, à remplacer par un conseil rédigé par le professionnel.\n\n14 nov. 2026, 09:35 · Dr Lina · soignante fictive\nVersion 1\nBilan de fin de suivi\n\nConclusions et conseils à conserver\n\nAucun bilan disponible\n\nLes publications du soignant apparaîtront ici.",
+    "buttons": [
+      {
+        "action": "page:device",
+        "label": "Vérifier la souris",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "user",
+    "focusLoopFirst": true
+  },
+  {
+    "role": "user",
+    "focusLoopLast": true
+  },
+  {
+    "role": "user",
+    "focusRestored": true
+  },
+  {
+    "role": "user",
+    "name": "measures-day-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "ÉVOLUTION DES MESURES\n\nMES MESURES\n\nMesures reçues, qualité et périodes manquantes.\n\nTélécharger un bilan\nVos mesures en perspective\n\n14/11/2026 – 14/11/2026 · 2 mesure(s) chargée(s)\n\nJour\nSemaine\nMois\nFin de la période\n\nTemps de contact détecté\n\n180secondes\n\nCumul des mesures disponibles\n\n180\n0\n—\n14/11/2026\n14/11/2026\n\nAppuis relatifs\n\n42% relatif\n\nMoyenne des points · durée absente\n\n42\n0\n—\n—\n14/11/2026\n14/11/2026\nPouce\nPaume\n\nÉpisodes de mouvement\n\n12épisodes\n\nCumul des mesures disponibles\n\n12\n0\n—\n14/11/2026\n14/11/2026\nPoints non exploitables exclus de la synthèse. Qualité et calibration dans le détail. Les mesures seules ne démontrent pas une évolution de santé.\nDétail de la période\n\nLes unités sont celles transmises par le service.\n\nDate\tContact · s\tPouce · %\tPaume · %\tMouvements\tQualité\tCalibration\n14 nov. 2026, 09:35\t60\t—\t28\t3\t\nNon exploitable\tC-DEMO-01\n14 nov. 2026, 09:35\t180\t42\t31\t12\t\nValide\tC-DEMO-01",
+    "buttons": [
+      {
+        "action": "export.personal",
+        "label": "Télécharger un bilan",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "user",
+    "name": "measures-month-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "chart-label",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "ÉVOLUTION DES MESURES\n\nMES MESURES\n\nMesures reçues, qualité et périodes manquantes.\n\nTélécharger un bilan\nVos mesures en perspective\n\n16/10/2026 – 14/11/2026 · 2 mesure(s) chargée(s)\n\nJour\nSemaine\nMois\nFin de la période\n\nTemps de contact détecté\n\n180secondes\n\nCumul des mesures disponibles\n\n180\n0\n—\n14/11/2026\n14/11/2026\n\nAppuis relatifs\n\n42% relatif\n\nMoyenne des points · durée absente\n\n42\n0\n—\n—\n14/11/2026\n14/11/2026\nPouce\nPaume\n\nÉpisodes de mouvement\n\n12épisodes\n\nCumul des mesures disponibles\n\n12\n0\n—\n14/11/2026\n14/11/2026\nPoints non exploitables exclus de la synthèse. Qualité et calibration dans le détail. Les mesures seules ne démontrent pas une évolution de santé.\nDétail de la période\n\nLes unités sont celles transmises par le service.\n\nDate\tContact · s\tPouce · %\tPaume · %\tMouvements\tQualité\tCalibration\n14 nov. 2026, 09:35\t60\t—\t28\t3\t\nNon exploitable\tC-DEMO-01\n14 nov. 2026, 09:35\t180\t42\t31\t12\t\nValide\tC-DEMO-01",
+    "buttons": [
+      {
+        "action": "export.personal",
+        "label": "Télécharger un bilan",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "user",
+    "errors": []
+  },
+  {
+    "role": "clinician",
+    "name": "home-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      }
+    ],
+    "text": "VOS SUIVIS AUTORISÉS\n\nPATIENTS SUIVIS\n\nL’accès exige une relation de suivi et un partage actif.\n\n+ Ajouter un rappel\nVos patients\n\nLes dossiers fermés ne dévoilent aucune mesure.\n\nPatient\tPartage\tDossier\nAlice · utilisatrice fictive\np-alice\n\t\nAccès fermé\tAccès fermé\nÀ réexaminer\n\nVos rappels personnels\n\nAucun rappel programmé\n\nLes informations apparaîtront lorsqu’elles seront disponibles dans votre périmètre.",
+    "buttons": [
+      {
+        "action": "reminder.create",
+        "label": "+ Ajouter un rappel",
+        "id": ""
+      }
+    ],
+    "smallTargets": [
+      {
+        "label": "",
+        "height": 41.960784912109375
+      }
+    ]
+  },
+  {
+    "role": "clinician",
+    "name": "home-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      }
+    ],
+    "text": "VOS SUIVIS AUTORISÉS\n\nPATIENTS SUIVIS\n\nL’accès exige une relation de suivi et un partage actif.\n\n+ Ajouter un rappel\nVos patients\n\nLes dossiers fermés ne dévoilent aucune mesure.\n\nFaites défiler le tableau →\n\nPatient\tPartage\tDossier\nAlice · utilisatrice fictive\np-alice\n\t\nAccès fermé\tAccès fermé\nÀ réexaminer\n\nVos rappels personnels\n\nAucun rappel programmé\n\nLes informations apparaîtront lorsqu’elles seront disponibles dans votre périmètre.",
+    "buttons": [
+      {
+        "action": "reminder.create",
+        "label": "+ Ajouter un rappel",
+        "id": ""
+      }
+    ],
+    "smallTargets": [
+      {
+        "label": "",
+        "height": 41.960784912109375
+      }
+    ]
+  },
+  {
+    "role": "clinician",
+    "name": "recommendations-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "PRÉVENTION COLLECTIVE\n\nRECOMMANDATIONS\n\nActions organisationnelles sans contenu médical.\n\n+ Publier\nRecommandations publiées\nRéférence / publication\tRecommandation\tType\tAvancement\nrec-atelier-a\n14 nov. 2026, 09:35\n\tVérifier les possibilités de réglage du poste\n\nRecommandation organisationnelle de test : vérifier les réglages accessibles.\n\nModifier la recommandation\tAménagement\t\nRéalisée",
+    "buttons": [
+      {
+        "action": "recommendation.publish",
+        "label": "+ Publier",
+        "id": ""
+      },
+      {
+        "action": "recommendation.revise",
+        "label": "Modifier la recommandation",
+        "id": "rec-atelier-a"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "clinician",
+    "name": "recommendations-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "PRÉVENTION COLLECTIVE\n\nRECOMMANDATIONS\n\nActions organisationnelles sans contenu médical.\n\n+ Publier\nRecommandations publiées\n\nFaites défiler le tableau →\n\nRéférence / publication\tRecommandation\tType\tAvancement\nrec-atelier-a\n14 nov. 2026, 09:35\n\tVérifier les possibilités de réglage du poste\n\nRecommandation organisationnelle de test : vérifier les réglages accessibles.\n\nModifier la recommandation\tAménagement\t\nRéalisée",
+    "buttons": [
+      {
+        "action": "recommendation.publish",
+        "label": "+ Publier",
+        "id": ""
+      },
+      {
+        "action": "recommendation.revise",
+        "label": "Modifier la recommandation",
+        "id": "rec-atelier-a"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "clinician",
+    "name": "reminders-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      }
+    ],
+    "text": "VOS RAPPELS\n\nDOSSIERS À RÉEXAMINER\n\n+ Ajouter\nCalendrier de suivi\nAucun rappel programmé\n\nLes informations apparaîtront lorsqu’elles seront disponibles dans votre périmètre.",
+    "buttons": [
+      {
+        "action": "reminder.create",
+        "label": "+ Ajouter",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "clinician",
+    "name": "reminders-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      }
+    ],
+    "text": "VOS RAPPELS\n\nDOSSIERS À RÉEXAMINER\n\n+ Ajouter\nCalendrier de suivi\nAucun rappel programmé\n\nLes informations apparaîtront lorsqu’elles seront disponibles dans votre périmètre.",
+    "buttons": [
+      {
+        "action": "reminder.create",
+        "label": "+ Ajouter",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "clinician",
+    "name": "help-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      }
+    ],
+    "text": "ASSISTANCE TECHNIQUE\n\nVOS DEMANDES AU SUPPORT\n\nN’incluez aucun dossier patient ni contenu médical.\n\n+ Nouveau ticket\nMes tickets\n\nÉchanges avec le support\n\nAucune demande\n\nLes informations apparaîtront lorsqu’elles seront disponibles dans votre périmètre.\n\nDiagnostics à autoriser\n\nL’accès technique reste limité dans le temps.\n\nAucune demande en attente\n\nLes informations apparaîtront lorsqu’elles seront disponibles dans votre périmètre.",
+    "buttons": [
+      {
+        "action": "ticket.create",
+        "label": "+ Nouveau ticket",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "clinician",
+    "name": "help-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      }
+    ],
+    "text": "ASSISTANCE TECHNIQUE\n\nVOS DEMANDES AU SUPPORT\n\nN’incluez aucun dossier patient ni contenu médical.\n\n+ Nouveau ticket\nMes tickets\n\nÉchanges avec le support\n\nAucune demande\n\nLes informations apparaîtront lorsqu’elles seront disponibles dans votre périmètre.\n\nDiagnostics à autoriser\n\nL’accès technique reste limité dans le temps.\n\nAucune demande en attente\n\nLes informations apparaîtront lorsqu’elles seront disponibles dans votre périmètre.",
+    "buttons": [
+      {
+        "action": "ticket.create",
+        "label": "+ Nouveau ticket",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "clinician",
+    "name": "settings-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      }
+    ],
+    "text": "VOTRE CONFORT ET VOS ACCÈS\n\nPARAMÈTRES\n\nPréférences enregistrées pour votre compte.\n\nLisibilité\n\nTaille des textes et contrastes.\n\nAgrandir les textes\nRenforcer les contrastes\nEnregistrer la lisibilité\nSessions du compte\n\nLes sessions de votre compte uniquement.\n\nGérer les sessions",
+    "buttons": [
+      {
+        "action": "settings.display",
+        "label": "Enregistrer la lisibilité",
+        "id": ""
+      },
+      {
+        "action": "sessions",
+        "label": "Gérer les sessions",
+        "id": ""
+      }
+    ],
+    "smallTargets": [
+      {
+        "label": "large_text",
+        "height": 20
+      },
+      {
+        "label": "high_contrast",
+        "height": 20
+      }
+    ]
+  },
+  {
+    "role": "clinician",
+    "name": "settings-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      }
+    ],
+    "text": "VOTRE CONFORT ET VOS ACCÈS\n\nPARAMÈTRES\n\nPréférences enregistrées pour votre compte.\n\nLisibilité\n\nTaille des textes et contrastes.\n\nAgrandir les textes\nRenforcer les contrastes\nEnregistrer la lisibilité\nSessions du compte\n\nLes sessions de votre compte uniquement.\n\nGérer les sessions",
+    "buttons": [
+      {
+        "action": "settings.display",
+        "label": "Enregistrer la lisibilité",
+        "id": ""
+      },
+      {
+        "action": "sessions",
+        "label": "Gérer les sessions",
+        "id": ""
+      }
+    ],
+    "smallTargets": [
+      {
+        "label": "large_text",
+        "height": 20
+      },
+      {
+        "label": "high_contrast",
+        "height": 20
+      }
+    ]
+  },
+  {
+    "role": "clinician",
+    "name": "home-768",
+    "width": 769,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      }
+    ],
+    "text": "VOS SUIVIS AUTORISÉS\n\nPATIENTS SUIVIS\n\nL’accès exige une relation de suivi et un partage actif.\n\n+ Ajouter un rappel\nVos patients\n\nLes dossiers fermés ne dévoilent aucune mesure.\n\nPatient\tPartage\tDossier\nAlice · utilisatrice fictive\np-alice\n\t\nAccès fermé\tAccès fermé\nÀ réexaminer\n\nVos rappels personnels\n\nAucun rappel programmé\n\nLes informations apparaîtront lorsqu’elles seront disponibles dans votre périmètre.",
+    "buttons": [
+      {
+        "action": "reminder.create",
+        "label": "+ Ajouter un rappel",
+        "id": ""
+      }
+    ],
+    "smallTargets": [
+      {
+        "label": "",
+        "height": 41.960784912109375
+      }
+    ]
+  },
+  {
+    "role": "clinician",
+    "name": "home-375",
+    "width": 376,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      }
+    ],
+    "text": "VOS SUIVIS AUTORISÉS\n\nPATIENTS SUIVIS\n\nL’accès exige une relation de suivi et un partage actif.\n\n+ Ajouter un rappel\nVos patients\n\nLes dossiers fermés ne dévoilent aucune mesure.\n\nFaites défiler le tableau →\n\nPatient\tPartage\tDossier\nAlice · utilisatrice fictive\np-alice\n\t\nAccès fermé\tAccès fermé\nÀ réexaminer\n\nVos rappels personnels\n\nAucun rappel programmé\n\nLes informations apparaîtront lorsqu’elles seront disponibles dans votre périmètre.",
+    "buttons": [
+      {
+        "action": "reminder.create",
+        "label": "+ Ajouter un rappel",
+        "id": ""
+      }
+    ],
+    "smallTargets": [
+      {
+        "label": "",
+        "height": 41.960784912109375
+      }
+    ]
+  },
+  {
+    "role": "clinician",
+    "name": "home-320",
+    "width": 320,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      }
+    ],
+    "text": "VOS SUIVIS AUTORISÉS\n\nPATIENTS SUIVIS\n\nL’accès exige une relation de suivi et un partage actif.\n\n+ Ajouter un rappel\nVos patients\n\nLes dossiers fermés ne dévoilent aucune mesure.\n\nFaites défiler le tableau →\n\nPatient\tPartage\tDossier\nAlice · utilisatrice fictive\np-alice\n\t\nAccès fermé\tAccès fermé\nÀ réexaminer\n\nVos rappels personnels\n\nAucun rappel programmé\n\nLes informations apparaîtront lorsqu’elles seront disponibles dans votre périmètre.",
+    "buttons": [
+      {
+        "action": "reminder.create",
+        "label": "+ Ajouter un rappel",
+        "id": ""
+      }
+    ],
+    "smallTargets": [
+      {
+        "label": "",
+        "height": 41.960784912109375
+      }
+    ]
+  },
+  {
+    "role": "clinician",
+    "focusLoopFirst": true
+  },
+  {
+    "role": "clinician",
+    "focusLoopLast": true
+  },
+  {
+    "role": "clinician",
+    "focusRestored": true
+  },
+  {
+    "role": "clinician",
+    "errors": []
+  },
+  {
+    "role": "employer",
+    "name": "home-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "AGIR SUR LES CONDITIONS DE TRAVAIL\n\nVOTRE PRÉVENTION, EN ACTIONS\n\nDes recommandations organisationnelles, sans données médicales individuelles.\n\nTélécharger le récapitulatif\n0\nÀ traiter\n0\nEn cours\n1\nRéalisée\n0\nBloquée\nRecommandations publiées\n\nMettez à jour leur avancement.\n\nRéférence / publication\tRecommandation\tType\tAvancement\nrec-atelier-a\n14 nov. 2026, 09:35\n\tVérifier les possibilités de réglage du poste\n\nRecommandation organisationnelle de test : vérifier les réglages accessibles.\n\n\tAménagement\t\nÀ traiter\nEn cours\nRéalisée\nBloquée",
+    "buttons": [
+      {
+        "action": "export.prevention",
+        "label": "Télécharger le récapitulatif",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "employer",
+    "name": "home-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "AGIR SUR LES CONDITIONS DE TRAVAIL\n\nVOTRE PRÉVENTION, EN ACTIONS\n\nDes recommandations organisationnelles, sans données médicales individuelles.\n\nTélécharger le récapitulatif\n0\nÀ traiter\n0\nEn cours\n1\nRéalisée\n0\nBloquée\nRecommandations publiées\n\nMettez à jour leur avancement.\n\nFaites défiler le tableau →\n\nRéférence / publication\tRecommandation\tType\tAvancement\nrec-atelier-a\n14 nov. 2026, 09:35\n\tVérifier les possibilités de réglage du poste\n\nRecommandation organisationnelle de test : vérifier les réglages accessibles.\n\n\tAménagement\t\nÀ traiter\nEn cours\nRéalisée\nBloquée",
+    "buttons": [
+      {
+        "action": "export.prevention",
+        "label": "Télécharger le récapitulatif",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "employer",
+    "name": "history-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "ACTIONS DE PRÉVENTION\n\nHISTORIQUE\n\nDates des changements de statut.\n\nDerniers changements\nRecommandation\tDate\tStatut\nVérifier les possibilités de réglage du poste\t14 nov. 2026, 09:35\t\nÀ traiter\nVérifier les possibilités de réglage du poste\t14 nov. 2026, 09:35\t\nRéalisée\nVérifier les possibilités de réglage du poste\t14 nov. 2026, 09:42\t\nRéalisée",
+    "buttons": [],
+    "smallTargets": []
+  },
+  {
+    "role": "employer",
+    "name": "history-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "ACTIONS DE PRÉVENTION\n\nHISTORIQUE\n\nDates des changements de statut.\n\nDerniers changements\n\nFaites défiler le tableau →\n\nRecommandation\tDate\tStatut\nVérifier les possibilités de réglage du poste\t14 nov. 2026, 09:35\t\nÀ traiter\nVérifier les possibilités de réglage du poste\t14 nov. 2026, 09:35\t\nRéalisée\nVérifier les possibilités de réglage du poste\t14 nov. 2026, 09:42\t\nRéalisée",
+    "buttons": [],
+    "smallTargets": []
+  },
+  {
+    "role": "employer",
+    "name": "settings-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      }
+    ],
+    "text": "VOTRE CONFORT ET VOS ACCÈS\n\nPARAMÈTRES\n\nPréférences enregistrées pour votre compte.\n\nLisibilité\n\nTaille des textes et contrastes.\n\nAgrandir les textes\nRenforcer les contrastes\nEnregistrer la lisibilité",
+    "buttons": [
+      {
+        "action": "settings.display",
+        "label": "Enregistrer la lisibilité",
+        "id": ""
+      }
+    ],
+    "smallTargets": [
+      {
+        "label": "large_text",
+        "height": 20
+      },
+      {
+        "label": "high_contrast",
+        "height": 20
+      }
+    ]
+  },
+  {
+    "role": "employer",
+    "name": "settings-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      }
+    ],
+    "text": "VOTRE CONFORT ET VOS ACCÈS\n\nPARAMÈTRES\n\nPréférences enregistrées pour votre compte.\n\nLisibilité\n\nTaille des textes et contrastes.\n\nAgrandir les textes\nRenforcer les contrastes\nEnregistrer la lisibilité",
+    "buttons": [
+      {
+        "action": "settings.display",
+        "label": "Enregistrer la lisibilité",
+        "id": ""
+      }
+    ],
+    "smallTargets": [
+      {
+        "label": "large_text",
+        "height": 20
+      },
+      {
+        "label": "high_contrast",
+        "height": 20
+      }
+    ]
+  },
+  {
+    "role": "employer",
+    "name": "home-768",
+    "width": 769,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "AGIR SUR LES CONDITIONS DE TRAVAIL\n\nVOTRE PRÉVENTION, EN ACTIONS\n\nDes recommandations organisationnelles, sans données médicales individuelles.\n\nTélécharger le récapitulatif\n0\nÀ traiter\n0\nEn cours\n1\nRéalisée\n0\nBloquée\nRecommandations publiées\n\nMettez à jour leur avancement.\n\nRéférence / publication\tRecommandation\tType\tAvancement\nrec-atelier-a\n14 nov. 2026, 09:35\n\tVérifier les possibilités de réglage du poste\n\nRecommandation organisationnelle de test : vérifier les réglages accessibles.\n\n\tAménagement\t\nÀ traiter\nEn cours\nRéalisée\nBloquée",
+    "buttons": [
+      {
+        "action": "export.prevention",
+        "label": "Télécharger le récapitulatif",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "employer",
+    "name": "home-375",
+    "width": 376,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "AGIR SUR LES CONDITIONS DE TRAVAIL\n\nVOTRE PRÉVENTION, EN ACTIONS\n\nDes recommandations organisationnelles, sans données médicales individuelles.\n\nTélécharger le récapitulatif\n0\nÀ traiter\n0\nEn cours\n1\nRéalisée\n0\nBloquée\nRecommandations publiées\n\nMettez à jour leur avancement.\n\nFaites défiler le tableau →\n\nRéférence / publication\tRecommandation\tType\tAvancement\nrec-atelier-a\n14 nov. 2026, 09:35\n\tVérifier les possibilités de réglage du poste\n\nRecommandation organisationnelle de test : vérifier les réglages accessibles.\n\n\tAménagement\t\nÀ traiter\nEn cours\nRéalisée\nBloquée",
+    "buttons": [
+      {
+        "action": "export.prevention",
+        "label": "Télécharger le récapitulatif",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "employer",
+    "name": "home-320",
+    "width": 320,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "AGIR SUR LES CONDITIONS DE TRAVAIL\n\nVOTRE PRÉVENTION, EN ACTIONS\n\nDes recommandations organisationnelles, sans données médicales individuelles.\n\nTélécharger le récapitulatif\n0\nÀ traiter\n0\nEn cours\n1\nRéalisée\n0\nBloquée\nRecommandations publiées\n\nMettez à jour leur avancement.\n\nFaites défiler le tableau →\n\nRéférence / publication\tRecommandation\tType\tAvancement\nrec-atelier-a\n14 nov. 2026, 09:35\n\tVérifier les possibilités de réglage du poste\n\nRecommandation organisationnelle de test : vérifier les réglages accessibles.\n\n\tAménagement\t\nÀ traiter\nEn cours\nRéalisée\nBloquée",
+    "buttons": [
+      {
+        "action": "export.prevention",
+        "label": "Télécharger le récapitulatif",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "employer",
+    "focusLoopFirst": true
+  },
+  {
+    "role": "employer",
+    "focusLoopLast": true
+  },
+  {
+    "role": "employer",
+    "focusRestored": true
+  },
+  {
+    "role": "employer",
+    "errors": []
+  },
+  {
+    "role": "support",
+    "name": "home-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet mobile-back",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "INTERVENTIONS ATTRIBUÉES\n\nVOTRE FILE DE SUPPORT\n\nDes informations techniques ciblées, sans données d’usage ni contenu médical.\n\nMes tickets\n\n1 ticket(s) attribué(s)\n\nticket-alice\n14/11/2026\nVérification technique de démonstration\nEn cours\n\ndemo-device-a\n\nVérification technique de démonstration\n\nticket-alice · demo-device-a\n\nEn cours\nDiagnostic temporaire\nAccès fermé\nExpiration\n14 nov. 2026, 10:05\n\nLe diagnostic est fermé. Ses informations ne sont plus consultables.\n\nDemander un diagnostic\nHistorique technique\nÉCHANGES TECHNIQUES\nu-alice · 14 nov. 2026, 09:35\n\nTicket fictif, aucun signal matériel reçu.\n\nRépondre\nModifier le statut\nSignaler une anomalie\nDemandes en cours\n\nUn enregistrement ne confirme pas une exécution matérielle.\n\nDemande\tCible\tÉtat\tRésultat\nCalibration\tdemo-device-a\t\nEn attente\tEn attente de résultat vérifié\nDiagnostic temporaire\tticket-alice\t\nApprouvé\tAutorisation temporaire, aucun résultat matériel.",
+    "buttons": [
+      {
+        "action": "ticket.open",
+        "label": "ticket-alice14/11/2026Vérification technique de démonstrationEn coursdemo-device-a",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "ticket.back",
+        "label": "← Mes tickets",
+        "id": ""
+      },
+      {
+        "action": "diagnostic.request",
+        "label": "Demander un diagnostic",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "page:maintenance",
+        "label": "Historique technique",
+        "id": ""
+      },
+      {
+        "action": "ticket.reply",
+        "label": "Répondre",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "ticket.status",
+        "label": "Modifier le statut",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "security.report",
+        "label": "Signaler une anomalie",
+        "id": "ticket-alice"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "support",
+    "name": "home-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet mobile-back",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "INTERVENTIONS ATTRIBUÉES\n\nVOTRE FILE DE SUPPORT\n\nDes informations techniques ciblées, sans données d’usage ni contenu médical.\n\nMes tickets\n\n1 ticket(s) attribué(s)\n\nticket-alice\n14/11/2026\nVérification technique de démonstration\nEn cours\n\ndemo-device-a\n\nDemandes en cours\n\nUn enregistrement ne confirme pas une exécution matérielle.\n\nFaites défiler le tableau →\n\nDemande\tCible\tÉtat\tRésultat\nCalibration\tdemo-device-a\t\nEn attente\tEn attente de résultat vérifié\nDiagnostic temporaire\tticket-alice\t\nApprouvé\tAutorisation temporaire, aucun résultat matériel.",
+    "buttons": [
+      {
+        "action": "ticket.open",
+        "label": "ticket-alice14/11/2026Vérification technique de démonstrationEn coursdemo-device-a",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "ticket.back",
+        "label": "← Mes tickets",
+        "id": ""
+      },
+      {
+        "action": "diagnostic.request",
+        "label": "Demander un diagnostic",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "page:maintenance",
+        "label": "Historique technique",
+        "id": ""
+      },
+      {
+        "action": "ticket.reply",
+        "label": "Répondre",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "ticket.status",
+        "label": "Modifier le statut",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "security.report",
+        "label": "Signaler une anomalie",
+        "id": "ticket-alice"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "support",
+    "name": "maintenance-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "TICKET ATTRIBUÉ\n\nMAINTENANCE TECHNIQUE\n\nHistorique technique de l’appareil sélectionné.\n\nRetour au ticket\nHistorique\nAucun historique matériel\n\nSélectionnez un ticket associé à un appareil.\n\nDemandes en cours\n\nUn enregistrement ne confirme pas une exécution matérielle.\n\nDemande\tCible\tÉtat\tRésultat\nCalibration\tdemo-device-a\t\nEn attente\tEn attente de résultat vérifié\nDiagnostic temporaire\tticket-alice\t\nApprouvé\tAutorisation temporaire, aucun résultat matériel.",
+    "buttons": [
+      {
+        "action": "page:home",
+        "label": "Retour au ticket",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "support",
+    "name": "maintenance-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "TICKET ATTRIBUÉ\n\nMAINTENANCE TECHNIQUE\n\nHistorique technique de l’appareil sélectionné.\n\nRetour au ticket\nHistorique\nAucun historique matériel\n\nSélectionnez un ticket associé à un appareil.\n\nDemandes en cours\n\nUn enregistrement ne confirme pas une exécution matérielle.\n\nFaites défiler le tableau →\n\nDemande\tCible\tÉtat\tRésultat\nCalibration\tdemo-device-a\t\nEn attente\tEn attente de résultat vérifié\nDiagnostic temporaire\tticket-alice\t\nApprouvé\tAutorisation temporaire, aucun résultat matériel.",
+    "buttons": [
+      {
+        "action": "page:home",
+        "label": "Retour au ticket",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "support",
+    "name": "settings-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      }
+    ],
+    "text": "VOTRE CONFORT ET VOS ACCÈS\n\nPARAMÈTRES\n\nPréférences enregistrées pour votre compte.\n\nLisibilité\n\nTaille des textes et contrastes.\n\nAgrandir les textes\nRenforcer les contrastes\nEnregistrer la lisibilité\nSessions du compte\n\nLes sessions de votre compte uniquement.\n\nGérer les sessions",
+    "buttons": [
+      {
+        "action": "settings.display",
+        "label": "Enregistrer la lisibilité",
+        "id": ""
+      },
+      {
+        "action": "sessions",
+        "label": "Gérer les sessions",
+        "id": ""
+      }
+    ],
+    "smallTargets": [
+      {
+        "label": "large_text",
+        "height": 20
+      },
+      {
+        "label": "high_contrast",
+        "height": 20
+      }
+    ]
+  },
+  {
+    "role": "support",
+    "name": "settings-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      }
+    ],
+    "text": "VOTRE CONFORT ET VOS ACCÈS\n\nPARAMÈTRES\n\nPréférences enregistrées pour votre compte.\n\nLisibilité\n\nTaille des textes et contrastes.\n\nAgrandir les textes\nRenforcer les contrastes\nEnregistrer la lisibilité\nSessions du compte\n\nLes sessions de votre compte uniquement.\n\nGérer les sessions",
+    "buttons": [
+      {
+        "action": "settings.display",
+        "label": "Enregistrer la lisibilité",
+        "id": ""
+      },
+      {
+        "action": "sessions",
+        "label": "Gérer les sessions",
+        "id": ""
+      }
+    ],
+    "smallTargets": [
+      {
+        "label": "large_text",
+        "height": 20
+      },
+      {
+        "label": "high_contrast",
+        "height": 20
+      }
+    ]
+  },
+  {
+    "role": "support",
+    "name": "home-768",
+    "width": 769,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet mobile-back",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "INTERVENTIONS ATTRIBUÉES\n\nVOTRE FILE DE SUPPORT\n\nDes informations techniques ciblées, sans données d’usage ni contenu médical.\n\nMes tickets\n\n1 ticket(s) attribué(s)\n\nticket-alice\n14/11/2026\nVérification technique de démonstration\nEn cours\n\ndemo-device-a\n\nDemandes en cours\n\nUn enregistrement ne confirme pas une exécution matérielle.\n\nDemande\tCible\tÉtat\tRésultat\nCalibration\tdemo-device-a\t\nEn attente\tEn attente de résultat vérifié\nDiagnostic temporaire\tticket-alice\t\nApprouvé\tAutorisation temporaire, aucun résultat matériel.",
+    "buttons": [
+      {
+        "action": "ticket.open",
+        "label": "ticket-alice14/11/2026Vérification technique de démonstrationEn coursdemo-device-a",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "ticket.back",
+        "label": "← Mes tickets",
+        "id": ""
+      },
+      {
+        "action": "diagnostic.request",
+        "label": "Demander un diagnostic",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "page:maintenance",
+        "label": "Historique technique",
+        "id": ""
+      },
+      {
+        "action": "ticket.reply",
+        "label": "Répondre",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "ticket.status",
+        "label": "Modifier le statut",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "security.report",
+        "label": "Signaler une anomalie",
+        "id": "ticket-alice"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "support",
+    "name": "home-375",
+    "width": 376,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet mobile-back",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "INTERVENTIONS ATTRIBUÉES\n\nVOTRE FILE DE SUPPORT\n\nDes informations techniques ciblées, sans données d’usage ni contenu médical.\n\nMes tickets\n\n1 ticket(s) attribué(s)\n\nticket-alice\n14/11/2026\nVérification technique de démonstration\nEn cours\n\ndemo-device-a\n\nDemandes en cours\n\nUn enregistrement ne confirme pas une exécution matérielle.\n\nFaites défiler le tableau →\n\nDemande\tCible\tÉtat\tRésultat\nCalibration\tdemo-device-a\t\nEn attente\tEn attente de résultat vérifié\nDiagnostic temporaire\tticket-alice\t\nApprouvé\tAutorisation temporaire, aucun résultat matériel.",
+    "buttons": [
+      {
+        "action": "ticket.open",
+        "label": "ticket-alice14/11/2026Vérification technique de démonstrationEn coursdemo-device-a",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "ticket.back",
+        "label": "← Mes tickets",
+        "id": ""
+      },
+      {
+        "action": "diagnostic.request",
+        "label": "Demander un diagnostic",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "page:maintenance",
+        "label": "Historique technique",
+        "id": ""
+      },
+      {
+        "action": "ticket.reply",
+        "label": "Répondre",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "ticket.status",
+        "label": "Modifier le statut",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "security.report",
+        "label": "Signaler une anomalie",
+        "id": "ticket-alice"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "support",
+    "name": "home-320",
+    "width": 320,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet mobile-back",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "INTERVENTIONS ATTRIBUÉES\n\nVOTRE FILE DE SUPPORT\n\nDes informations techniques ciblées, sans données d’usage ni contenu médical.\n\nMes tickets\n\n1 ticket(s) attribué(s)\n\nticket-alice\n14/11/2026\nVérification technique de démonstration\nEn cours\n\ndemo-device-a\n\nDemandes en cours\n\nUn enregistrement ne confirme pas une exécution matérielle.\n\nFaites défiler le tableau →\n\nDemande\tCible\tÉtat\tRésultat\nCalibration\tdemo-device-a\t\nEn attente\tEn attente de résultat vérifié\nDiagnostic temporaire\tticket-alice\t\nApprouvé\tAutorisation temporaire, aucun résultat matériel.",
+    "buttons": [
+      {
+        "action": "ticket.open",
+        "label": "ticket-alice14/11/2026Vérification technique de démonstrationEn coursdemo-device-a",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "ticket.back",
+        "label": "← Mes tickets",
+        "id": ""
+      },
+      {
+        "action": "diagnostic.request",
+        "label": "Demander un diagnostic",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "page:maintenance",
+        "label": "Historique technique",
+        "id": ""
+      },
+      {
+        "action": "ticket.reply",
+        "label": "Répondre",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "ticket.status",
+        "label": "Modifier le statut",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "security.report",
+        "label": "Signaler une anomalie",
+        "id": "ticket-alice"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "support",
+    "focusLoopFirst": true
+  },
+  {
+    "role": "support",
+    "focusLoopLast": true
+  },
+  {
+    "role": "support",
+    "focusRestored": true
+  },
+  {
+    "role": "support",
+    "name": "ticket-detail-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet mobile-back",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "INTERVENTIONS ATTRIBUÉES\n\nVOTRE FILE DE SUPPORT\n\nDes informations techniques ciblées, sans données d’usage ni contenu médical.\n\nVérification technique de démonstration\n\nticket-alice · demo-device-a\n\n← Mes tickets\nEn cours\nDiagnostic temporaire\nAccès fermé\nExpiration\n14 nov. 2026, 10:05\n\nLe diagnostic est fermé. Ses informations ne sont plus consultables.\n\nDemander un diagnostic\nHistorique technique\nÉCHANGES TECHNIQUES\nu-alice · 14 nov. 2026, 09:35\n\nTicket fictif, aucun signal matériel reçu.\n\nRépondre\nModifier le statut\nSignaler une anomalie\nDemandes en cours\n\nUn enregistrement ne confirme pas une exécution matérielle.\n\nFaites défiler le tableau →\n\nDemande\tCible\tÉtat\tRésultat\nCalibration\tdemo-device-a\t\nEn attente\tEn attente de résultat vérifié\nDiagnostic temporaire\tticket-alice\t\nApprouvé\tAutorisation temporaire, aucun résultat matériel.",
+    "buttons": [
+      {
+        "action": "ticket.open",
+        "label": "ticket-alice14/11/2026Vérification technique de démonstrationEn coursdemo-device-a",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "ticket.back",
+        "label": "← Mes tickets",
+        "id": ""
+      },
+      {
+        "action": "diagnostic.request",
+        "label": "Demander un diagnostic",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "page:maintenance",
+        "label": "Historique technique",
+        "id": ""
+      },
+      {
+        "action": "ticket.reply",
+        "label": "Répondre",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "ticket.status",
+        "label": "Modifier le statut",
+        "id": "ticket-alice"
+      },
+      {
+        "action": "security.report",
+        "label": "Signaler une anomalie",
+        "id": "ticket-alice"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "support",
+    "errors": []
+  },
+  {
+    "role": "security",
+    "name": "home-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      }
+    ],
+    "text": "PROTECTION DES ACCÈS ET DES DONNÉES\n\nSURVEILLANCE ET PROTECTIONS\n\nLes états affichés proviennent des contrôles disponibles.\n\nAlertes à examiner\n\nÉvénements techniques sans contenu médical\n\nExemple de source de journaux à vérifier\n\nincident-demo · Événement fictif. La présence de ce dossier ne prouve pas une panne réelle.\n\nÀ évaluer\nExaminer\nMises à jour à traiter\n\nÉvaluation et décision\n\nComposant / version\tPriorité\tÉtat\tAction\nFirmware de démonstration\n2.4.2\n\tModérée\t\nÀ évaluer\tÉvaluer\nÉtat des protections\n\nRésultats documentés\n\nSauvegardes et restauration\n\n1 preuve(s) disponible(s)\n\nVoir les résultats\nCertificats\n\n2 certificat(s) suivis\n\nConsulter\nIngestion et surveillance des connexions\nNon renseigné\n\nDernier signal : Non renseigné\n\nDisponibilité du worker et lien MQTT ; ce signal ne prouve pas la couverture de tous les journaux.\n\nConsulter le journal",
+    "buttons": [
+      {
+        "action": "incident.open",
+        "label": "Examiner",
+        "id": "incident-demo"
+      },
+      {
+        "action": "patch.evaluate",
+        "label": "Évaluer",
+        "id": "patch-demo"
+      },
+      {
+        "action": "page:proofs",
+        "label": "Voir les résultats",
+        "id": ""
+      },
+      {
+        "action": "page:certificates",
+        "label": "Consulter",
+        "id": ""
+      },
+      {
+        "action": "page:audit",
+        "label": "Consulter le journal",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "security",
+    "name": "home-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      }
+    ],
+    "text": "PROTECTION DES ACCÈS ET DES DONNÉES\n\nSURVEILLANCE ET PROTECTIONS\n\nLes états affichés proviennent des contrôles disponibles.\n\nAlertes à examiner\n\nÉvénements techniques sans contenu médical\n\nExemple de source de journaux à vérifier\n\nincident-demo · Événement fictif. La présence de ce dossier ne prouve pas une panne réelle.\n\nÀ évaluer\nExaminer\nMises à jour à traiter\n\nÉvaluation et décision\n\nFaites défiler le tableau →\n\nComposant / version\tPriorité\tÉtat\tAction\nFirmware de démonstration\n2.4.2\n\tModérée\t\nÀ évaluer\tÉvaluer\nÉtat des protections\n\nRésultats documentés\n\nSauvegardes et restauration\n\n1 preuve(s) disponible(s)\n\nVoir les résultats\nCertificats\n\n2 certificat(s) suivis\n\nConsulter\nIngestion et surveillance des connexions\nNon renseigné\n\nDernier signal : Non renseigné\n\nDisponibilité du worker et lien MQTT ; ce signal ne prouve pas la couverture de tous les journaux.\n\nConsulter le journal",
+    "buttons": [
+      {
+        "action": "incident.open",
+        "label": "Examiner",
+        "id": "incident-demo"
+      },
+      {
+        "action": "patch.evaluate",
+        "label": "Évaluer",
+        "id": "patch-demo"
+      },
+      {
+        "action": "page:proofs",
+        "label": "Voir les résultats",
+        "id": ""
+      },
+      {
+        "action": "page:certificates",
+        "label": "Consulter",
+        "id": ""
+      },
+      {
+        "action": "page:audit",
+        "label": "Consulter le journal",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "security",
+    "name": "incidents-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      }
+    ],
+    "text": "SURVEILLANCE DES ACCÈS\n\nALERTES & INCIDENTS\n\nQualification et suivi des événements.\n\nÉvénements\nExemple de source de journaux à vérifier\n\nincident-demo · Événement fictif. La présence de ce dossier ne prouve pas une panne réelle.\n\nÀ évaluer\nExaminer",
+    "buttons": [
+      {
+        "action": "incident.open",
+        "label": "Examiner",
+        "id": "incident-demo"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "security",
+    "name": "incidents-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      }
+    ],
+    "text": "SURVEILLANCE DES ACCÈS\n\nALERTES & INCIDENTS\n\nQualification et suivi des événements.\n\nÉvénements\nExemple de source de journaux à vérifier\n\nincident-demo · Événement fictif. La présence de ce dossier ne prouve pas une panne réelle.\n\nÀ évaluer\nExaminer",
+    "buttons": [
+      {
+        "action": "incident.open",
+        "label": "Examiner",
+        "id": "incident-demo"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "security",
+    "name": "patches-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      }
+    ],
+    "text": "ÉVALUATION DES CORRECTIFS\n\nMISES À JOUR\n\nPriorité, exposition et résultats de tests.\n\nCorrectifs\nComposant / version\tPriorité\tÉtat\tAction\nFirmware de démonstration\n2.4.2\n\tModérée\t\nÀ évaluer\tÉvaluer",
+    "buttons": [
+      {
+        "action": "patch.evaluate",
+        "label": "Évaluer",
+        "id": "patch-demo"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "security",
+    "name": "patches-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      }
+    ],
+    "text": "ÉVALUATION DES CORRECTIFS\n\nMISES À JOUR\n\nPriorité, exposition et résultats de tests.\n\nCorrectifs\n\nFaites défiler le tableau →\n\nComposant / version\tPriorité\tÉtat\tAction\nFirmware de démonstration\n2.4.2\n\tModérée\t\nÀ évaluer\tÉvaluer",
+    "buttons": [
+      {
+        "action": "patch.evaluate",
+        "label": "Évaluer",
+        "id": "patch-demo"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "security",
+    "name": "accounts-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "COMPTES & AUTORISATIONS\n\nCOMPTES ET ACCÈS\n\nLes changements sensibles nécessitent une validation indépendante.\n\n+ Demander une création\nComptes\n\nLes rôles n’accordent aucun partage médical implicite.\n\nCompte\tRôle\tÉtat\tActions\nAlice · utilisatrice fictive\nu-alice\n\tUtilisateur\t\nActif\t\nSessions\nSuspendre\nRôle\n\nBenoît · utilisateur fictif\nu-benoit\n\tUtilisateur\t\nActif\t\nSessions\nSuspendre\nRôle\n\nDr Lina · soignante fictive\nc-lina\n\tSoignant\t\nActif\t\nSessions\nSuspendre\nRôle\n\nDr Marc · soignant fictif\nc-marc\n\tSoignant\t\nActif\t\nSessions\nSuspendre\nRôle\n\nCamille · prévention\ne-atelier\n\tEmployeur / prévention\t\nActif\t\nSessions\nSuspendre\nRôle\n\nNoé · support technique\nt-support\n\tSupport\t\nActif\t\nSessions\nSuspendre\nRôle\n\nSam · administration sécurité\ns-securite\n\tAdministration sécurité\t\nActif\t\nSessions\nDemandes de changement\n\nLe demandeur ne peut pas approuver sa propre demande.\n\nAucune information disponible\n\nLes informations apparaîtront lorsqu’elles seront disponibles dans votre périmètre.\n\nAccès temporaires\n\nContrôle des autorisations réellement présentes en base.\n\nVérifier les accès",
+    "buttons": [
+      {
+        "action": "account.create",
+        "label": "+ Demander une création",
+        "id": ""
+      },
+      {
+        "action": "account.sessions",
+        "label": "Sessions",
+        "id": "u-alice"
+      },
+      {
+        "action": "account.toggle",
+        "label": "Suspendre",
+        "id": "u-alice"
+      },
+      {
+        "action": "account.role",
+        "label": "Rôle",
+        "id": "u-alice"
+      },
+      {
+        "action": "account.sessions",
+        "label": "Sessions",
+        "id": "u-benoit"
+      },
+      {
+        "action": "account.toggle",
+        "label": "Suspendre",
+        "id": "u-benoit"
+      },
+      {
+        "action": "account.role",
+        "label": "Rôle",
+        "id": "u-benoit"
+      },
+      {
+        "action": "account.sessions",
+        "label": "Sessions",
+        "id": "c-lina"
+      },
+      {
+        "action": "account.toggle",
+        "label": "Suspendre",
+        "id": "c-lina"
+      },
+      {
+        "action": "account.role",
+        "label": "Rôle",
+        "id": "c-lina"
+      },
+      {
+        "action": "account.sessions",
+        "label": "Sessions",
+        "id": "c-marc"
+      },
+      {
+        "action": "account.toggle",
+        "label": "Suspendre",
+        "id": "c-marc"
+      },
+      {
+        "action": "account.role",
+        "label": "Rôle",
+        "id": "c-marc"
+      },
+      {
+        "action": "account.sessions",
+        "label": "Sessions",
+        "id": "e-atelier"
+      },
+      {
+        "action": "account.toggle",
+        "label": "Suspendre",
+        "id": "e-atelier"
+      },
+      {
+        "action": "account.role",
+        "label": "Rôle",
+        "id": "e-atelier"
+      },
+      {
+        "action": "account.sessions",
+        "label": "Sessions",
+        "id": "t-support"
+      },
+      {
+        "action": "account.toggle",
+        "label": "Suspendre",
+        "id": "t-support"
+      },
+      {
+        "action": "account.role",
+        "label": "Rôle",
+        "id": "t-support"
+      },
+      {
+        "action": "account.sessions",
+        "label": "Sessions",
+        "id": "s-securite"
+      },
+      {
+        "action": "access.check",
+        "label": "Vérifier les accès",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "security",
+    "name": "accounts-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "COMPTES & AUTORISATIONS\n\nCOMPTES ET ACCÈS\n\nLes changements sensibles nécessitent une validation indépendante.\n\n+ Demander une création\nComptes\n\nLes rôles n’accordent aucun partage médical implicite.\n\nFaites défiler le tableau →\n\nCompte\tRôle\tÉtat\tActions\nAlice · utilisatrice fictive\nu-alice\n\tUtilisateur\t\nActif\t\nSessions\nSuspendre\nRôle\n\nBenoît · utilisateur fictif\nu-benoit\n\tUtilisateur\t\nActif\t\nSessions\nSuspendre\nRôle\n\nDr Lina · soignante fictive\nc-lina\n\tSoignant\t\nActif\t\nSessions\nSuspendre\nRôle\n\nDr Marc · soignant fictif\nc-marc\n\tSoignant\t\nActif\t\nSessions\nSuspendre\nRôle\n\nCamille · prévention\ne-atelier\n\tEmployeur / prévention\t\nActif\t\nSessions\nSuspendre\nRôle\n\nNoé · support technique\nt-support\n\tSupport\t\nActif\t\nSessions\nSuspendre\nRôle\n\nSam · administration sécurité\ns-securite\n\tAdministration sécurité\t\nActif\t\nSessions\nDemandes de changement\n\nLe demandeur ne peut pas approuver sa propre demande.\n\nAucune information disponible\n\nLes informations apparaîtront lorsqu’elles seront disponibles dans votre périmètre.\n\nAccès temporaires\n\nContrôle des autorisations réellement présentes en base.\n\nVérifier les accès",
+    "buttons": [
+      {
+        "action": "account.create",
+        "label": "+ Demander une création",
+        "id": ""
+      },
+      {
+        "action": "account.sessions",
+        "label": "Sessions",
+        "id": "u-alice"
+      },
+      {
+        "action": "account.toggle",
+        "label": "Suspendre",
+        "id": "u-alice"
+      },
+      {
+        "action": "account.role",
+        "label": "Rôle",
+        "id": "u-alice"
+      },
+      {
+        "action": "account.sessions",
+        "label": "Sessions",
+        "id": "u-benoit"
+      },
+      {
+        "action": "account.toggle",
+        "label": "Suspendre",
+        "id": "u-benoit"
+      },
+      {
+        "action": "account.role",
+        "label": "Rôle",
+        "id": "u-benoit"
+      },
+      {
+        "action": "account.sessions",
+        "label": "Sessions",
+        "id": "c-lina"
+      },
+      {
+        "action": "account.toggle",
+        "label": "Suspendre",
+        "id": "c-lina"
+      },
+      {
+        "action": "account.role",
+        "label": "Rôle",
+        "id": "c-lina"
+      },
+      {
+        "action": "account.sessions",
+        "label": "Sessions",
+        "id": "c-marc"
+      },
+      {
+        "action": "account.toggle",
+        "label": "Suspendre",
+        "id": "c-marc"
+      },
+      {
+        "action": "account.role",
+        "label": "Rôle",
+        "id": "c-marc"
+      },
+      {
+        "action": "account.sessions",
+        "label": "Sessions",
+        "id": "e-atelier"
+      },
+      {
+        "action": "account.toggle",
+        "label": "Suspendre",
+        "id": "e-atelier"
+      },
+      {
+        "action": "account.role",
+        "label": "Rôle",
+        "id": "e-atelier"
+      },
+      {
+        "action": "account.sessions",
+        "label": "Sessions",
+        "id": "t-support"
+      },
+      {
+        "action": "account.toggle",
+        "label": "Suspendre",
+        "id": "t-support"
+      },
+      {
+        "action": "account.role",
+        "label": "Rôle",
+        "id": "t-support"
+      },
+      {
+        "action": "account.sessions",
+        "label": "Sessions",
+        "id": "s-securite"
+      },
+      {
+        "action": "access.check",
+        "label": "Vérifier les accès",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "security",
+    "name": "certificates-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button danger small",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button danger small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "IDENTITÉ DES APPAREILS\n\nCERTIFICATS\n\nLe renouvellement ou la révocation doit être exécuté et vérifié.\n\nCertificats suivis\n\nAucune clé privée n’est affichée.\n\nAppareil\tÉchéance\tÉtat\tActions\ndemo-device-a\t21 nov. 2026, 09:35\t\nActif\t\nRenouveler\nRévoquer\n\ndemo-device-b\t21 nov. 2026, 09:35\t\nActif\t\nRenouveler\nRévoquer\nDemandes en cours\n\nUn enregistrement ne confirme pas une exécution matérielle.\n\nDemande\tCible\tÉtat\tRésultat\nCertificat\tdemo-device-a\t\nEn attente\tEn attente de résultat vérifié\nCalibration\tdemo-device-a\t\nEn attente\tEn attente de résultat vérifié\nDiagnostic temporaire\tticket-alice\t\nApprouvé\tAutorisation temporaire, aucun résultat matériel.",
+    "buttons": [
+      {
+        "action": "certificate.renew",
+        "label": "Renouveler",
+        "id": "demo-device-a"
+      },
+      {
+        "action": "certificate.revoke",
+        "label": "Révoquer",
+        "id": "demo-device-a"
+      },
+      {
+        "action": "certificate.renew",
+        "label": "Renouveler",
+        "id": "demo-device-b"
+      },
+      {
+        "action": "certificate.revoke",
+        "label": "Révoquer",
+        "id": "demo-device-b"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "security",
+    "name": "certificates-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button danger small",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "button danger small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "IDENTITÉ DES APPAREILS\n\nCERTIFICATS\n\nLe renouvellement ou la révocation doit être exécuté et vérifié.\n\nCertificats suivis\n\nAucune clé privée n’est affichée.\n\nFaites défiler le tableau →\n\nAppareil\tÉchéance\tÉtat\tActions\ndemo-device-a\t21 nov. 2026, 09:35\t\nActif\t\nRenouveler\nRévoquer\n\ndemo-device-b\t21 nov. 2026, 09:35\t\nActif\t\nRenouveler\nRévoquer\nDemandes en cours\n\nUn enregistrement ne confirme pas une exécution matérielle.\n\nFaites défiler le tableau →\n\nDemande\tCible\tÉtat\tRésultat\nCertificat\tdemo-device-a\t\nEn attente\tEn attente de résultat vérifié\nCalibration\tdemo-device-a\t\nEn attente\tEn attente de résultat vérifié\nDiagnostic temporaire\tticket-alice\t\nApprouvé\tAutorisation temporaire, aucun résultat matériel.",
+    "buttons": [
+      {
+        "action": "certificate.renew",
+        "label": "Renouveler",
+        "id": "demo-device-a"
+      },
+      {
+        "action": "certificate.revoke",
+        "label": "Révoquer",
+        "id": "demo-device-a"
+      },
+      {
+        "action": "certificate.renew",
+        "label": "Renouveler",
+        "id": "demo-device-b"
+      },
+      {
+        "action": "certificate.revoke",
+        "label": "Révoquer",
+        "id": "demo-device-b"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "security",
+    "name": "proofs-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "VÉRIFICATIONS DOCUMENTÉES\n\nSAUVEGARDES & CONTRÔLES\n\nUn résultat absent ou en attente n’est pas une preuve de réussite.\n\nRésultats reçus\n\nSauvegardes, restauration et contrôles d’accès\n\nContrôle\tDate\tRésultat\tDétail\nbackup\t14 nov. 2026, 09:35\t\nÉtat inconnu\tAucune sauvegarde exécutée par le domaine. Attente de preuve signée par un adaptateur.\nDemandes en cours\n\nUn enregistrement ne confirme pas une exécution matérielle.\n\nDemande\tCible\tÉtat\tRésultat\nCertificat\tdemo-device-a\t\nEn attente\tEn attente de résultat vérifié\nCalibration\tdemo-device-a\t\nEn attente\tEn attente de résultat vérifié\nDiagnostic temporaire\tticket-alice\t\nApprouvé\tAutorisation temporaire, aucun résultat matériel.",
+    "buttons": [],
+    "smallTargets": []
+  },
+  {
+    "role": "security",
+    "name": "proofs-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "VÉRIFICATIONS DOCUMENTÉES\n\nSAUVEGARDES & CONTRÔLES\n\nUn résultat absent ou en attente n’est pas une preuve de réussite.\n\nRésultats reçus\n\nSauvegardes, restauration et contrôles d’accès\n\nFaites défiler le tableau →\n\nContrôle\tDate\tRésultat\tDétail\nbackup\t14 nov. 2026, 09:35\t\nÉtat inconnu\tAucune sauvegarde exécutée par le domaine. Attente de preuve signée par un adaptateur.\nDemandes en cours\n\nUn enregistrement ne confirme pas une exécution matérielle.\n\nFaites défiler le tableau →\n\nDemande\tCible\tÉtat\tRésultat\nCertificat\tdemo-device-a\t\nEn attente\tEn attente de résultat vérifié\nCalibration\tdemo-device-a\t\nEn attente\tEn attente de résultat vérifié\nDiagnostic temporaire\tticket-alice\t\nApprouvé\tAutorisation temporaire, aucun résultat matériel.",
+    "buttons": [],
+    "smallTargets": []
+  },
+  {
+    "role": "security",
+    "name": "components-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "VERSIONS ET SUPPORT\n\nCOMPOSANTS\n\nInventaire déclaré par le service.\n\nComposants suivis\nComposant\tVersion\tFin de support\tÉtat\nAPI SKELIVIA\tdevelopment\t—\t\nInventorié\nLogiciel embarqué\t2.4.1\t—\t\nInventorié",
+    "buttons": [],
+    "smallTargets": []
+  },
+  {
+    "role": "security",
+    "name": "components-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "VERSIONS ET SUPPORT\n\nCOMPOSANTS\n\nInventaire déclaré par le service.\n\nComposants suivis\n\nFaites défiler le tableau →\n\nComposant\tVersion\tFin de support\tÉtat\nAPI SKELIVIA\tdevelopment\t—\t\nInventorié\nLogiciel embarqué\t2.4.1\t—\t\nInventorié",
+    "buttons": [],
+    "smallTargets": []
+  },
+  {
+    "role": "security",
+    "name": "audit-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "TRAÇABILITÉ DES ACTIONS\n\nJOURNAL DE SÉCURITÉ\n\nÉvénements expurgés de tout contenu médical.\n\nDerniers événements\nDate\tAuteur\tAction\tRéférence\tRésultat\n14 nov. 2026, 10:28\tt-support\tworkspace.read\tt-support\tActif\n14 nov. 2026, 10:28\te-atelier\tworkspace.read\te-atelier\tActif\n14 nov. 2026, 10:28\tc-lina\tworkspace.read\tc-lina\tActif\n14 nov. 2026, 10:28\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:28\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:28\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:28\tu-alice\tmedical.workspace.read\tp-alice\tActif\n14 nov. 2026, 10:17\ts-securite\tworkspace.read\ts-securite\tActif\n14 nov. 2026, 10:17\tt-support\tworkspace.read\tt-support\tActif\n14 nov. 2026, 10:16\te-atelier\tworkspace.read\te-atelier\tActif\n14 nov. 2026, 10:16\tc-lina\tworkspace.read\tc-lina\tActif\n14 nov. 2026, 10:16\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:16\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:16\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:16\tu-alice\tmedical.workspace.read\tp-alice\tActif\n14 nov. 2026, 10:15\ts-securite\tworkspace.read\ts-securite\tActif\n14 nov. 2026, 10:15\tt-support\tworkspace.read\tt-support\tActif\n14 nov. 2026, 10:15\te-atelier\tworkspace.read\te-atelier\tActif\n14 nov. 2026, 10:15\tc-lina\tworkspace.read\tc-lina\tActif\n14 nov. 2026, 10:15\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:15\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:15\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:15\tu-alice\tmedical.workspace.read\tp-alice\tActif\n14 nov. 2026, 10:10\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:10\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:10\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:10\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:10\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:10\tu-alice\tmedical.workspace.read\tp-alice\tActif\n14 nov. 2026, 10:10\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:10\tu-alice\tmedical.workspace.read\tp-alice\tActif\n14 nov. 2026, 10:09\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:09\tu-alice\tmedical.workspace.read\tp-alice\tActif\n14 nov. 2026, 09:42\tc-lina\trecommendation.revise\trec-atelier-a\tActif\n14 nov. 2026, 09:36\tu-alice\tshare.revoke\tshare-0019005390e845fc9eee8faa0a1557de\tActif\n14 nov. 2026, 09:36\ts-securite\tcertificate.request\tjob-e52e5fa95576430ab357ecbf205195fa\tActif\n14 nov. 2026, 09:35\te-atelier\trecommendation.status\trec-atelier-a\tActif\n14 nov. 2026, 09:35\tt-support\tdevice.calibrate\tjob-08b297a56ba24ce389f326e7e9a9f0e5\tActif\n14 nov. 2026, 09:35\tu-alice\tdiagnostic.approve\tjob-cc6ec21a9d0c4579b315c99348c99c98\tActif\n14 nov. 2026, 09:35\tt-support\tdiagnostic.request\tjob-cc6ec21a9d0c4579b315c99348c99c98\tActif\n14 nov. 2026, 09:35\tc-lina\tdocument.publish\tdocument-ff45f85fda41448485fe7c2171d43e6d\tActif\n14 nov. 2026, 09:35\tu-alice\tshare.create\tshare-0019005390e845fc9eee8faa0a1557de\tActif",
+    "buttons": [],
+    "smallTargets": []
+  },
+  {
+    "role": "security",
+    "name": "audit-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "TRAÇABILITÉ DES ACTIONS\n\nJOURNAL DE SÉCURITÉ\n\nÉvénements expurgés de tout contenu médical.\n\nDerniers événements\n\nFaites défiler le tableau →\n\nDate\tAuteur\tAction\tRéférence\tRésultat\n14 nov. 2026, 10:28\tt-support\tworkspace.read\tt-support\tActif\n14 nov. 2026, 10:28\te-atelier\tworkspace.read\te-atelier\tActif\n14 nov. 2026, 10:28\tc-lina\tworkspace.read\tc-lina\tActif\n14 nov. 2026, 10:28\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:28\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:28\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:28\tu-alice\tmedical.workspace.read\tp-alice\tActif\n14 nov. 2026, 10:17\ts-securite\tworkspace.read\ts-securite\tActif\n14 nov. 2026, 10:17\tt-support\tworkspace.read\tt-support\tActif\n14 nov. 2026, 10:16\te-atelier\tworkspace.read\te-atelier\tActif\n14 nov. 2026, 10:16\tc-lina\tworkspace.read\tc-lina\tActif\n14 nov. 2026, 10:16\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:16\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:16\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:16\tu-alice\tmedical.workspace.read\tp-alice\tActif\n14 nov. 2026, 10:15\ts-securite\tworkspace.read\ts-securite\tActif\n14 nov. 2026, 10:15\tt-support\tworkspace.read\tt-support\tActif\n14 nov. 2026, 10:15\te-atelier\tworkspace.read\te-atelier\tActif\n14 nov. 2026, 10:15\tc-lina\tworkspace.read\tc-lina\tActif\n14 nov. 2026, 10:15\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:15\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:15\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:15\tu-alice\tmedical.workspace.read\tp-alice\tActif\n14 nov. 2026, 10:10\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:10\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:10\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:10\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:10\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:10\tu-alice\tmedical.workspace.read\tp-alice\tActif\n14 nov. 2026, 10:10\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:10\tu-alice\tmedical.workspace.read\tp-alice\tActif\n14 nov. 2026, 10:09\tu-alice\tmedical.measures.read\tp-alice\tActif\n14 nov. 2026, 10:09\tu-alice\tmedical.workspace.read\tp-alice\tActif\n14 nov. 2026, 09:42\tc-lina\trecommendation.revise\trec-atelier-a\tActif\n14 nov. 2026, 09:36\tu-alice\tshare.revoke\tshare-0019005390e845fc9eee8faa0a1557de\tActif\n14 nov. 2026, 09:36\ts-securite\tcertificate.request\tjob-e52e5fa95576430ab357ecbf205195fa\tActif\n14 nov. 2026, 09:35\te-atelier\trecommendation.status\trec-atelier-a\tActif\n14 nov. 2026, 09:35\tt-support\tdevice.calibrate\tjob-08b297a56ba24ce389f326e7e9a9f0e5\tActif\n14 nov. 2026, 09:35\tu-alice\tdiagnostic.approve\tjob-cc6ec21a9d0c4579b315c99348c99c98\tActif\n14 nov. 2026, 09:35\tt-support\tdiagnostic.request\tjob-cc6ec21a9d0c4579b315c99348c99c98\tActif\n14 nov. 2026, 09:35\tc-lina\tdocument.publish\tdocument-ff45f85fda41448485fe7c2171d43e6d\tActif\n14 nov. 2026, 09:35\tu-alice\tshare.create\tshare-0019005390e845fc9eee8faa0a1557de\tActif",
+    "buttons": [],
+    "smallTargets": []
+  },
+  {
+    "role": "security",
+    "name": "deletions-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "DROITS DES UTILISATEURS\n\nDEMANDES DE SUPPRESSION\n\nL’exécution reste distincte de la réception d’une demande.\n\nDemandes reçues\nAucune information disponible\n\nLes informations apparaîtront lorsqu’elles seront disponibles dans votre périmètre.\n\nDemandes en cours\n\nUn enregistrement ne confirme pas une exécution matérielle.\n\nDemande\tCible\tÉtat\tRésultat\nCertificat\tdemo-device-a\t\nEn attente\tEn attente de résultat vérifié\nCalibration\tdemo-device-a\t\nEn attente\tEn attente de résultat vérifié\nDiagnostic temporaire\tticket-alice\t\nApprouvé\tAutorisation temporaire, aucun résultat matériel.",
+    "buttons": [],
+    "smallTargets": []
+  },
+  {
+    "role": "security",
+    "name": "deletions-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      }
+    ],
+    "text": "DROITS DES UTILISATEURS\n\nDEMANDES DE SUPPRESSION\n\nL’exécution reste distincte de la réception d’une demande.\n\nDemandes reçues\nAucune information disponible\n\nLes informations apparaîtront lorsqu’elles seront disponibles dans votre périmètre.\n\nDemandes en cours\n\nUn enregistrement ne confirme pas une exécution matérielle.\n\nFaites défiler le tableau →\n\nDemande\tCible\tÉtat\tRésultat\nCertificat\tdemo-device-a\t\nEn attente\tEn attente de résultat vérifié\nCalibration\tdemo-device-a\t\nEn attente\tEn attente de résultat vérifié\nDiagnostic temporaire\tticket-alice\t\nApprouvé\tAutorisation temporaire, aucun résultat matériel.",
+    "buttons": [],
+    "smallTargets": []
+  },
+  {
+    "role": "security",
+    "name": "settings-1440",
+    "width": 1440,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      }
+    ],
+    "text": "VOTRE CONFORT ET VOS ACCÈS\n\nPARAMÈTRES\n\nPréférences enregistrées pour votre compte.\n\nLisibilité\n\nTaille des textes et contrastes.\n\nAgrandir les textes\nRenforcer les contrastes\nEnregistrer la lisibilité\nSessions du compte\n\nLes sessions de votre compte uniquement.\n\nGérer les sessions",
+    "buttons": [
+      {
+        "action": "settings.display",
+        "label": "Enregistrer la lisibilité",
+        "id": ""
+      },
+      {
+        "action": "sessions",
+        "label": "Gérer les sessions",
+        "id": ""
+      }
+    ],
+    "smallTargets": [
+      {
+        "label": "large_text",
+        "height": 20
+      },
+      {
+        "label": "high_contrast",
+        "height": 20
+      }
+    ]
+  },
+  {
+    "role": "security",
+    "name": "settings-390",
+    "width": 390,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button primary",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary",
+        "size": "16px"
+      }
+    ],
+    "text": "VOTRE CONFORT ET VOS ACCÈS\n\nPARAMÈTRES\n\nPréférences enregistrées pour votre compte.\n\nLisibilité\n\nTaille des textes et contrastes.\n\nAgrandir les textes\nRenforcer les contrastes\nEnregistrer la lisibilité\nSessions du compte\n\nLes sessions de votre compte uniquement.\n\nGérer les sessions",
+    "buttons": [
+      {
+        "action": "settings.display",
+        "label": "Enregistrer la lisibilité",
+        "id": ""
+      },
+      {
+        "action": "sessions",
+        "label": "Gérer les sessions",
+        "id": ""
+      }
+    ],
+    "smallTargets": [
+      {
+        "label": "large_text",
+        "height": 20
+      },
+      {
+        "label": "high_contrast",
+        "height": 20
+      }
+    ]
+  },
+  {
+    "role": "security",
+    "name": "home-768",
+    "width": 769,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      }
+    ],
+    "text": "PROTECTION DES ACCÈS ET DES DONNÉES\n\nSURVEILLANCE ET PROTECTIONS\n\nLes états affichés proviennent des contrôles disponibles.\n\nAlertes à examiner\n\nÉvénements techniques sans contenu médical\n\nExemple de source de journaux à vérifier\n\nincident-demo · Événement fictif. La présence de ce dossier ne prouve pas une panne réelle.\n\nÀ évaluer\nExaminer\nMises à jour à traiter\n\nÉvaluation et décision\n\nComposant / version\tPriorité\tÉtat\tAction\nFirmware de démonstration\n2.4.2\n\tModérée\t\nÀ évaluer\tÉvaluer\nÉtat des protections\n\nRésultats documentés\n\nSauvegardes et restauration\n\n1 preuve(s) disponible(s)\n\nVoir les résultats\nCertificats\n\n2 certificat(s) suivis\n\nConsulter\nIngestion et surveillance des connexions\nNon renseigné\n\nDernier signal : Non renseigné\n\nDisponibilité du worker et lien MQTT ; ce signal ne prouve pas la couverture de tous les journaux.\n\nConsulter le journal",
+    "buttons": [
+      {
+        "action": "incident.open",
+        "label": "Examiner",
+        "id": "incident-demo"
+      },
+      {
+        "action": "patch.evaluate",
+        "label": "Évaluer",
+        "id": "patch-demo"
+      },
+      {
+        "action": "page:proofs",
+        "label": "Voir les résultats",
+        "id": ""
+      },
+      {
+        "action": "page:certificates",
+        "label": "Consulter",
+        "id": ""
+      },
+      {
+        "action": "page:audit",
+        "label": "Consulter le journal",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "security",
+    "name": "home-375",
+    "width": 376,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      }
+    ],
+    "text": "PROTECTION DES ACCÈS ET DES DONNÉES\n\nSURVEILLANCE ET PROTECTIONS\n\nLes états affichés proviennent des contrôles disponibles.\n\nAlertes à examiner\n\nÉvénements techniques sans contenu médical\n\nExemple de source de journaux à vérifier\n\nincident-demo · Événement fictif. La présence de ce dossier ne prouve pas une panne réelle.\n\nÀ évaluer\nExaminer\nMises à jour à traiter\n\nÉvaluation et décision\n\nFaites défiler le tableau →\n\nComposant / version\tPriorité\tÉtat\tAction\nFirmware de démonstration\n2.4.2\n\tModérée\t\nÀ évaluer\tÉvaluer\nÉtat des protections\n\nRésultats documentés\n\nSauvegardes et restauration\n\n1 preuve(s) disponible(s)\n\nVoir les résultats\nCertificats\n\n2 certificat(s) suivis\n\nConsulter\nIngestion et surveillance des connexions\nNon renseigné\n\nDernier signal : Non renseigné\n\nDisponibilité du worker et lien MQTT ; ce signal ne prouve pas la couverture de tous les journaux.\n\nConsulter le journal",
+    "buttons": [
+      {
+        "action": "incident.open",
+        "label": "Examiner",
+        "id": "incident-demo"
+      },
+      {
+        "action": "patch.evaluate",
+        "label": "Évaluer",
+        "id": "patch-demo"
+      },
+      {
+        "action": "page:proofs",
+        "label": "Voir les résultats",
+        "id": ""
+      },
+      {
+        "action": "page:certificates",
+        "label": "Consulter",
+        "id": ""
+      },
+      {
+        "action": "page:audit",
+        "label": "Consulter le journal",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "security",
+    "name": "home-320",
+    "width": 320,
+    "overflow": 0,
+    "typeSizes": [
+      {
+        "tag": "page-subtitle",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "TD",
+        "size": "16px"
+      },
+      {
+        "tag": "button secondary small",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      },
+      {
+        "tag": "button quiet small",
+        "size": "16px"
+      }
+    ],
+    "text": "PROTECTION DES ACCÈS ET DES DONNÉES\n\nSURVEILLANCE ET PROTECTIONS\n\nLes états affichés proviennent des contrôles disponibles.\n\nAlertes à examiner\n\nÉvénements techniques sans contenu médical\n\nExemple de source de journaux à vérifier\n\nincident-demo · Événement fictif. La présence de ce dossier ne prouve pas une panne réelle.\n\nÀ évaluer\nExaminer\nMises à jour à traiter\n\nÉvaluation et décision\n\nFaites défiler le tableau →\n\nComposant / version\tPriorité\tÉtat\tAction\nFirmware de démonstration\n2.4.2\n\tModérée\t\nÀ évaluer\tÉvaluer\nÉtat des protections\n\nRésultats documentés\n\nSauvegardes et restauration\n\n1 preuve(s) disponible(s)\n\nVoir les résultats\nCertificats\n\n2 certificat(s) suivis\n\nConsulter\nIngestion et surveillance des connexions\nNon renseigné\n\nDernier signal : Non renseigné\n\nDisponibilité du worker et lien MQTT ; ce signal ne prouve pas la couverture de tous les journaux.\n\nConsulter le journal",
+    "buttons": [
+      {
+        "action": "incident.open",
+        "label": "Examiner",
+        "id": "incident-demo"
+      },
+      {
+        "action": "patch.evaluate",
+        "label": "Évaluer",
+        "id": "patch-demo"
+      },
+      {
+        "action": "page:proofs",
+        "label": "Voir les résultats",
+        "id": ""
+      },
+      {
+        "action": "page:certificates",
+        "label": "Consulter",
+        "id": ""
+      },
+      {
+        "action": "page:audit",
+        "label": "Consulter le journal",
+        "id": ""
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "role": "security",
+    "focusLoopFirst": true
+  },
+  {
+    "role": "security",
+    "focusLoopLast": true
+  },
+  {
+    "role": "security",
+    "focusRestored": true
+  },
+  {
+    "role": "security",
+    "errors": []
+  }
+]

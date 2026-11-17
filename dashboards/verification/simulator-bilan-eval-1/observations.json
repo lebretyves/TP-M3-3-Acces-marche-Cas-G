@@ -1,0 +1,25 @@
+{
+  "checks": [
+    "idle-empty-and-keyboard-shortcut",
+    "preview-not-observed",
+    "partial-quality-unknown-and-no-future-gyro",
+    "bilan-layout-1440",
+    "bilan-layout-768",
+    "bilan-layout-390",
+    "bilan-layout-375",
+    "bilan-layout-320",
+    "paused-no-count-increase",
+    "failed-delivery-not-certified",
+    "local-stopped-explicit-partial",
+    "network-cut-invalid",
+    "new-choice-clears-bilan"
+  ],
+  "errors": [],
+  "mutations": [
+    {
+      "path": "/simulateur/api/preview",
+      "intercepted": true
+    }
+  ],
+  "scope": "Deployed UI. All state and POST /preview mocked; no real mutation, no login."
+}

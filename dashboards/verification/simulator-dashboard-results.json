@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-11-14T17:47:37.346Z",
+  "authenticated": true,
+  "role": "user",
+  "api_status": 200,
+  "expected_count": 2,
+  "visible_count": 2,
+  "all_synthetic": true,
+  "all_valid": true,
+  "scope": "Authenticated synthetic user; local test certificate accepted by this browser only."
+}
